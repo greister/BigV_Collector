@@ -1,0 +1,713 @@
+        <!--feed内容-->
+            	    			 			<div minfo="ru=1197161814&rm=3483745359674124" tbinfo="ouid=1866402485&rouid=1197161814" action-type="feed_list_item"  mid="3483942457658914" isForward="1"  omid="3483745359674124" class="WB_feed_type SW_fun S_line2 ">
+            <div class="WB_feed_datail S_line2 clearfix">
+        <div class="WB_detail">
+                        <div class="WB_text" node-type="feed_list_content" >
+                                    这家公司几年前的报告还靠谱一些，确实挖出了几个骗子公司。但是最近对分众、新东方和360的攻击就显得乱来了！                        <\/div>
+                                                <div class="WB_media_expand SW_fun2 S_line1 S_bg1">
+                <div class="WB_arrow"><em class="S_line1_c">◆<\/em><span class="S_bg1_c">◆<\/span><\/div>
+                                                <div node-type="feed_list_forwardContent">
+                <div class="WB_info">
+                                <a node-type='feed_list_originNick' class="WB_name S_func3" nick-name="李开复" href="\/kaifulee" title="李开复" usercard="id=1197161814">
+                @李开复<\/a><a target="_blank" href="http:\/\/verified.weibo.com\/verify"><i title= "微博个人认证 " class="W_ico16 approve"><\/i><\/a><a  title="微博会员" target="_blank" href="http:\/\/vip.weibo.com\/personal?from=main" action-type="ignore_list"><i class="W_ico16 ico_member6"><\/i><\/a>                <\/div>
+                <div class="WB_text" node-type="feed_list_reason">
+                <em>Citron这类靠着信息不对称欺骗股民，自己获利的公司，如果继续猖狂，不但危害股民，导致股价波动，更严重的是：伤害了中国公司在国外的信誉，以后在国外不断面对质疑，听到中国公司就被认为是骗子，国内外上市都难，高科技创业何去何从？虽然中国公司也应自我检讨，但是Citron这种骗子必须打假清除。<\/em>
+                                <\/div>
+                <\/div>
+                                                <div node-type='feed_list_media_prev'>
+                    <!-- 该模板和media.phtml如此之相像……有时间的话可以合并之，需注意ifForward="1"，其他几乎相同 -->
+
+<!-- 微博心情，独立于标准的ul节点 -->
+
+<!-- 特型广告feed -->
+		    		<ul class="WB_media_list clearfix">
+					 		<li>
+			<!-- img之间不能加空格 -->
+                                                            <div class="chePicMin S_bg2 bigcursor" action-type="feed_list_media_img" action-data="uid=1197161814&amp;mid=3483745359674124&amp;pid=475b3d56gw1dwbjq1ywq3j&pic_objects=&object_ids=1042018%3A2a4538217f04ec8877b9a496c97b5b02" suda-data="key=feed_image_click&value=image_zoomin"><img  class="bigcursor" node-type="feed_list_media_bgimg" src="http:\/\/ww3.sinaimg.cn\/thumbnail\/475b3d56gw1dwbjq1ywq3j.jpg" alt=""\/><img style="left: 39.5px; top: 52px; display: none;" src="http:\/\/img.t.sinajs.cn\/t5\/style\/images\/common\/loading.gif" class="loading_gif"><\/div>
+            		<\/li>
+	 	    		<\/ul>
+                <\/div>
+                                <div class="expand" style="display: none;" node-type="feed_list_media_disp"><\/div>
+                                                <div class="WB_func clearfix">
+    <div class="WB_handle" mid="3483745359674124">
+                                    <a href="javascript:void(0);" action-type="fl_like" action-data="version=mini&qid=heart&mid=3483745359674124" title="赞"><em class="W_ico20 icon_praised_b"><\/em>(64)<\/a><i class="S_txt3">|<\/i>
+        <a class="S_func4" action-history="rec=1" href="\/1197161814\/yz8B9EAGg?type=repost" >转发(1795)<\/a>
+        <em class="S_txt3">|<\/em>
+        <a class="S_func4" href="\/1197161814\/yz8B9EAGg" >评论(554)<\/a>
+    <\/div>
+    <div class="WB_from">
+        <a class="S_func2 WB_time" target="_blank" href="\/1197161814\/yz8B9EAGg" title="2012-08-27 21:11" date="1346073079000" node-type="feed_list_item_date" >2012-8-27 21:11<\/a><em class="S_txt2">来自<\/em><a class="S_func2" action-type="app_source" target="_blank" href="http:\/\/weibo.com\/" rel="nofollow">微博 weibo.com<\/a>    <\/div>
+<\/div>                          <\/div>
+                                                <div class="WB_func clearfix">
+                <div class="WB_handle">
+                                                            <a href="javascript:void(0);" action-type="fl_like" action-data="version=mini&qid=heart&mid=3483942457658914&loc=profile" title="赞" ><em class="W_ico20 icon_praised_b"><\/em>(26)<\/a><i class="S_txt3">|<\/i>
+                                            <a  action-data="allowForward=1&rootmid=3483745359674124&rootname=李开复&rootuid=1197161814&rooturl=http:\/\/weibo.com\/1197161814\/yz8B9EAGg&url=http:\/\/weibo.com\/1866402485\/yzdJ3w8qS&mid=3483942457658914&name=刘强东&uid=1866402485&domain=kaifulee&pid=475b3d56gw1dwbjq1ywq3j" action-type="fl_forward" action-history="rec=1"  href="javascript:void(0);">转发(365)<\/a><em class="S_txt3">|<\/em>
+                                        <a suda-data="key=smart_feed&value=time_sort_collect" href="javascript:void(0);" diss-data="fuid=1866402485" action-type="fl_favorite"  >收藏<\/a><i class="S_txt3">|<\/i>
+                    
+                                        <a suda-data="key=smart_feed&value=time_sort_comm" href="javascript:void(0);" action-type="fl_comment" action-data="ouid=1866402485&location=profile">评论(857)<\/a>
+                                    <\/div>
+                <div class="WB_from">    
+                <a name=3483942457658914 target="_blank" href="\/1866402485\/yzdJ3w8qS?mod=weibotime" title="2012-08-28 10:14" date="1346120072000" class="S_link2 WB_time" node-type="feed_list_item_date" suda-data="key=tblog_home_new&value=feed_time"> 2012-8-28 10:14<\/a> <em class="S_txt2">来自<\/em><a class="S_link2" suda-data="key=tblog_home_new&value=feed_come_from" action-type="app_source" target="_blank" href="http:\/\/weibo.com\/" rel="nofollow">微博 weibo.com<\/a>                                        <span class="hover">
+                        <em class="S_txt3">|<\/em>&nbsp;
+                                                                         <a href="javascript:void(0);"  onclick="javascript:window.open('http:\/\/service.account.weibo.com\/reportspam?rid=3483942457658914&from=10106&type=1&url=%2Fp%2Faj%2Fmblog%2Fmbloglist&bottomnav=1&wvr=5', 'newwindow', 'height=700, width=550, toolbar =yes, menubar=no, scrollbars=yes, resizable=yes, location=no, status=no');">举报<\/a>
+                                                                    <\/span>
+                                    <\/div>
+            <\/div>
+            <div node-type="feed_list_repeat" class="WB_media_expand repeat S_line1 S_bg4" style="display:none;"><\/div>
+        <\/div>
+    <\/div>
+<\/div>			 			<div minfo="ru=&rm=3483725024744318" tbinfo="ouid=1866402485" action-type="feed_list_item"  mid="3483747376169812" isForward="1"  omid="3483725024744318" class="WB_feed_type SW_fun S_line2 ">
+            <div class="WB_feed_datail S_line2 clearfix">
+        <div class="WB_detail">
+                        <div class="WB_text" node-type="feed_list_content" >
+                                    \/\/<a render="ext" extra-data="type=atname" href="\/n\/%E5%BE%90%E5%B0%8F%E5%B9%B3?from=feed&loc=at" usercard="name=徐小平">@徐小平<\/a>: \/\/<a render="ext" extra-data="type=atname" href="\/n\/%E7%8E%8B%E5%86%89?from=feed&loc=at" usercard="name=王冉">@王冉<\/a>: 关注！\/\/<a render="ext" extra-data="type=atname" href="\/n\/%E4%BA%8E%E5%BB%BA%E5%B5%98?from=feed&loc=at" usercard="name=于建嵘">@于建嵘<\/a>: 谁敢对李长青律师下黑手，我一定与他没完。如果二十四小时没有李律师的音讯，天大的事我都不做了，一定到常州公安局去喊冤！                        <\/div>
+                                                <div class="WB_media_expand SW_fun2 S_line1 S_bg1">
+                <div class="WB_arrow"><em class="S_line1_c">◆<\/em><span class="S_bg1_c">◆<\/span><\/div>
+                                                <div class="WB_deltxt">
+                    抱歉，此微博已被作者删除。查看帮助：<a title="" href="http:\/\/t.cn\/zWSudZc" target="_blank" mt="url" action-type="feed_list_url">http:\/\/t.cn\/zWSudZc<\/a>                <\/div>    
+                          <\/div>
+                                                <div class="WB_func clearfix">
+                <div class="WB_handle">
+                                                            <a href="javascript:void(0);" action-type="fl_like" action-data="version=mini&qid=heart&mid=3483747376169812&loc=profile" title="赞" ><em class="W_ico20 icon_praised_b"><\/em>(125)<\/a><i class="S_txt3">|<\/i>
+                                            <a  action-data="allowForward=0&url=http:\/\/weibo.com\/1866402485\/yz8EppT36&mid=3483747376169812&name=刘强东&uid=1866402485&domain=liuqiangdong" action-type="fl_forward" action-history="rec=1"  href="javascript:void(0);">转发(1405)<\/a><em class="S_txt3">|<\/em>
+                                        <a suda-data="key=smart_feed&value=time_sort_collect" href="javascript:void(0);" diss-data="fuid=1866402485" action-type="fl_favorite"  >收藏<\/a><i class="S_txt3">|<\/i>
+                    
+                                        <a suda-data="key=smart_feed&value=time_sort_comm" href="javascript:void(0);" action-type="fl_comment" action-data="ouid=1866402485&location=profile">评论(662)<\/a>
+                                    <\/div>
+                <div class="WB_from">    
+                <a name=3483747376169812 target="_blank" href="\/1866402485\/yz8EppT36?mod=weibotime" title="2012-08-27 21:19" date="1346073562000" class="S_link2 WB_time" node-type="feed_list_item_date" suda-data="key=tblog_home_new&value=feed_time"> 2012-8-27 21:19<\/a> <em class="S_txt2">来自<\/em><a class="S_link2" suda-data="key=tblog_home_new&value=feed_come_from" action-type="app_source" target="_blank" href="http:\/\/weibo.com\/" rel="nofollow">微博 weibo.com<\/a>                                        <span class="hover">
+                        <em class="S_txt3">|<\/em>&nbsp;
+                                                                         <a href="javascript:void(0);"  onclick="javascript:window.open('http:\/\/service.account.weibo.com\/reportspam?rid=3483747376169812&from=10106&type=1&url=%2Fp%2Faj%2Fmblog%2Fmbloglist&bottomnav=1&wvr=5', 'newwindow', 'height=700, width=550, toolbar =yes, menubar=no, scrollbars=yes, resizable=yes, location=no, status=no');">举报<\/a>
+                                                                    <\/span>
+                                    <\/div>
+            <\/div>
+            <div node-type="feed_list_repeat" class="WB_media_expand repeat S_line1 S_bg4" style="display:none;"><\/div>
+        <\/div>
+    <\/div>
+<\/div>			 			<div minfo="ru=1640601392&rm=3483702983899493" tbinfo="ouid=1866402485&rouid=1640601392" action-type="feed_list_item"  mid="3483712370532079" isForward="1"  omid="3483702983899493" class="WB_feed_type SW_fun S_line2 ">
+            <div class="WB_feed_datail S_line2 clearfix">
+        <div class="WB_detail">
+                        <div class="WB_text" node-type="feed_list_content" >
+                                    \/\/<a render="ext" extra-data="type=atname" href="\/n\/%E8%94%A1%E6%96%87%E8%83%9C?from=feed&loc=at" usercard="name=蔡文胜">@蔡文胜<\/a>: \/\/<a render="ext" extra-data="type=atname" href="\/n\/%E8%A2%81%E8%8E%89wsj?from=feed&loc=at" usercard="name=袁莉wsj">@袁莉wsj<\/a>: 太可怕了。\/\/<a render="ext" extra-data="type=atname" href="\/n\/%E5%B0%8FV?from=feed&loc=at" usercard="name=小V">@小V<\/a>: 我崩溃了！大家小心啊！                        <\/div>
+                                                <div class="WB_media_expand SW_fun2 S_line1 S_bg1">
+                <div class="WB_arrow"><em class="S_line1_c">◆<\/em><span class="S_bg1_c">◆<\/span><\/div>
+                                                <div node-type="feed_list_forwardContent">
+                <div class="WB_info">
+                                <a node-type='feed_list_originNick' class="WB_name S_func3" nick-name="新浪视频" href="\/video" title="新浪视频" usercard="id=1640601392">
+                @新浪视频<\/a><a target="_blank" href="http:\/\/verified.weibo.com\/verify"><i title= "微博机构认证" class="W_ico16 approve_co"><\/i><\/a>                <\/div>
+                <div class="WB_text" node-type="feed_list_reason">
+                <em>【北京出租车乘客被艾滋针扎伤 警方征集线索】北京警方今天向市民征集出租车乘客被艾滋病针扎伤事件的线索，知情者可以拨打110与警方联系。警方已经成立专案组，对此案进行立案侦查。21日，一名乘客报警称在乘坐出租车时，被车内针头扎伤，经检测针头内残留液体HIV1抗体呈阳性。<a title="http:\/\/t.cn\/zWuAJUt" href="http:\/\/t.cn\/zWuAJUt"  target="_blank" action-data="title=%E8%A7%86%E9%A2%91%EF%BC%9A%E5%8C%97%E4%BA%AC%E5%87%BA%E7%A7%9F%E4%B9%98%E5%AE%A2%E8%A2%AB%E8%89%BE%E6%BB%8B%E9%92%88%E6%89%8E%E4%BC%A4%20%E8%AD%A6%E6%96%B9%E5%BE%81%E9%9B%86%E7%BA%BF%E7%B4%A2&amp;short_url=http:\/\/t.cn\/zWuAJUt&amp;full_url=http%3A%2F%2Fvideo.sina.com.cn%2Fp%2Fnews%2Fc%2Fv%2F2012-08-27%2F165761851013.html&amp;type=1&amp;" action-type="feed_list_media_video" >http:\/\/t.cn\/zWuAJUt<span class="W_ico16 icon_sw_movie" title="视频"><\/span><\/a><\/em>
+                                <\/div>
+                <\/div>
+                                                <div node-type='feed_list_media_prev'>
+                    <!-- 该模板和media.phtml如此之相像……有时间的话可以合并之，需注意ifForward="1"，其他几乎相同 -->
+
+<!-- 微博心情，独立于标准的ul节点 -->
+
+<!-- 特型广告feed -->
+		    		<ul class="WB_media_list clearfix">
+				    				<!-- 视频 -->
+<li action-data="title=%E8%A7%86%E9%A2%91%EF%BC%9A%E5%8C%97%E4%BA%AC%E5%87%BA%E7%A7%9F%E4%B9%98%E5%AE%A2%E8%A2%AB%E8%89%BE%E6%BB%8B%E9%92%88%E6%89%8E%E4%BC%A4%20%E8%AD%A6%E6%96%B9%E5%BE%81%E9%9B%86%E7%BA%BF%E7%B4%A2&amp;short_url=http:\/\/t.cn\/zWuAJUt&amp;full_url=http%3A%2F%2Fvideo.sina.com.cn%2Fp%2Fnews%2Fc%2Fv%2F2012-08-27%2F165761851013.html" action-type="feed_list_media_video" >
+				<!-- img之间不能加空格 -->
+				<img src="http:\/\/p3.v.iask.com\/3\/344\/84402317_1.jpg" width="120" height="80" alt="" \/>
+				<span class="W_ico20 ico_playvideo"><\/span>
+			<\/li>
+					<\/ul>
+                <\/div>
+                                <div class="expand" style="display: none;" node-type="feed_list_media_disp"><\/div>
+                                                <div class="WB_func clearfix">
+    <div class="WB_handle" mid="3483702983899493">
+                                    <a href="javascript:void(0);" action-type="fl_like" action-data="version=mini&qid=heart&mid=3483702983899493" title="赞"><em class="W_ico20 icon_praised_b"><\/em>(30)<\/a><i class="S_txt3">|<\/i>
+        <a class="S_func4" action-history="rec=1" href="\/1640601392\/yz7uOgmr3?type=repost" >转发(3200)<\/a>
+        <em class="S_txt3">|<\/em>
+        <a class="S_func4" href="\/1640601392\/yz7uOgmr3" >评论(586)<\/a>
+    <\/div>
+    <div class="WB_from">
+        <a class="S_func2 WB_time" target="_blank" href="\/1640601392\/yz7uOgmr3" title="2012-08-27 18:22" date="1346062975000" node-type="feed_list_item_date" >2012-8-27 18:22<\/a><em class="S_txt2">来自<\/em><a class="S_func2" action-type="app_source" target="_blank" href="http:\/\/app.weibo.com\/t\/feed\/3lmdrl" rel="nofollow">媒体版微博<\/a>    <\/div>
+<\/div>                          <\/div>
+                                                <div class="WB_func clearfix">
+                <div class="WB_handle">
+                                                            <a href="javascript:void(0);" action-type="fl_like" action-data="version=mini&qid=heart&mid=3483712370532079&loc=profile" title="赞" ><em class="W_ico20 icon_praised_b"><\/em>(55)<\/a><i class="S_txt3">|<\/i>
+                                            <a  action-data="allowForward=1&rootmid=3483702983899493&rootname=新浪视频&rootuid=1640601392&rooturl=http:\/\/weibo.com\/1640601392\/yz7uOgmr3&url=http:\/\/weibo.com\/1866402485\/yz7JX2epV&mid=3483712370532079&name=刘强东&uid=1866402485&domain=video" action-type="fl_forward" action-history="rec=1"  href="javascript:void(0);">转发(871)<\/a><em class="S_txt3">|<\/em>
+                                        <a suda-data="key=smart_feed&value=time_sort_collect" href="javascript:void(0);" diss-data="fuid=1866402485" action-type="fl_favorite"  >收藏<\/a><i class="S_txt3">|<\/i>
+                    
+                                        <a suda-data="key=smart_feed&value=time_sort_comm" href="javascript:void(0);" action-type="fl_comment" action-data="ouid=1866402485&location=profile">评论(555)<\/a>
+                                    <\/div>
+                <div class="WB_from">    
+                <a name=3483712370532079 target="_blank" href="\/1866402485\/yz7JX2epV?mod=weibotime" title="2012-08-27 19:00" date="1346065213000" class="S_link2 WB_time" node-type="feed_list_item_date" suda-data="key=tblog_home_new&value=feed_time"> 2012-8-27 19:00<\/a> <em class="S_txt2">来自<\/em><a class="S_link2" suda-data="key=tblog_home_new&value=feed_come_from" action-type="app_source" target="_blank" href="http:\/\/weibo.com\/" rel="nofollow">微博 weibo.com<\/a>                                        <span class="hover">
+                        <em class="S_txt3">|<\/em>&nbsp;
+                                                                         <a href="javascript:void(0);"  onclick="javascript:window.open('http:\/\/service.account.weibo.com\/reportspam?rid=3483712370532079&from=10106&type=1&url=%2Fp%2Faj%2Fmblog%2Fmbloglist&bottomnav=1&wvr=5', 'newwindow', 'height=700, width=550, toolbar =yes, menubar=no, scrollbars=yes, resizable=yes, location=no, status=no');">举报<\/a>
+                                                                    <\/span>
+                                    <\/div>
+            <\/div>
+            <div node-type="feed_list_repeat" class="WB_media_expand repeat S_line1 S_bg4" style="display:none;"><\/div>
+        <\/div>
+    <\/div>
+<\/div>			 			<div minfo="ru=1638782947&rm=3480036676065645" tbinfo="ouid=1866402485&rouid=1638782947" action-type="feed_list_item"  mid="3480042916784230" isForward="1"  omid="3480036676065645" class="WB_feed_type SW_fun S_line2 ">
+            <div class="WB_feed_datail S_line2 clearfix">
+        <div class="WB_detail">
+                        <div class="WB_text" node-type="feed_list_content" >
+                                    这是误读，价格战永远没有结束那一天！我们昨日发了2亿多优惠券，一直等着苏宁也跟进呢！                        <\/div>
+                                                <div class="WB_media_expand SW_fun2 S_line1 S_bg1">
+                <div class="WB_arrow"><em class="S_line1_c">◆<\/em><span class="S_bg1_c">◆<\/span><\/div>
+                                                <div node-type="feed_list_forwardContent">
+                <div class="WB_info">
+                                <a node-type='feed_list_originNick' class="WB_name S_func3" nick-name="新浪财经" href="\/finance" title="新浪财经" usercard="id=1638782947">
+                @新浪财经<\/a><a target="_blank" href="http:\/\/verified.weibo.com\/verify"><i title= "微博机构认证" class="W_ico16 approve_co"><\/i><\/a><a  title="微博会员" target="_blank" href="http:\/\/vip.weibo.com\/personal?from=main" action-type="ignore_list"><i class="W_ico16 ico_member1"><\/i><\/a>                <\/div>
+                <div class="WB_text" node-type="feed_list_reason">
+                <em>【消息称刘强东宣布停止价格战】家电价格战刚刚进入高潮，据《财经》报道称 —— 京东商城创始人<a render="ext" extra-data="type=atname" href="\/n\/%E5%88%98%E5%BC%BA%E4%B8%9C?from=feed&loc=at" usercard="name=刘强东">@刘强东<\/a> 独家接受《财经》记者采访，提出京东要停止价格战，他说价格战是必然发生的，但现在这是一场恶性价格战，“如果这样下去，不出三个月三家都得死”，他宣布战争已经结束。 <a title="http:\/\/finance.sina.com.cn\/chanjing\/gsnews\/20120817\/153012881503.shtml" href="http:\/\/t.cn\/zWHc3Z6" target="_blank" mt="url" action-type="feed_list_url">http:\/\/t.cn\/zWHc3Z6<\/a><\/em>
+                                <\/div>
+                <\/div>
+                                                <div class="WB_func clearfix">
+    <div class="WB_handle" mid="3480036676065645">
+                                    <a href="javascript:void(0);" action-type="fl_like" action-data="version=mini&qid=heart&mid=3480036676065645" title="赞"><em class="W_ico20 icon_praised_b"><\/em>(39)<\/a><i class="S_txt3">|<\/i>
+        <a class="S_func4" action-history="rec=1" href="\/1638782947\/yxA7pprWZ?type=repost" >转发(7310)<\/a>
+        <em class="S_txt3">|<\/em>
+        <a class="S_func4" href="\/1638782947\/yxA7pprWZ" >评论(2445)<\/a>
+    <\/div>
+    <div class="WB_from">
+        <a class="S_func2 WB_time" target="_blank" href="\/1638782947\/yxA7pprWZ" title="2012-08-17 15:34" date="1345188860000" node-type="feed_list_item_date" >2012-8-17 15:34<\/a><em class="S_txt2">来自<\/em><a class="S_func2" action-type="app_source" target="_blank" href="http:\/\/app.weibo.com\/t\/feed\/3lmdrl" rel="nofollow">媒体版微博<\/a>    <\/div>
+<\/div>                          <\/div>
+                                                <div class="WB_func clearfix">
+                <div class="WB_handle">
+                                                            <a href="javascript:void(0);" action-type="fl_like" action-data="version=mini&qid=heart&mid=3480042916784230&loc=profile" title="赞" ><em class="W_ico20 icon_praised_b"><\/em>(98)<\/a><i class="S_txt3">|<\/i>
+                                            <a  action-data="allowForward=1&rootmid=3480036676065645&rootname=新浪财经&rootuid=1638782947&rooturl=http:\/\/weibo.com\/1638782947\/yxA7pprWZ&url=http:\/\/weibo.com\/1866402485\/yxAhtssT4&mid=3480042916784230&name=刘强东&uid=1866402485&domain=finance" action-type="fl_forward" action-history="rec=1"  href="javascript:void(0);">转发(1219)<\/a><em class="S_txt3">|<\/em>
+                                        <a suda-data="key=smart_feed&value=time_sort_collect" href="javascript:void(0);" diss-data="fuid=1866402485" action-type="fl_favorite"  >收藏<\/a><i class="S_txt3">|<\/i>
+                    
+                                        <a suda-data="key=smart_feed&value=time_sort_comm" href="javascript:void(0);" action-type="fl_comment" action-data="ouid=1866402485&location=profile">评论(2534)<\/a>
+                                    <\/div>
+                <div class="WB_from">    
+                <a name=3480042916784230 target="_blank" href="\/1866402485\/yxAhtssT4?mod=weibotime" title="2012-08-17 15:59" date="1345190350000" class="S_link2 WB_time" node-type="feed_list_item_date" suda-data="key=tblog_home_new&value=feed_time"> 2012-8-17 15:59<\/a> <em class="S_txt2">来自<\/em><a class="S_link2" suda-data="key=tblog_home_new&value=feed_come_from" action-type="app_source" target="_blank" href="http:\/\/weibo.com\/" rel="nofollow">微博 weibo.com<\/a>                                        <span class="hover">
+                        <em class="S_txt3">|<\/em>&nbsp;
+                                                                         <a href="javascript:void(0);"  onclick="javascript:window.open('http:\/\/service.account.weibo.com\/reportspam?rid=3480042916784230&from=10106&type=1&url=%2Fp%2Faj%2Fmblog%2Fmbloglist&bottomnav=1&wvr=5', 'newwindow', 'height=700, width=550, toolbar =yes, menubar=no, scrollbars=yes, resizable=yes, location=no, status=no');">举报<\/a>
+                                                                    <\/span>
+                                    <\/div>
+            <\/div>
+            <div node-type="feed_list_repeat" class="WB_media_expand repeat S_line1 S_bg4" style="display:none;"><\/div>
+        <\/div>
+    <\/div>
+<\/div>			 			<div minfo="ru=1497087080&rm=3479678889239271" tbinfo="ouid=1866402485&rouid=1497087080" action-type="feed_list_item"  mid="3479915045027866" isForward="1"  omid="3479678889239271" class="WB_feed_type SW_fun S_line2 ">
+            <div class="WB_feed_datail S_line2 clearfix">
+        <div class="WB_detail">
+                        <div class="WB_text" node-type="feed_list_content" >
+                                    难道被当作京东价格情报员了？                        <\/div>
+                                                <div class="WB_media_expand SW_fun2 S_line1 S_bg1">
+                <div class="WB_arrow"><em class="S_line1_c">◆<\/em><span class="S_bg1_c">◆<\/span><\/div>
+                                                <div node-type="feed_list_forwardContent">
+                <div class="WB_info">
+                                <a node-type='feed_list_originNick' class="WB_name S_func3" nick-name="羊城晚报" href="\/ycwb2010" title="羊城晚报" usercard="id=1497087080">
+                @羊城晚报<\/a><a target="_blank" href="http:\/\/verified.weibo.com\/verify"><i title= "微博机构认证" class="W_ico16 approve_co"><\/i><\/a>                <\/div>
+                <div class="WB_text" node-type="feed_list_reason">
+                <em>【电商激战正酣围观居然中枪】微博有风险，发布需谨慎。15日下午，腾讯微博用户铥铥发布微博称，河南濮阳某微博控看到京东、苏宁、国美价格大PK，于是就去濮阳国美电器看一下，正打算拍照就被国美店员报警，说是侵犯商业机密，被濮阳派出所带走。此条微博被转发和评论达1600余次。<a title="http:\/\/www.ycwb.com\/ePaper\/ycwb\/html\/2012-08\/16\/content_1465755.htm" href="http:\/\/t.cn\/zWTjb7O" target="_blank" mt="url" action-type="feed_list_url">http:\/\/t.cn\/zWTjb7O<\/a><\/em>
+                                <\/div>
+                <\/div>
+                                                <div node-type='feed_list_media_prev'>
+                    <!-- 该模板和media.phtml如此之相像……有时间的话可以合并之，需注意ifForward="1"，其他几乎相同 -->
+
+<!-- 微博心情，独立于标准的ul节点 -->
+
+<!-- 特型广告feed -->
+		    		<ul class="WB_media_list clearfix">
+					 		<li>
+			<!-- img之间不能加空格 -->
+                                                            <div class="chePicMin S_bg2 bigcursor" action-type="feed_list_media_img" action-data="uid=1497087080&amp;mid=3479678889239271&amp;pid=593bbc68jw1dvykpmbp9xj&pic_objects=&object_ids=1042018%3A7c481faeaecf1c247b451620ddf39546" suda-data="key=feed_image_click&value=image_zoomin"><img  class="bigcursor" node-type="feed_list_media_bgimg" src="http:\/\/ww2.sinaimg.cn\/thumbnail\/593bbc68jw1dvykpmbp9xj.jpg" alt=""\/><img style="left: 39.5px; top: 52px; display: none;" src="http:\/\/img.t.sinajs.cn\/t5\/style\/images\/common\/loading.gif" class="loading_gif"><\/div>
+            		<\/li>
+	 	    		<\/ul>
+                <\/div>
+                                <div class="expand" style="display: none;" node-type="feed_list_media_disp"><\/div>
+                                                <div class="WB_func clearfix">
+    <div class="WB_handle" mid="3479678889239271">
+                                    <a href="javascript:void(0);" action-type="fl_like" action-data="version=mini&qid=heart&mid=3479678889239271" title="赞"><em class="W_ico20 icon_praised_b"><\/em>(4)<\/a><i class="S_txt3">|<\/i>
+        <a class="S_func4" action-history="rec=1" href="\/1497087080\/yxqOkCLyv?type=repost" >转发(2035)<\/a>
+        <em class="S_txt3">|<\/em>
+        <a class="S_func4" href="\/1497087080\/yxqOkCLyv" >评论(711)<\/a>
+    <\/div>
+    <div class="WB_from">
+        <a class="S_func2 WB_time" target="_blank" href="\/1497087080\/yxqOkCLyv" title="2012-08-16 15:52" date="1345103559000" node-type="feed_list_item_date" >2012-8-16 15:52<\/a><em class="S_txt2">来自<\/em><a class="S_func2" action-type="app_source" target="_blank" href="http:\/\/app.weibo.com\/t\/feed\/5Hyp8W" rel="nofollow">FaWave<\/a>    <\/div>
+<\/div>                          <\/div>
+                                                <div class="WB_func clearfix">
+                <div class="WB_handle">
+                                                            <a href="javascript:void(0);" action-type="fl_like" action-data="version=mini&qid=heart&mid=3479915045027866&loc=profile" title="赞" ><em class="W_ico20 icon_praised_b"><\/em>(385)<\/a><i class="S_txt3">|<\/i>
+                                            <a  action-data="allowForward=1&rootmid=3479678889239271&rootname=羊城晚报&rootuid=1497087080&rooturl=http:\/\/weibo.com\/1497087080\/yxqOkCLyv&url=http:\/\/weibo.com\/1866402485\/yxwXel5YC&mid=3479915045027866&name=刘强东&uid=1866402485&domain=ycwb2010&pid=593bbc68jw1dvykpmbp9xj" action-type="fl_forward" action-history="rec=1"  href="javascript:void(0);">转发(1306)<\/a><em class="S_txt3">|<\/em>
+                                        <a suda-data="key=smart_feed&value=time_sort_collect" href="javascript:void(0);" diss-data="fuid=1866402485" action-type="fl_favorite"  >收藏<\/a><i class="S_txt3">|<\/i>
+                    
+                                        <a suda-data="key=smart_feed&value=time_sort_comm" href="javascript:void(0);" action-type="fl_comment" action-data="ouid=1866402485&location=profile">评论(3240)<\/a>
+                                    <\/div>
+                <div class="WB_from">    
+                <a name=3479915045027866 target="_blank" href="\/1866402485\/yxwXel5YC?mod=weibotime" title="2012-08-17 07:31" date="1345159863000" class="S_link2 WB_time" node-type="feed_list_item_date" suda-data="key=tblog_home_new&value=feed_time"> 2012-8-17 07:31<\/a> <em class="S_txt2">来自<\/em><a class="S_link2" suda-data="key=tblog_home_new&value=feed_come_from" action-type="app_source" target="_blank" href="http:\/\/weibo.com\/" rel="nofollow">微博 weibo.com<\/a>                                        <span class="hover">
+                        <em class="S_txt3">|<\/em>&nbsp;
+                                                                         <a href="javascript:void(0);"  onclick="javascript:window.open('http:\/\/service.account.weibo.com\/reportspam?rid=3479915045027866&from=10106&type=1&url=%2Fp%2Faj%2Fmblog%2Fmbloglist&bottomnav=1&wvr=5', 'newwindow', 'height=700, width=550, toolbar =yes, menubar=no, scrollbars=yes, resizable=yes, location=no, status=no');">举报<\/a>
+                                                                    <\/span>
+                                    <\/div>
+            <\/div>
+            <div node-type="feed_list_repeat" class="WB_media_expand repeat S_line1 S_bg4" style="display:none;"><\/div>
+        <\/div>
+    <\/div>
+<\/div>			 			<div minfo="ru=1653714227&rm=3479711210485304" tbinfo="ouid=1866402485&rouid=1653714227" action-type="feed_list_item"  mid="3479907805480497" isForward="1"  omid="3479711210485304" class="WB_feed_type SW_fun S_line2 ">
+            <div class="WB_feed_datail S_line2 clearfix">
+        <div class="WB_detail">
+                        <div class="WB_text" node-type="feed_list_content" >
+                                    今天公布方案\/\/<a render="ext" extra-data="type=atname" href="\/n\/%E7%89%9B%E6%96%87%E6%96%87?from=feed&loc=at" usercard="name=牛文文">@牛文文<\/a>: <a render="ext" extra-data="type=atname" href="\/n\/%E5%88%98%E5%BC%BA%E4%B8%9C?from=feed&loc=at" usercard="name=刘强东">@刘强东<\/a> （<a render="ext" extra-data="type=atname" href="\/n\/%E5%90%B4%E5%A3%B0?from=feed&loc=at" usercard="name=吴声">@吴声<\/a> ），求赞助！既然大家都这么认为了，干脆<a render="ext" extra-data="type=atname" href="\/n\/%E5%88%9B%E4%B8%9A%E5%AE%B6%E6%9D%82%E5%BF%97?from=feed&loc=at" usercard="name=创业家杂志">@创业家杂志<\/a> 进驻京东吧\/\/<a render="ext" extra-data="type=atname" href="\/n\/%E4%B8%87%E8%83%BD%E7%9A%84%E5%A4%A7%E7%86%8A?from=feed&loc=at" usercard="name=万能的大熊">@万能的大熊<\/a>:京东赞助的。。。。\/\/<a render="ext" extra-data="type=atname" href="\/n\/%E5%A7%9C%E6%B5%B7%E4%B8%9C-%E7%94%B5%E5%95%86?from=feed&loc=at" usercard="name=姜海东-电商">@姜海东-电商<\/a>: 赞！                        <\/div>
+                                                <div class="WB_media_expand SW_fun2 S_line1 S_bg1">
+                <div class="WB_arrow"><em class="S_line1_c">◆<\/em><span class="S_bg1_c">◆<\/span><\/div>
+                                                <div node-type="feed_list_forwardContent">
+                <div class="WB_info">
+                                <a node-type='feed_list_originNick' class="WB_name S_func3" nick-name="牛文文" href="\/niuwenwen" title="牛文文" usercard="id=1653714227">
+                @牛文文<\/a><a target="_blank" href="http:\/\/verified.weibo.com\/verify"><i title= "微博个人认证 " class="W_ico16 approve"><\/i><\/a>                <\/div>
+                <div class="WB_text" node-type="feed_list_reason">
+                <em>【信守承诺】老牛前天晚上受<a render="ext" extra-data="type=atname" href="\/n\/%E5%88%98%E5%BC%BA%E4%B8%9C?from=feed&loc=at" usercard="name=刘强东">@刘强东<\/a> 的影响疯狂了一把，一下子送出去了8万本纸质杂志！傻不傻？傻啊！有朋友以为老牛会食言，但老牛不玩虚的！主任、主编、编辑全员上做客服工作，保证8万个ID一个不漏。我也有个请求，朋友们帮忙推广一下，《创业家》正在5折团购，包快递。地址：<a title="http:\/\/cywlts.tmall.com\/" href="http:\/\/t.cn\/htnOoY" target="_blank" mt="url" action-type="feed_list_url">http:\/\/t.cn\/htnOoY<\/a><\/em>
+                                <\/div>
+                <\/div>
+                                                <div node-type='feed_list_media_prev'>
+                    <!-- 该模板和media.phtml如此之相像……有时间的话可以合并之，需注意ifForward="1"，其他几乎相同 -->
+
+<!-- 微博心情，独立于标准的ul节点 -->
+
+<!-- 特型广告feed -->
+		    		<ul class="WB_media_list clearfix">
+					 		<li>
+			<!-- img之间不能加空格 -->
+                                                            <div class="chePicMin S_bg2 bigcursor" action-type="feed_list_media_img" action-data="uid=1653714227&amp;mid=3479711210485304&amp;pid=6291ad33jw1dvyo9carz3j&pic_objects=&object_ids=1042018%3Aedd1e26b48d7f716cd2793a2114554ac" suda-data="key=feed_image_click&value=image_zoomin"><img  class="bigcursor" node-type="feed_list_media_bgimg" src="http:\/\/ww1.sinaimg.cn\/thumbnail\/6291ad33jw1dvyo9carz3j.jpg" alt=""\/><img style="left: 39.5px; top: 52px; display: none;" src="http:\/\/img.t.sinajs.cn\/t5\/style\/images\/common\/loading.gif" class="loading_gif"><\/div>
+            		<\/li>
+	 	    		<\/ul>
+                <\/div>
+                                <div class="expand" style="display: none;" node-type="feed_list_media_disp"><\/div>
+                                                <div class="WB_func clearfix">
+    <div class="WB_handle" mid="3479711210485304">
+                                    <a href="javascript:void(0);" action-type="fl_like" action-data="version=mini&qid=heart&mid=3479711210485304" title="赞"><em class="W_ico20 icon_praised_b"><\/em>(15)<\/a><i class="S_txt3">|<\/i>
+        <a class="S_func4" action-history="rec=1" href="\/1653714227\/yxrEt22fu?type=repost" >转发(2914)<\/a>
+        <em class="S_txt3">|<\/em>
+        <a class="S_func4" href="\/1653714227\/yxrEt22fu" >评论(1191)<\/a>
+    <\/div>
+    <div class="WB_from">
+        <a class="S_func2 WB_time" target="_blank" href="\/1653714227\/yxrEt22fu" title="2012-08-16 18:01" date="1345111265000" node-type="feed_list_item_date" >2012-8-16 18:01<\/a><em class="S_txt2">来自<\/em><a class="S_func2" action-type="app_source" target="_blank" href="http:\/\/weibo.com\/" rel="nofollow">微博 weibo.com<\/a>    <\/div>
+<\/div>                          <\/div>
+                                                <div class="WB_func clearfix">
+                <div class="WB_handle">
+                                                            <a href="javascript:void(0);" action-type="fl_like" action-data="version=mini&qid=heart&mid=3479907805480497&loc=profile" title="赞" ><em class="W_ico20 icon_praised_b"><\/em>(156)<\/a><i class="S_txt3">|<\/i>
+                                            <a  action-data="allowForward=1&rootmid=3479711210485304&rootname=牛文文&rootuid=1653714227&rooturl=http:\/\/weibo.com\/1653714227\/yxrEt22fu&url=http:\/\/weibo.com\/1866402485\/yxwLymZJ7&mid=3479907805480497&name=刘强东&uid=1866402485&domain=niuwenwen&pid=6291ad33jw1dvyo9carz3j" action-type="fl_forward" action-history="rec=1"  href="javascript:void(0);">转发(287)<\/a><em class="S_txt3">|<\/em>
+                                        <a suda-data="key=smart_feed&value=time_sort_collect" href="javascript:void(0);" diss-data="fuid=1866402485" action-type="fl_favorite"  >收藏<\/a><i class="S_txt3">|<\/i>
+                    
+                                        <a suda-data="key=smart_feed&value=time_sort_comm" href="javascript:void(0);" action-type="fl_comment" action-data="ouid=1866402485&location=profile">评论(566)<\/a>
+                                    <\/div>
+                <div class="WB_from">    
+                <a name=3479907805480497 target="_blank" href="\/1866402485\/yxwLymZJ7?mod=weibotime" title="2012-08-17 07:02" date="1345158137000" class="S_link2 WB_time" node-type="feed_list_item_date" suda-data="key=tblog_home_new&value=feed_time"> 2012-8-17 07:02<\/a> <em class="S_txt2">来自<\/em><a class="S_link2" suda-data="key=tblog_home_new&value=feed_come_from" action-type="app_source" target="_blank" href="http:\/\/weibo.com\/" rel="nofollow">微博 weibo.com<\/a>                                        <span class="hover">
+                        <em class="S_txt3">|<\/em>&nbsp;
+                                                                         <a href="javascript:void(0);"  onclick="javascript:window.open('http:\/\/service.account.weibo.com\/reportspam?rid=3479907805480497&from=10106&type=1&url=%2Fp%2Faj%2Fmblog%2Fmbloglist&bottomnav=1&wvr=5', 'newwindow', 'height=700, width=550, toolbar =yes, menubar=no, scrollbars=yes, resizable=yes, location=no, status=no');">举报<\/a>
+                                                                    <\/span>
+                                    <\/div>
+            <\/div>
+            <div node-type="feed_list_repeat" class="WB_media_expand repeat S_line1 S_bg4" style="display:none;"><\/div>
+        <\/div>
+    <\/div>
+<\/div>			 			<div  tbinfo="ouid=1866402485" action-type="feed_list_item"  mid="3479694369947005"  class="WB_feed_type SW_fun S_line2 ">
+            <div class="WB_feed_datail S_line2 clearfix">
+        <div class="WB_detail">
+                        <div class="WB_text" node-type="feed_list_content" nick-name="刘强东">
+                                    从创业那一天起，我就从来没有准备重新穿上皮鞋！                        <\/div>
+                                                                                    <div class="WB_func clearfix">
+                <div class="WB_handle">
+                                                            <a href="javascript:void(0);" action-type="fl_like" action-data="version=mini&qid=heart&mid=3479694369947005&loc=profile" title="赞" ><em class="W_ico20 icon_praised_b"><\/em>(570)<\/a><i class="S_txt3">|<\/i>
+                                            <a  action-data="allowForward=1&url=http:\/\/weibo.com\/1866402485\/yxrdiFJFz&mid=3479694369947005&name=刘强东&uid=1866402485&domain=liuqiangdong" action-type="fl_forward" action-history="rec=1"  href="javascript:void(0);">转发(2136)<\/a><em class="S_txt3">|<\/em>
+                                        <a suda-data="key=smart_feed&value=time_sort_collect" href="javascript:void(0);" diss-data="fuid=1866402485" action-type="fl_favorite"  >收藏<\/a><i class="S_txt3">|<\/i>
+                    
+                                        <a suda-data="key=smart_feed&value=time_sort_comm" href="javascript:void(0);" action-type="fl_comment" action-data="ouid=1866402485&location=profile">评论(4811)<\/a>
+                                    <\/div>
+                <div class="WB_from">    
+                <a name=3479694369947005 target="_blank" href="\/1866402485\/yxrdiFJFz?mod=weibotime" title="2012-08-16 16:54" date="1345107248000" class="S_link2 WB_time" node-type="feed_list_item_date" suda-data="key=tblog_home_new&value=feed_time"> 2012-8-16 16:54<\/a> <em class="S_txt2">来自<\/em><a class="S_link2" suda-data="key=tblog_home_new&value=feed_come_from" action-type="app_source" target="_blank" href="http:\/\/weibo.com\/" rel="nofollow">微博 weibo.com<\/a>                                        <span class="hover">
+                        <em class="S_txt3">|<\/em>&nbsp;
+                                                                         <a href="javascript:void(0);"  onclick="javascript:window.open('http:\/\/service.account.weibo.com\/reportspam?rid=3479694369947005&from=10106&type=1&url=%2Fp%2Faj%2Fmblog%2Fmbloglist&bottomnav=1&wvr=5', 'newwindow', 'height=700, width=550, toolbar =yes, menubar=no, scrollbars=yes, resizable=yes, location=no, status=no');">举报<\/a>
+                                                                    <\/span>
+                                    <\/div>
+            <\/div>
+            <div node-type="feed_list_repeat" class="WB_media_expand repeat S_line1 S_bg4" style="display:none;"><\/div>
+        <\/div>
+    <\/div>
+<\/div>			 			<div minfo="ru=1667824141&rm=3479681149914568" tbinfo="ouid=1866402485&rouid=1667824141" action-type="feed_list_item"  mid="3479689152171878" isForward="1"  omid="3479681149914568" class="WB_feed_type SW_fun S_line2 ">
+            <div class="WB_feed_datail S_line2 clearfix">
+        <div class="WB_detail">
+                        <div class="WB_text" node-type="feed_list_content" >
+                                    好！已经通知行政部门。\/\/<a render="ext" extra-data="type=atname" href="\/n\/%E5%BC%A0%E6%AC%A3?from=feed&loc=at" usercard="name=张欣">@张欣<\/a>: 你们是大客户，来SOHO，特别优惠！很多楼盘，随便你们挑。\/\/<a render="ext" extra-data="type=atname" href="\/n\/%E5%88%98%E5%BC%BA%E4%B8%9C?from=feed&loc=at" usercard="name=刘强东">@刘强东<\/a>: 这样发展更加稳定可持续，受市场、政策波动影响也小！恭喜，我们四处找办公室，优惠一些吧？\/\/<a render="ext" extra-data="type=atname" href="\/n\/%E5%BC%A0%E6%AC%A3?from=feed&loc=at" usercard="name=张欣">@张欣<\/a>: 转型后，负债率依然低，不到30％                        <\/div>
+                                                <div class="WB_media_expand SW_fun2 S_line1 S_bg1">
+                <div class="WB_arrow"><em class="S_line1_c">◆<\/em><span class="S_bg1_c">◆<\/span><\/div>
+                                                <div node-type="feed_list_forwardContent">
+                <div class="WB_info">
+                                <a node-type='feed_list_originNick' class="WB_name S_func3" nick-name="SOHO中国" href="\/sohochina" title="SOHO中国" usercard="id=1667824141">
+                @SOHO中国<\/a><a target="_blank" href="http:\/\/verified.weibo.com\/verify"><i title= "微博机构认证" class="W_ico16 approve_co"><\/i><\/a>                <\/div>
+                <div class="WB_text" node-type="feed_list_reason">
+                <em><a render="ext" extra-data="type=atname" href="\/n\/%E6%BD%98%E7%9F%B3%E5%B1%B9?from=feed&loc=at" usercard="name=潘石屹">@潘石屹<\/a> ：经过反复的分析、测算，我们公司做了一个重大决定：告别散售，持有北京、上海有价值的物业。转型后，SOHO中国将拥有北京、上海大量优质地段办公商业物业，还将是上海外滩上最大的业主。三年后，公司的盈利将主要来源于租金收入，五年后，现有150万平方米物业的租金年收入将超过40亿人民币。<\/em>
+                                <\/div>
+                <\/div>
+                                                <div node-type='feed_list_media_prev'>
+                    <!-- 该模板和media.phtml如此之相像……有时间的话可以合并之，需注意ifForward="1"，其他几乎相同 -->
+
+<!-- 微博心情，独立于标准的ul节点 -->
+
+<!-- 特型广告feed -->
+		    		<ul class="WB_media_list clearfix">
+					 		<li>
+			<!-- img之间不能加空格 -->
+                                                            <div class="chePicMin S_bg2 bigcursor" action-type="feed_list_media_img" action-data="uid=1667824141&amp;mid=3479681149914568&amp;pid=6368fa0djw1dvykxdc4daj&pic_objects=&object_ids=1042018%3Abf022ed9e653ec319161d46bbbf382c0" suda-data="key=feed_image_click&value=image_zoomin"><img  class="bigcursor" node-type="feed_list_media_bgimg" src="http:\/\/ww3.sinaimg.cn\/thumbnail\/6368fa0djw1dvykxdc4daj.jpg" alt=""\/><img style="left: 39.5px; top: 52px; display: none;" src="http:\/\/img.t.sinajs.cn\/t5\/style\/images\/common\/loading.gif" class="loading_gif"><\/div>
+            		<\/li>
+	 	    		<\/ul>
+                <\/div>
+                                <div class="expand" style="display: none;" node-type="feed_list_media_disp"><\/div>
+                                                <div class="WB_func clearfix">
+    <div class="WB_handle" mid="3479681149914568">
+                                    <a href="javascript:void(0);" action-type="fl_like" action-data="version=mini&qid=heart&mid=3479681149914568" title="赞"><em class="W_ico20 icon_praised_b"><\/em>(49)<\/a><i class="S_txt3">|<\/i>
+        <a class="S_func4" action-history="rec=1" href="\/1667824141\/yxqRYFBeo?type=repost" >转发(10866)<\/a>
+        <em class="S_txt3">|<\/em>
+        <a class="S_func4" href="\/1667824141\/yxqRYFBeo" >评论(2632)<\/a>
+    <\/div>
+    <div class="WB_from">
+        <a class="S_func2 WB_time" target="_blank" href="\/1667824141\/yxqRYFBeo" title="2012-08-16 16:01" date="1345104098000" node-type="feed_list_item_date" >2012-8-16 16:01<\/a><em class="S_txt2">来自<\/em><a class="S_func2" action-type="app_source" target="_blank" href="http:\/\/app.weibo.com\/t\/feed\/1sxHP2" rel="nofollow">专业版微博<\/a>    <\/div>
+<\/div>                          <\/div>
+                                                <div class="WB_func clearfix">
+                <div class="WB_handle">
+                                                            <a href="javascript:void(0);" action-type="fl_like" action-data="version=mini&qid=heart&mid=3479689152171878&loc=profile" title="赞" ><em class="W_ico20 icon_praised_b"><\/em>(120)<\/a><i class="S_txt3">|<\/i>
+                                            <a  action-data="allowForward=1&rootmid=3479681149914568&rootname=SOHO中国&rootuid=1667824141&rooturl=http:\/\/weibo.com\/1667824141\/yxqRYFBeo&url=http:\/\/weibo.com\/1866402485\/yxr4T970i&mid=3479689152171878&name=刘强东&uid=1866402485&domain=sohochina&pid=6368fa0djw1dvykxdc4daj" action-type="fl_forward" action-history="rec=1"  href="javascript:void(0);">转发(519)<\/a><em class="S_txt3">|<\/em>
+                                        <a suda-data="key=smart_feed&value=time_sort_collect" href="javascript:void(0);" diss-data="fuid=1866402485" action-type="fl_favorite"  >收藏<\/a><i class="S_txt3">|<\/i>
+                    
+                                        <a suda-data="key=smart_feed&value=time_sort_comm" href="javascript:void(0);" action-type="fl_comment" action-data="ouid=1866402485&location=profile">评论(627)<\/a>
+                                    <\/div>
+                <div class="WB_from">    
+                <a name=3479689152171878 target="_blank" href="\/1866402485\/yxr4T970i?mod=weibotime" title="2012-08-16 16:33" date="1345106006000" class="S_link2 WB_time" node-type="feed_list_item_date" suda-data="key=tblog_home_new&value=feed_time"> 2012-8-16 16:33<\/a> <em class="S_txt2">来自<\/em><a class="S_link2" suda-data="key=tblog_home_new&value=feed_come_from" action-type="app_source" target="_blank" href="http:\/\/weibo.com\/" rel="nofollow">微博 weibo.com<\/a>                                        <span class="hover">
+                        <em class="S_txt3">|<\/em>&nbsp;
+                                                                         <a href="javascript:void(0);"  onclick="javascript:window.open('http:\/\/service.account.weibo.com\/reportspam?rid=3479689152171878&from=10106&type=1&url=%2Fp%2Faj%2Fmblog%2Fmbloglist&bottomnav=1&wvr=5', 'newwindow', 'height=700, width=550, toolbar =yes, menubar=no, scrollbars=yes, resizable=yes, location=no, status=no');">举报<\/a>
+                                                                    <\/span>
+                                    <\/div>
+            <\/div>
+            <div node-type="feed_list_repeat" class="WB_media_expand repeat S_line1 S_bg4" style="display:none;"><\/div>
+        <\/div>
+    <\/div>
+<\/div>			 			<div minfo="ru=1667824141&rm=3479681149914568" tbinfo="ouid=1866402485&rouid=1667824141" action-type="feed_list_item"  mid="3479687336184954" isForward="1"  omid="3479681149914568" class="WB_feed_type SW_fun S_line2 ">
+            <div class="WB_feed_datail S_line2 clearfix">
+        <div class="WB_detail">
+                        <div class="WB_text" node-type="feed_list_content" >
+                                    这样发展更加稳定可持续，受市场、政策波动影响也小！恭喜，我们四处找办公室，优惠一些吧？\/\/<a render="ext" extra-data="type=atname" href="\/n\/%E5%BC%A0%E6%AC%A3?from=feed&loc=at" usercard="name=张欣">@张欣<\/a>: 转型后，负债率依然低，不到30％                        <\/div>
+                                                <div class="WB_media_expand SW_fun2 S_line1 S_bg1">
+                <div class="WB_arrow"><em class="S_line1_c">◆<\/em><span class="S_bg1_c">◆<\/span><\/div>
+                                                <div node-type="feed_list_forwardContent">
+                <div class="WB_info">
+                                <a node-type='feed_list_originNick' class="WB_name S_func3" nick-name="SOHO中国" href="\/sohochina" title="SOHO中国" usercard="id=1667824141">
+                @SOHO中国<\/a><a target="_blank" href="http:\/\/verified.weibo.com\/verify"><i title= "微博机构认证" class="W_ico16 approve_co"><\/i><\/a>                <\/div>
+                <div class="WB_text" node-type="feed_list_reason">
+                <em><a render="ext" extra-data="type=atname" href="\/n\/%E6%BD%98%E7%9F%B3%E5%B1%B9?from=feed&loc=at" usercard="name=潘石屹">@潘石屹<\/a> ：经过反复的分析、测算，我们公司做了一个重大决定：告别散售，持有北京、上海有价值的物业。转型后，SOHO中国将拥有北京、上海大量优质地段办公商业物业，还将是上海外滩上最大的业主。三年后，公司的盈利将主要来源于租金收入，五年后，现有150万平方米物业的租金年收入将超过40亿人民币。<\/em>
+                                <\/div>
+                <\/div>
+                                                <div node-type='feed_list_media_prev'>
+                    <!-- 该模板和media.phtml如此之相像……有时间的话可以合并之，需注意ifForward="1"，其他几乎相同 -->
+
+<!-- 微博心情，独立于标准的ul节点 -->
+
+<!-- 特型广告feed -->
+		    		<ul class="WB_media_list clearfix">
+					 		<li>
+			<!-- img之间不能加空格 -->
+                                                            <div class="chePicMin S_bg2 bigcursor" action-type="feed_list_media_img" action-data="uid=1667824141&amp;mid=3479681149914568&amp;pid=6368fa0djw1dvykxdc4daj&pic_objects=&object_ids=1042018%3Abf022ed9e653ec319161d46bbbf382c0" suda-data="key=feed_image_click&value=image_zoomin"><img  class="bigcursor" node-type="feed_list_media_bgimg" src="http:\/\/ww3.sinaimg.cn\/thumbnail\/6368fa0djw1dvykxdc4daj.jpg" alt=""\/><img style="left: 39.5px; top: 52px; display: none;" src="http:\/\/img.t.sinajs.cn\/t5\/style\/images\/common\/loading.gif" class="loading_gif"><\/div>
+            		<\/li>
+	 	    		<\/ul>
+                <\/div>
+                                <div class="expand" style="display: none;" node-type="feed_list_media_disp"><\/div>
+                                                <div class="WB_func clearfix">
+    <div class="WB_handle" mid="3479681149914568">
+                                    <a href="javascript:void(0);" action-type="fl_like" action-data="version=mini&qid=heart&mid=3479681149914568" title="赞"><em class="W_ico20 icon_praised_b"><\/em>(49)<\/a><i class="S_txt3">|<\/i>
+        <a class="S_func4" action-history="rec=1" href="\/1667824141\/yxqRYFBeo?type=repost" >转发(10866)<\/a>
+        <em class="S_txt3">|<\/em>
+        <a class="S_func4" href="\/1667824141\/yxqRYFBeo" >评论(2632)<\/a>
+    <\/div>
+    <div class="WB_from">
+        <a class="S_func2 WB_time" target="_blank" href="\/1667824141\/yxqRYFBeo" title="2012-08-16 16:01" date="1345104098000" node-type="feed_list_item_date" >2012-8-16 16:01<\/a><em class="S_txt2">来自<\/em><a class="S_func2" action-type="app_source" target="_blank" href="http:\/\/app.weibo.com\/t\/feed\/1sxHP2" rel="nofollow">专业版微博<\/a>    <\/div>
+<\/div>                          <\/div>
+                                                <div class="WB_func clearfix">
+                <div class="WB_handle">
+                                                            <a href="javascript:void(0);" action-type="fl_like" action-data="version=mini&qid=heart&mid=3479687336184954&loc=profile" title="赞" ><em class="W_ico20 icon_praised_b"><\/em>(43)<\/a><i class="S_txt3">|<\/i>
+                                            <a  action-data="allowForward=1&rootmid=3479681149914568&rootname=SOHO中国&rootuid=1667824141&rooturl=http:\/\/weibo.com\/1667824141\/yxqRYFBeo&url=http:\/\/weibo.com\/1866402485\/yxr1XpWZk&mid=3479687336184954&name=刘强东&uid=1866402485&domain=sohochina&pid=6368fa0djw1dvykxdc4daj" action-type="fl_forward" action-history="rec=1"  href="javascript:void(0);">转发(166)<\/a><em class="S_txt3">|<\/em>
+                                        <a suda-data="key=smart_feed&value=time_sort_collect" href="javascript:void(0);" diss-data="fuid=1866402485" action-type="fl_favorite"  >收藏<\/a><i class="S_txt3">|<\/i>
+                    
+                                        <a suda-data="key=smart_feed&value=time_sort_comm" href="javascript:void(0);" action-type="fl_comment" action-data="ouid=1866402485&location=profile">评论(296)<\/a>
+                                    <\/div>
+                <div class="WB_from">    
+                <a name=3479687336184954 target="_blank" href="\/1866402485\/yxr1XpWZk?mod=weibotime" title="2012-08-16 16:26" date="1345105572000" class="S_link2 WB_time" node-type="feed_list_item_date" suda-data="key=tblog_home_new&value=feed_time"> 2012-8-16 16:26<\/a> <em class="S_txt2">来自<\/em><a class="S_link2" suda-data="key=tblog_home_new&value=feed_come_from" action-type="app_source" target="_blank" href="http:\/\/weibo.com\/" rel="nofollow">微博 weibo.com<\/a>                                        <span class="hover">
+                        <em class="S_txt3">|<\/em>&nbsp;
+                                                                         <a href="javascript:void(0);"  onclick="javascript:window.open('http:\/\/service.account.weibo.com\/reportspam?rid=3479687336184954&from=10106&type=1&url=%2Fp%2Faj%2Fmblog%2Fmbloglist&bottomnav=1&wvr=5', 'newwindow', 'height=700, width=550, toolbar =yes, menubar=no, scrollbars=yes, resizable=yes, location=no, status=no');">举报<\/a>
+                                                                    <\/span>
+                                    <\/div>
+            <\/div>
+            <div node-type="feed_list_repeat" class="WB_media_expand repeat S_line1 S_bg4" style="display:none;"><\/div>
+        <\/div>
+    <\/div>
+<\/div>			 			<div minfo="ru=1716277940&rm=3479598769322710" tbinfo="ouid=1866402485&rouid=1716277940" action-type="feed_list_item"  mid="3479644885503267" isForward="1"  omid="3479598769322710" class="WB_feed_type SW_fun S_line2 ">
+            <div class="WB_feed_datail S_line2 clearfix">
+        <div class="WB_detail">
+                        <div class="WB_text" node-type="feed_list_content" >
+                                    恭喜！\/\/<a render="ext" extra-data="type=atname" href="\/n\/%E5%88%98%E5%B0%8F%E4%B8%9C?from=feed&loc=at" usercard="name=刘小东">@刘小东<\/a>: 爱卡汽车网十周年生日快乐<img render="ext" src="http:\/\/img.t.sinajs.cn\/t4\/appstyle\/expression\/ext\/normal\/f2\/wg_org.gif" title="[围观]" alt=    "[围观]" type="face" \/>全球最大的汽车主题社区这杆大旗 <img render="ext" src="http:\/\/img.t.sinajs.cn\/t4\/appstyle\/expression\/ext\/normal\/72\/shoutao_org.gif" title="[手套]" alt=    "[手套]" type="face" \/>百年长红                        <\/div>
+                                                <div class="WB_media_expand SW_fun2 S_line1 S_bg1">
+                <div class="WB_arrow"><em class="S_line1_c">◆<\/em><span class="S_bg1_c">◆<\/span><\/div>
+                                                <div node-type="feed_list_forwardContent">
+                <div class="WB_info">
+                                <a node-type='feed_list_originNick' class="WB_name S_func3" nick-name="张京秋" href="\/jason1730" title="张京秋" usercard="id=1716277940">
+                @张京秋<\/a><a target="_blank" href="http:\/\/verified.weibo.com\/verify"><i title= "微博个人认证 " class="W_ico16 approve"><\/i><\/a>                <\/div>
+                <div class="WB_text" node-type="feed_list_reason">
+                <em>爱卡今天十岁了，幸运能和你一起工作，幸运能得到用户的喜爱，幸运能与行业一起成长。想说的只有：感谢。<\/em>
+                                <\/div>
+                <\/div>
+                                                <div node-type='feed_list_media_prev'>
+                    <!-- 该模板和media.phtml如此之相像……有时间的话可以合并之，需注意ifForward="1"，其他几乎相同 -->
+
+<!-- 微博心情，独立于标准的ul节点 -->
+
+<!-- 特型广告feed -->
+		    		<ul class="WB_media_list clearfix">
+					 		<li>
+			<!-- img之间不能加空格 -->
+                                                            <div class="chePicMin S_bg2 bigcursor" action-type="feed_list_media_img" action-data="uid=1716277940&amp;mid=3479598769322710&amp;pid=664c52b4jw1dvybepy7d1j&pic_objects=&object_ids=1042018%3Af7b78501a5e3a53eda071a4c35654ee4" suda-data="key=feed_image_click&value=image_zoomin"><img  class="bigcursor" node-type="feed_list_media_bgimg" src="http:\/\/ww3.sinaimg.cn\/thumbnail\/664c52b4jw1dvybepy7d1j.jpg" alt=""\/><img style="left: 39.5px; top: 52px; display: none;" src="http:\/\/img.t.sinajs.cn\/t5\/style\/images\/common\/loading.gif" class="loading_gif"><\/div>
+            		<\/li>
+	 	    		<\/ul>
+                <\/div>
+                                <div class="expand" style="display: none;" node-type="feed_list_media_disp"><\/div>
+                                                <div class="WB_func clearfix">
+    <div class="WB_handle" mid="3479598769322710">
+                                    <a href="javascript:void(0);" action-type="fl_like" action-data="version=mini&qid=heart&mid=3479598769322710" title="赞"><em class="W_ico20 icon_praised_b"><\/em>(3)<\/a><i class="S_txt3">|<\/i>
+        <a class="S_func4" action-history="rec=1" href="\/1716277940\/yxoJ6D7gi?type=repost" >转发(325)<\/a>
+        <em class="S_txt3">|<\/em>
+        <a class="S_func4" href="\/1716277940\/yxoJ6D7gi" >评论(258)<\/a>
+    <\/div>
+    <div class="WB_from">
+        <a class="S_func2 WB_time" target="_blank" href="\/1716277940\/yxoJ6D7gi" title="2012-08-16 10:34" date="1345084457000" node-type="feed_list_item_date" >2012-8-16 10:34<\/a><em class="S_txt2">来自<\/em><a class="S_func2" action-type="app_source" target="_blank" href="http:\/\/weibo.com\/" rel="nofollow">微博 weibo.com<\/a>    <\/div>
+<\/div>                          <\/div>
+                                                <div class="WB_func clearfix">
+                <div class="WB_handle">
+                                                            <a href="javascript:void(0);" action-type="fl_like" action-data="version=mini&qid=heart&mid=3479644885503267&loc=profile" title="赞" ><em class="W_ico20 icon_praised_b"><\/em>(89)<\/a><i class="S_txt3">|<\/i>
+                                            <a  action-data="allowForward=1&rootmid=3479598769322710&rootname=张京秋&rootuid=1716277940&rooturl=http:\/\/weibo.com\/1716277940\/yxoJ6D7gi&url=http:\/\/weibo.com\/1866402485\/yxpVun5En&mid=3479644885503267&name=刘强东&uid=1866402485&domain=jason1730&pid=664c52b4jw1dvybepy7d1j" action-type="fl_forward" action-history="rec=1"  href="javascript:void(0);">转发(95)<\/a><em class="S_txt3">|<\/em>
+                                        <a suda-data="key=smart_feed&value=time_sort_collect" href="javascript:void(0);" diss-data="fuid=1866402485" action-type="fl_favorite"  >收藏<\/a><i class="S_txt3">|<\/i>
+                    
+                                        <a suda-data="key=smart_feed&value=time_sort_comm" href="javascript:void(0);" action-type="fl_comment" action-data="ouid=1866402485&location=profile">评论(606)<\/a>
+                                    <\/div>
+                <div class="WB_from">    
+                <a name=3479644885503267 target="_blank" href="\/1866402485\/yxpVun5En?mod=weibotime" title="2012-08-16 13:37" date="1345095451000" class="S_link2 WB_time" node-type="feed_list_item_date" suda-data="key=tblog_home_new&value=feed_time"> 2012-8-16 13:37<\/a> <em class="S_txt2">来自<\/em><a class="S_link2" suda-data="key=tblog_home_new&value=feed_come_from" action-type="app_source" target="_blank" href="http:\/\/weibo.com\/" rel="nofollow">微博 weibo.com<\/a>                                        <span class="hover">
+                        <em class="S_txt3">|<\/em>&nbsp;
+                                                                         <a href="javascript:void(0);"  onclick="javascript:window.open('http:\/\/service.account.weibo.com\/reportspam?rid=3479644885503267&from=10106&type=1&url=%2Fp%2Faj%2Fmblog%2Fmbloglist&bottomnav=1&wvr=5', 'newwindow', 'height=700, width=550, toolbar =yes, menubar=no, scrollbars=yes, resizable=yes, location=no, status=no');">举报<\/a>
+                                                                    <\/span>
+                                    <\/div>
+            <\/div>
+            <div node-type="feed_list_repeat" class="WB_media_expand repeat S_line1 S_bg4" style="display:none;"><\/div>
+        <\/div>
+    <\/div>
+<\/div>			 			<div  tbinfo="ouid=1866402485" action-type="feed_list_item"  mid="3479641546891300"  class="WB_feed_type SW_fun S_line2 ">
+            <div class="WB_feed_datail S_line2 clearfix">
+        <div class="WB_detail">
+                        <div class="WB_text" node-type="feed_list_content" nick-name="刘强东">
+                                    晕啊！老周推出了通用搜索服务？<a title="http:\/\/it.sohu.com\/20120816\/n350785879.shtml" href="http:\/\/t.cn\/zWTSrAy" target="_blank" mt="url" action-type="feed_list_url">http:\/\/t.cn\/zWTSrAy<\/a> 有戏看了...... <a render="ext" extra-data="type=atname" href="\/n\/%E5%91%A8%E9%B8%BF%E7%A5%8E?from=feed&loc=at" usercard="name=周鸿祎">@周鸿祎<\/a>                        <\/div>
+                                                                                    <div class="WB_func clearfix">
+                <div class="WB_handle">
+                                                            <a href="javascript:void(0);" action-type="fl_like" action-data="version=mini&qid=heart&mid=3479641546891300&loc=profile" title="赞" ><em class="W_ico20 icon_praised_b"><\/em>(318)<\/a><i class="S_txt3">|<\/i>
+                                            <a  action-data="allowForward=1&url=http:\/\/weibo.com\/1866402485\/yxpQ6sUK0&mid=3479641546891300&name=刘强东&uid=1866402485&domain=liuqiangdong" action-type="fl_forward" action-history="rec=1"  href="javascript:void(0);">转发(953)<\/a><em class="S_txt3">|<\/em>
+                                        <a suda-data="key=smart_feed&value=time_sort_collect" href="javascript:void(0);" diss-data="fuid=1866402485" action-type="fl_favorite"  >收藏<\/a><i class="S_txt3">|<\/i>
+                    
+                                        <a suda-data="key=smart_feed&value=time_sort_comm" href="javascript:void(0);" action-type="fl_comment" action-data="ouid=1866402485&location=profile">评论(918)<\/a>
+                                    <\/div>
+                <div class="WB_from">    
+                <a name=3479641546891300 target="_blank" href="\/1866402485\/yxpQ6sUK0?mod=weibotime" title="2012-08-16 13:24" date="1345094656000" class="S_link2 WB_time" node-type="feed_list_item_date" suda-data="key=tblog_home_new&value=feed_time"> 2012-8-16 13:24<\/a> <em class="S_txt2">来自<\/em><a class="S_link2" suda-data="key=tblog_home_new&value=feed_come_from" action-type="app_source" target="_blank" href="http:\/\/weibo.com\/" rel="nofollow">微博 weibo.com<\/a>                                        <span class="hover">
+                        <em class="S_txt3">|<\/em>&nbsp;
+                                                                         <a href="javascript:void(0);"  onclick="javascript:window.open('http:\/\/service.account.weibo.com\/reportspam?rid=3479641546891300&from=10106&type=1&url=%2Fp%2Faj%2Fmblog%2Fmbloglist&bottomnav=1&wvr=5', 'newwindow', 'height=700, width=550, toolbar =yes, menubar=no, scrollbars=yes, resizable=yes, location=no, status=no');">举报<\/a>
+                                                                    <\/span>
+                                    <\/div>
+            <\/div>
+            <div node-type="feed_list_repeat" class="WB_media_expand repeat S_line1 S_bg4" style="display:none;"><\/div>
+        <\/div>
+    <\/div>
+<\/div>			 			<div minfo="ru=1653603955&rm=3479586161981045" tbinfo="ouid=1866402485&rouid=1653603955" action-type="feed_list_item"  mid="3479628788034289" isForward="1"  omid="3479586161981045" class="WB_feed_type SW_fun S_line2 ">
+            <div class="WB_feed_datail S_line2 clearfix">
+        <div class="WB_detail">
+                        <div class="WB_text" node-type="feed_list_content" >
+                                    \/\/<a render="ext" extra-data="type=atname" href="\/n\/%E6%BD%98%E7%9F%B3%E5%B1%B9?from=feed&loc=at" usercard="name=潘石屹">@潘石屹<\/a>: \/\/<a render="ext" extra-data="type=atname" href="\/n\/%E7%8E%8B%E5%B7%8Dw?from=feed&loc=at" usercard="name=王巍w">@王巍w<\/a>: 转！ \/\/<a render="ext" extra-data="type=atname" href="\/n\/%E8%83%A1%E9%94%A1%E8%BF%9B?from=feed&loc=at" usercard="name=胡锡进">@胡锡进<\/a>: 无法无天。呼吁公安力破此案，不破为耻，破者记功。\/\/<a render="ext" extra-data="type=atname" href="\/n\/%E8%96%9B%E8%9B%AE%E5%AD%90?from=feed&loc=at" usercard="name=薛蛮子">@薛蛮子<\/a>: 怒转                        <\/div>
+                                                <div class="WB_media_expand SW_fun2 S_line1 S_bg1">
+                <div class="WB_arrow"><em class="S_line1_c">◆<\/em><span class="S_bg1_c">◆<\/span><\/div>
+                                                <div node-type="feed_list_forwardContent">
+                <div class="WB_info">
+                                <a node-type='feed_list_originNick' class="WB_name S_func3" nick-name="扬子晚报" href="\/yangtse" title="扬子晚报" usercard="id=1653603955">
+                @扬子晚报<\/a><a target="_blank" href="http:\/\/verified.weibo.com\/verify"><i title= "微博机构认证" class="W_ico16 approve_co"><\/i><\/a>                <\/div>
+                <div class="WB_text" node-type="feed_list_reason">
+                <em>【河北文安县发生陌生男女入室抢婴案】9日，廊坊市文安县左各庄镇陶管营村，一对陌生男女趁农妇王美丽独自在家看护孩子时闯入，抢走其不满两个月的儿子。有目击者看到，一行三人带着婴儿乘车逃逸。文安县公安局已成立专案组调查此案，并悬赏5000元奖励提供破案线索者<a title="http:\/\/www.china.com.cn\/news\/law\/2012-08\/16\/content_26247686.htm" href="http:\/\/t.cn\/zWTJm9I" target="_blank" mt="url" action-type="feed_list_url">http:\/\/t.cn\/zWTJm9I<\/a><\/em>
+                                <\/div>
+                <\/div>
+                                                <div node-type='feed_list_media_prev'>
+                    <!-- 该模板和media.phtml如此之相像……有时间的话可以合并之，需注意ifForward="1"，其他几乎相同 -->
+
+<!-- 微博心情，独立于标准的ul节点 -->
+
+<!-- 特型广告feed -->
+		    		<ul class="WB_media_list clearfix">
+					 		<li>
+			<!-- img之间不能加空格 -->
+                                                            <div class="chePicMin S_bg2 bigcursor" action-type="feed_list_media_img" action-data="uid=1653603955&amp;mid=3479586161981045&amp;pid=628ffe73gw1dvy9zpujdgj&pic_objects=&object_ids=1042018%3Aa521d02c9027fd98aad35edaecd6892f" suda-data="key=feed_image_click&value=image_zoomin"><img  class="bigcursor" node-type="feed_list_media_bgimg" src="http:\/\/ww1.sinaimg.cn\/thumbnail\/628ffe73gw1dvy9zpujdgj.jpg" alt=""\/><img style="left: 39.5px; top: 52px; display: none;" src="http:\/\/img.t.sinajs.cn\/t5\/style\/images\/common\/loading.gif" class="loading_gif"><\/div>
+            		<\/li>
+	 	    		<\/ul>
+                <\/div>
+                                <div class="expand" style="display: none;" node-type="feed_list_media_disp"><\/div>
+                                                <div class="WB_func clearfix">
+    <div class="WB_handle" mid="3479586161981045">
+                                    <a href="javascript:void(0);" action-type="fl_like" action-data="version=mini&qid=heart&mid=3479586161981045" title="赞"><em class="W_ico20 icon_praised_b"><\/em>(28)<\/a><i class="S_txt3">|<\/i>
+        <a class="S_func4" action-history="rec=1" href="\/1653603955\/yxooM8jml?type=repost" >转发(17697)<\/a>
+        <em class="S_txt3">|<\/em>
+        <a class="S_func4" href="\/1653603955\/yxooM8jml" >评论(4288)<\/a>
+    <\/div>
+    <div class="WB_from">
+        <a class="S_func2 WB_time" target="_blank" href="\/1653603955\/yxooM8jml" title="2012-08-16 09:44" date="1345081451000" node-type="feed_list_item_date" >2012-8-16 09:44<\/a><em class="S_txt2">来自<\/em><a class="S_func2" action-type="app_source" target="_blank" href="http:\/\/weibo.com\/" rel="nofollow">微博 weibo.com<\/a>    <\/div>
+<\/div>                          <\/div>
+                                                <div class="WB_func clearfix">
+                <div class="WB_handle">
+                                                            <a href="javascript:void(0);" action-type="fl_like" action-data="version=mini&qid=heart&mid=3479628788034289&loc=profile" title="赞" ><em class="W_ico20 icon_praised_b"><\/em>(90)<\/a><i class="S_txt3">|<\/i>
+                                            <a  action-data="allowForward=1&rootmid=3479586161981045&rootname=扬子晚报&rootuid=1653603955&rooturl=http:\/\/weibo.com\/1653603955\/yxooM8jml&url=http:\/\/weibo.com\/1866402485\/yxpvwxI5j&mid=3479628788034289&name=刘强东&uid=1866402485&domain=yangtse&pid=628ffe73gw1dvy9zpujdgj" action-type="fl_forward" action-history="rec=1"  href="javascript:void(0);">转发(1066)<\/a><em class="S_txt3">|<\/em>
+                                        <a suda-data="key=smart_feed&value=time_sort_collect" href="javascript:void(0);" diss-data="fuid=1866402485" action-type="fl_favorite"  >收藏<\/a><i class="S_txt3">|<\/i>
+                    
+                                        <a suda-data="key=smart_feed&value=time_sort_comm" href="javascript:void(0);" action-type="fl_comment" action-data="ouid=1866402485&location=profile">评论(533)<\/a>
+                                    <\/div>
+                <div class="WB_from">    
+                <a name=3479628788034289 target="_blank" href="\/1866402485\/yxpvwxI5j?mod=weibotime" title="2012-08-16 12:33" date="1345091613000" class="S_link2 WB_time" node-type="feed_list_item_date" suda-data="key=tblog_home_new&value=feed_time"> 2012-8-16 12:33<\/a> <em class="S_txt2">来自<\/em><a class="S_link2" suda-data="key=tblog_home_new&value=feed_come_from" action-type="app_source" target="_blank" href="http:\/\/weibo.com\/" rel="nofollow">微博 weibo.com<\/a>                                        <span class="hover">
+                        <em class="S_txt3">|<\/em>&nbsp;
+                                                                         <a href="javascript:void(0);"  onclick="javascript:window.open('http:\/\/service.account.weibo.com\/reportspam?rid=3479628788034289&from=10106&type=1&url=%2Fp%2Faj%2Fmblog%2Fmbloglist&bottomnav=1&wvr=5', 'newwindow', 'height=700, width=550, toolbar =yes, menubar=no, scrollbars=yes, resizable=yes, location=no, status=no');">举报<\/a>
+                                                                    <\/span>
+                                    <\/div>
+            <\/div>
+            <div node-type="feed_list_repeat" class="WB_media_expand repeat S_line1 S_bg4" style="display:none;"><\/div>
+        <\/div>
+    <\/div>
+<\/div>			 			<div minfo="ru=1866402485&rm=3479582486836663" tbinfo="ouid=1866402485&rouid=1866402485" action-type="feed_list_item"  mid="3479616498735717" isForward="1"  omid="3479582486836663" class="WB_feed_type SW_fun S_line2 ">
+            <div class="WB_feed_datail S_line2 clearfix">
+        <div class="WB_detail">
+                        <div class="WB_text" node-type="feed_list_content" >
+                                    我们正在对大家电有优惠券限制的逐一去掉限制，可能要一些时间。大家不要着急。关于优惠券问题回答完毕。                        <\/div>
+                                                <div class="WB_media_expand SW_fun2 S_line1 S_bg1">
+                <div class="WB_arrow"><em class="S_line1_c">◆<\/em><span class="S_bg1_c">◆<\/span><\/div>
+                                                <div node-type="feed_list_forwardContent">
+                <div class="WB_info">
+                                <a node-type='feed_list_originNick' class="WB_name S_func3" nick-name="刘强东" href="\/liuqiangdong" title="刘强东" usercard="id=1866402485">
+                @刘强东<\/a><a target="_blank" href="http:\/\/verified.weibo.com\/verify"><i title= "微博个人认证 " class="W_ico16 approve"><\/i><\/a>                <\/div>
+                <div class="WB_text" node-type="feed_list_reason">
+                <em>没有耐心陪着苏宁10元10元的降价了，今日上午11:00--12:00，直接发放2000-300和3000-500的大家电优惠券，相当于每件便宜300-500元，一步到位！另外，已经在814之后已经下单的用户，无论是否付款，都将获得一定补偿！和苏宁的战争早着呢！请大家届时到微博领取！<\/em>
+                                <\/div>
+                <\/div>
+                                                <div class="WB_func clearfix">
+    <div class="WB_handle" mid="3479582486836663">
+                                    <a href="javascript:void(0);" action-type="fl_like" action-data="version=mini&qid=heart&mid=3479582486836663" title="赞"><em class="W_ico20 icon_praised_b"><\/em>(697)<\/a><i class="S_txt3">|<\/i>
+        <a class="S_func4" action-history="rec=1" href="\/1866402485\/yxoiQsGwL?type=repost" >转发(17898)<\/a>
+        <em class="S_txt3">|<\/em>
+        <a class="S_func4" href="\/1866402485\/yxoiQsGwL" >评论(15502)<\/a>
+    <\/div>
+    <div class="WB_from">
+        <a class="S_func2 WB_time" target="_blank" href="\/1866402485\/yxoiQsGwL" title="2012-08-16 09:29" date="1345080575000" node-type="feed_list_item_date" >2012-8-16 09:29<\/a><em class="S_txt2">来自<\/em><a class="S_func2" action-type="app_source" target="_blank" href="http:\/\/weibo.com\/" rel="nofollow">微博 weibo.com<\/a>    <\/div>
+<\/div>                          <\/div>
+                                                <div class="WB_func clearfix">
+                <div class="WB_handle">
+                                                            <a href="javascript:void(0);" action-type="fl_like" action-data="version=mini&qid=heart&mid=3479616498735717&loc=profile" title="赞" ><em class="W_ico20 icon_praised_b"><\/em>(195)<\/a><i class="S_txt3">|<\/i>
+                                            <a  action-data="allowForward=1&rootmid=3479582486836663&rootname=刘强东&rootuid=1866402485&rooturl=http:\/\/weibo.com\/1866402485\/yxoiQsGwL&url=http:\/\/weibo.com\/1866402485\/yxpbHAEyF&mid=3479616498735717&name=刘强东&uid=1866402485&domain=liuqiangdong" action-type="fl_forward" action-history="rec=1"  href="javascript:void(0);">转发(982)<\/a><em class="S_txt3">|<\/em>
+                                        <a suda-data="key=smart_feed&value=time_sort_collect" href="javascript:void(0);" diss-data="fuid=1866402485" action-type="fl_favorite"  >收藏<\/a><i class="S_txt3">|<\/i>
+                    
+                                        <a suda-data="key=smart_feed&value=time_sort_comm" href="javascript:void(0);" action-type="fl_comment" action-data="ouid=1866402485&location=profile">评论(3408)<\/a>
+                                    <\/div>
+                <div class="WB_from">    
+                <a name=3479616498735717 target="_blank" href="\/1866402485\/yxpbHAEyF?mod=weibotime" title="2012-08-16 11:44" date="1345088684000" class="S_link2 WB_time" node-type="feed_list_item_date" suda-data="key=tblog_home_new&value=feed_time"> 2012-8-16 11:44<\/a> <em class="S_txt2">来自<\/em><a class="S_link2" suda-data="key=tblog_home_new&value=feed_come_from" action-type="app_source" target="_blank" href="http:\/\/weibo.com\/" rel="nofollow">微博 weibo.com<\/a>                                        <span class="hover">
+                        <em class="S_txt3">|<\/em>&nbsp;
+                                                                         <a href="javascript:void(0);"  onclick="javascript:window.open('http:\/\/service.account.weibo.com\/reportspam?rid=3479616498735717&from=10106&type=1&url=%2Fp%2Faj%2Fmblog%2Fmbloglist&bottomnav=1&wvr=5', 'newwindow', 'height=700, width=550, toolbar =yes, menubar=no, scrollbars=yes, resizable=yes, location=no, status=no');">举报<\/a>
+                                                                    <\/span>
+                                    <\/div>
+            <\/div>
+            <div node-type="feed_list_repeat" class="WB_media_expand repeat S_line1 S_bg4" style="display:none;"><\/div>
+        <\/div>
+    <\/div>
+<\/div>			 			<div minfo="ru=1866402485&rm=3479582486836663" tbinfo="ouid=1866402485&rouid=1866402485" action-type="feed_list_item"  mid="3479614879621098" isForward="1"  omid="3479582486836663" class="WB_feed_type SW_fun S_line2 ">
+            <div class="WB_feed_datail S_line2 clearfix">
+        <div class="WB_detail">
+                        <div class="WB_text" node-type="feed_list_content" >
+                                    回复<a render="ext" extra-data="type=atname" href="\/n\/%E6%98%93%E5%AD%90%E6%B1%9F%E6%B9%96?from=feed&loc=at" usercard="name=易子江湖">@易子江湖<\/a>:可以的，京东商城有节能补贴返还的。 \/\/<a render="ext" extra-data="type=atname" href="\/n\/%E6%98%93%E5%AD%90%E6%B1%9F%E6%B9%96?from=feed&loc=at" usercard="name=易子江湖">@易子江湖<\/a>:原价2199的，有300元节能补贴，这样的话2000-300的券还能用吗？求解答。<a render="ext" extra-data="type=atname" href="\/n\/%E5%88%98%E5%BC%BA%E4%B8%9C?from=feed&loc=at" usercard="name=刘强东">@刘强东<\/a> \/\/<a render="ext" extra-data="type=atname" href="\/n\/%E5%88%98%E5%BC%BA%E4%B8%9C?from=feed&loc=at" usercard="name=刘强东">@刘强东<\/a>:另外，发放优惠券之后，京东依然会紧盯苏宁价格！                        <\/div>
+                                                <div class="WB_media_expand SW_fun2 S_line1 S_bg1">
+                <div class="WB_arrow"><em class="S_line1_c">◆<\/em><span class="S_bg1_c">◆<\/span><\/div>
+                                                <div node-type="feed_list_forwardContent">
+                <div class="WB_info">
+                                <a node-type='feed_list_originNick' class="WB_name S_func3" nick-name="刘强东" href="\/liuqiangdong" title="刘强东" usercard="id=1866402485">
+                @刘强东<\/a><a target="_blank" href="http:\/\/verified.weibo.com\/verify"><i title= "微博个人认证 " class="W_ico16 approve"><\/i><\/a>                <\/div>
+                <div class="WB_text" node-type="feed_list_reason">
+                <em>没有耐心陪着苏宁10元10元的降价了，今日上午11:00--12:00，直接发放2000-300和3000-500的大家电优惠券，相当于每件便宜300-500元，一步到位！另外，已经在814之后已经下单的用户，无论是否付款，都将获得一定补偿！和苏宁的战争早着呢！请大家届时到微博领取！<\/em>
+                                <\/div>
+                <\/div>
+                                                <div class="WB_func clearfix">
+    <div class="WB_handle" mid="3479582486836663">
+                                    <a href="javascript:void(0);" action-type="fl_like" action-data="version=mini&qid=heart&mid=3479582486836663" title="赞"><em class="W_ico20 icon_praised_b"><\/em>(697)<\/a><i class="S_txt3">|<\/i>
+        <a class="S_func4" action-history="rec=1" href="\/1866402485\/yxoiQsGwL?type=repost" >转发(17898)<\/a>
+        <em class="S_txt3">|<\/em>
+        <a class="S_func4" href="\/1866402485\/yxoiQsGwL" >评论(15502)<\/a>
+    <\/div>
+    <div class="WB_from">
+        <a class="S_func2 WB_time" target="_blank" href="\/1866402485\/yxoiQsGwL" title="2012-08-16 09:29" date="1345080575000" node-type="feed_list_item_date" >2012-8-16 09:29<\/a><em class="S_txt2">来自<\/em><a class="S_func2" action-type="app_source" target="_blank" href="http:\/\/weibo.com\/" rel="nofollow">微博 weibo.com<\/a>    <\/div>
+<\/div>                          <\/div>
+                                                <div class="WB_func clearfix">
+                <div class="WB_handle">
+                                                            <a href="javascript:void(0);" action-type="fl_like" action-data="version=mini&qid=heart&mid=3479614879621098&loc=profile" title="赞" ><em class="W_ico20 icon_praised_b"><\/em>(44)<\/a><i class="S_txt3">|<\/i>
+                                            <a  action-data="allowForward=1&rootmid=3479582486836663&rootname=刘强东&rootuid=1866402485&rooturl=http:\/\/weibo.com\/1866402485\/yxoiQsGwL&url=http:\/\/weibo.com\/1866402485\/yxp95EmT0&mid=3479614879621098&name=刘强东&uid=1866402485&domain=liuqiangdong" action-type="fl_forward" action-history="rec=1"  href="javascript:void(0);">转发(306)<\/a><em class="S_txt3">|<\/em>
+                                        <a suda-data="key=smart_feed&value=time_sort_collect" href="javascript:void(0);" diss-data="fuid=1866402485" action-type="fl_favorite"  >收藏<\/a><i class="S_txt3">|<\/i>
+                    
+                                        <a suda-data="key=smart_feed&value=time_sort_comm" href="javascript:void(0);" action-type="fl_comment" action-data="ouid=1866402485&location=profile">评论(928)<\/a>
+                                    <\/div>
+                <div class="WB_from">    
+                <a name=3479614879621098 target="_blank" href="\/1866402485\/yxp95EmT0?mod=weibotime" title="2012-08-16 11:38" date="1345088298000" class="S_link2 WB_time" node-type="feed_list_item_date" suda-data="key=tblog_home_new&value=feed_time"> 2012-8-16 11:38<\/a> <em class="S_txt2">来自<\/em><a class="S_link2" suda-data="key=tblog_home_new&value=feed_come_from" action-type="app_source" target="_blank" href="http:\/\/weibo.com\/" rel="nofollow">微博 weibo.com<\/a>                                        <span class="hover">
+                        <em class="S_txt3">|<\/em>&nbsp;
+                                                                         <a href="javascript:void(0);"  onclick="javascript:window.open('http:\/\/service.account.weibo.com\/reportspam?rid=3479614879621098&from=10106&type=1&url=%2Fp%2Faj%2Fmblog%2Fmbloglist&bottomnav=1&wvr=5', 'newwindow', 'height=700, width=550, toolbar =yes, menubar=no, scrollbars=yes, resizable=yes, location=no, status=no');">举报<\/a>
+                                                                    <\/span>
+                                    <\/div>
+            <\/div>
+            <div node-type="feed_list_repeat" class="WB_media_expand repeat S_line1 S_bg4" style="display:none;"><\/div>
+        <\/div>
+    <\/div>
+<\/div>			 			<div minfo="ru=1866402485&rm=3479582486836663" tbinfo="ouid=1866402485&rouid=1866402485" action-type="feed_list_item"  mid="3479613726111012" isForward="1"  omid="3479582486836663" class="WB_feed_type SW_fun S_line2 ">
+            <div class="WB_feed_datail S_line2 clearfix">
+        <div class="WB_detail">
+                        <div class="WB_text" node-type="feed_list_content" >
+                                    另外，发放优惠券之后，京东依然会紧盯苏宁价格！                        <\/div>
+                                                <div class="WB_media_expand SW_fun2 S_line1 S_bg1">
+                <div class="WB_arrow"><em class="S_line1_c">◆<\/em><span class="S_bg1_c">◆<\/span><\/div>
+                                                <div node-type="feed_list_forwardContent">
+                <div class="WB_info">
+                                <a node-type='feed_list_originNick' class="WB_name S_func3" nick-name="刘强东" href="\/liuqiangdong" title="刘强东" usercard="id=1866402485">
+                @刘强东<\/a><a target="_blank" href="http:\/\/verified.weibo.com\/verify"><i title= "微博个人认证 " class="W_ico16 approve"><\/i><\/a>                <\/div>
+                <div class="WB_text" node-type="feed_list_reason">
+                <em>没有耐心陪着苏宁10元10元的降价了，今日上午11:00--12:00，直接发放2000-300和3000-500的大家电优惠券，相当于每件便宜300-500元，一步到位！另外，已经在814之后已经下单的用户，无论是否付款，都将获得一定补偿！和苏宁的战争早着呢！请大家届时到微博领取！<\/em>
+                                <\/div>
+                <\/div>
+                                                <div class="WB_func clearfix">
+    <div class="WB_handle" mid="3479582486836663">
+                                    <a href="javascript:void(0);" action-type="fl_like" action-data="version=mini&qid=heart&mid=3479582486836663" title="赞"><em class="W_ico20 icon_praised_b"><\/em>(697)<\/a><i class="S_txt3">|<\/i>
+        <a class="S_func4" action-history="rec=1" href="\/1866402485\/yxoiQsGwL?type=repost" >转发(17898)<\/a>
+        <em class="S_txt3">|<\/em>
+        <a class="S_func4" href="\/1866402485\/yxoiQsGwL" >评论(15502)<\/a>
+    <\/div>
+    <div class="WB_from">
+        <a class="S_func2 WB_time" target="_blank" href="\/1866402485\/yxoiQsGwL" title="2012-08-16 09:29" date="1345080575000" node-type="feed_list_item_date" >2012-8-16 09:29<\/a><em class="S_txt2">来自<\/em><a class="S_func2" action-type="app_source" target="_blank" href="http:\/\/weibo.com\/" rel="nofollow">微博 weibo.com<\/a>    <\/div>
+<\/div>                          <\/div>
+                                                <div class="WB_func clearfix">
+                <div class="WB_handle">
+                                                            <a href="javascript:void(0);" action-type="fl_like" action-data="version=mini&qid=heart&mid=3479613726111012&loc=profile" title="赞" ><em class="W_ico20 icon_praised_b"><\/em>(7)<\/a><i class="S_txt3">|<\/i>
+                                            <a  action-data="allowForward=1&rootmid=3479582486836663&rootname=刘强东&rootuid=1866402485&rooturl=http:\/\/weibo.com\/1866402485\/yxoiQsGwL&url=http:\/\/weibo.com\/1866402485\/yxp7epDKI&mid=3479613726111012&name=刘强东&uid=1866402485&domain=liuqiangdong" action-type="fl_forward" action-history="rec=1"  href="javascript:void(0);">转发(385)<\/a><em class="S_txt3">|<\/em>
+                                        <a suda-data="key=smart_feed&value=time_sort_collect" href="javascript:void(0);" diss-data="fuid=1866402485" action-type="fl_favorite"  >收藏<\/a><i class="S_txt3">|<\/i>
+                    
+                                        <a suda-data="key=smart_feed&value=time_sort_comm" href="javascript:void(0);" action-type="fl_comment" action-data="ouid=1866402485&location=profile">评论(945)<\/a>
+                                    <\/div>
+                <div class="WB_from">    
+                <a name=3479613726111012 target="_blank" href="\/1866402485\/yxp7epDKI?mod=weibotime" title="2012-08-16 11:33" date="1345088023000" class="S_link2 WB_time" node-type="feed_list_item_date" suda-data="key=tblog_home_new&value=feed_time"> 2012-8-16 11:33<\/a> <em class="S_txt2">来自<\/em><a class="S_link2" suda-data="key=tblog_home_new&value=feed_come_from" action-type="app_source" target="_blank" href="http:\/\/weibo.com\/" rel="nofollow">微博 weibo.com<\/a>                                        <span class="hover">
+                        <em class="S_txt3">|<\/em>&nbsp;
+                                                                         <a href="javascript:void(0);"  onclick="javascript:window.open('http:\/\/service.account.weibo.com\/reportspam?rid=3479613726111012&from=10106&type=1&url=%2Fp%2Faj%2Fmblog%2Fmbloglist&bottomnav=1&wvr=5', 'newwindow', 'height=700, width=550, toolbar =yes, menubar=no, scrollbars=yes, resizable=yes, location=no, status=no');">举报<\/a>
+                                                                    <\/span>
+                                    <\/div>
+            <\/div>
+            <div node-type="feed_list_repeat" class="WB_media_expand repeat S_line1 S_bg4" style="display:none;"><\/div>
+        <\/div>
+    <\/div>
+<\/div>			<div node-type="lazyload" class="W_loading"><span>正在加载中，请稍候...<\/span><\/div>	
+	   
+    
+	<!--翻页-->
+	                    
+	<!--\/翻页-->   
+         
+    

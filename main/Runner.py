@@ -1,8 +1,10 @@
+#coding: utf-8
 '''
 @author: prehawk
 '''
 import login
 import urllib2
+import os
 from config import *
 
 class A(login.Login):
@@ -16,9 +18,16 @@ class A(login.Login):
         print doc
     
 
-if __name__ == '__main__':
-    a = A()
-    a.scrap('http://weibo.com/p/1006061718436033/info?from=page_100606&mod=TAB#place')
+def transformer():
     
+    with open('../a.txt', 'r') as a:
+        with open('../b.txt', 'w') as b:
+            plain = a.read()
+            unicodeText = plain.decode('unicode_escape')
+            utf8Text = unicodeText.encode('utf-8')
+            b.write(utf8Text)
+
+if __name__ == '__main__':
+    transformer()
     
     
