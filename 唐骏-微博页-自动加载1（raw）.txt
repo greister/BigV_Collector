@@ -1,0 +1,487 @@
+{"code":"100000","msg":"","data":"        <!--feed内容-->
+            	    			 			<div  tbinfo="ouid=1003716184" action-type="feed_list_item"  mid="3683726859041156"  class="WB_feed_type SW_fun S_line2 ">
+            <div class="WB_feed_datail S_line2 clearfix">
+        <div class="WB_detail">
+                        <div class="WB_text" node-type="feed_list_content" nick-name="唐骏">
+                                    刚刚结束厦门大学的演讲，同学很热情，学校很美，据说中国最美…                        <\/div>
+                                                                                    <div class="WB_func clearfix">
+                <div class="WB_handle">
+                                                            <a href="javascript:void(0);" action-type="fl_like" action-data="version=mini&qid=heart&mid=3683726859041156&loc=profile" title="赞" ><em class="W_ico20 icon_praised_b"><\/em>(185)<\/a><i class="S_txt3">|<\/i>
+                                            <a  action-data="allowForward=1&url=http:\/\/weibo.com\/1003716184\/Az87jBW16&mid=3683726859041156&name=唐骏&uid=1003716184&domain=tangjun" action-type="fl_forward" action-history="rec=1"  href="javascript:void(0);">转发(35)<\/a><em class="S_txt3">|<\/em>
+                                        <a suda-data="key=smart_feed&value=time_sort_collect" href="javascript:void(0);" diss-data="fuid=1003716184" action-type="fl_favorite"  >收藏<\/a><i class="S_txt3">|<\/i>
+                    
+                                        <a suda-data="key=smart_feed&value=time_sort_comm" href="javascript:void(0);" action-type="fl_comment" action-data="ouid=1003716184&location=profile">评论(96)<\/a>
+                                    <\/div>
+                <div class="WB_from">    
+                <a name=3683726859041156 target="_blank" href="\/1003716184\/Az87jBW16?mod=weibotime" title="2014-03-02 17:26" date="1393752386000" class="S_link2 WB_time" node-type="feed_list_item_date" suda-data="key=tblog_home_new&value=feed_time"> 3月2日 17:26<\/a> <em class="S_txt2">来自<\/em><a class="S_link2" suda-data="key=tblog_home_new&value=feed_come_from" action-type="app_source" target="_blank" href="http:\/\/app.weibo.com\/t\/feed\/10w0NU" rel="nofollow">短信<\/a>                                        <span class="hover">
+                        <em class="S_txt3">|<\/em>&nbsp;
+                                                                         <a href="javascript:void(0);"  onclick="javascript:window.open('http:\/\/service.account.weibo.com\/reportspam?rid=3683726859041156&from=10106&type=1&url=%2Fp%2Faj%2Fmblog%2Fmbloglist&bottomnav=1&wvr=5', 'newwindow', 'height=700, width=550, toolbar =yes, menubar=no, scrollbars=yes, resizable=yes, location=no, status=no');">举报<\/a>
+                                                                    <\/span>
+                                    <\/div>
+            <\/div>
+            <div node-type="feed_list_repeat" class="WB_media_expand repeat S_line1 S_bg4" style="display:none;"><\/div>
+        <\/div>
+    <\/div>
+<\/div>			 			<div  tbinfo="ouid=1003716184" action-type="feed_list_item"  mid="3683616494576319"  class="WB_feed_type SW_fun S_line2 ">
+            <div class="WB_feed_datail S_line2 clearfix">
+        <div class="WB_detail">
+                        <div class="WB_text" node-type="feed_list_content" nick-name="唐骏">
+                                    今天又是飞的厦门，下午在厦大有个演讲，厦门的城市很好，以前经常去…                        <\/div>
+                                                                                    <div class="WB_func clearfix">
+                <div class="WB_handle">
+                                                            <a href="javascript:void(0);" action-type="fl_like" action-data="version=mini&qid=heart&mid=3683616494576319&loc=profile" title="赞" ><em class="W_ico20 icon_praised_b"><\/em>(98)<\/a><i class="S_txt3">|<\/i>
+                                            <a  action-data="allowForward=1&url=http:\/\/weibo.com\/1003716184\/Az5fjjcvB&mid=3683616494576319&name=唐骏&uid=1003716184&domain=tangjun" action-type="fl_forward" action-history="rec=1"  href="javascript:void(0);">转发(37)<\/a><em class="S_txt3">|<\/em>
+                                        <a suda-data="key=smart_feed&value=time_sort_collect" href="javascript:void(0);" diss-data="fuid=1003716184" action-type="fl_favorite"  >收藏<\/a><i class="S_txt3">|<\/i>
+                    
+                                        <a suda-data="key=smart_feed&value=time_sort_comm" href="javascript:void(0);" action-type="fl_comment" action-data="ouid=1003716184&location=profile">评论(78)<\/a>
+                                    <\/div>
+                <div class="WB_from">    
+                <a name=3683616494576319 target="_blank" href="\/1003716184\/Az5fjjcvB?mod=weibotime" title="2014-03-02 10:07" date="1393726072000" class="S_link2 WB_time" node-type="feed_list_item_date" suda-data="key=tblog_home_new&value=feed_time"> 3月2日 10:07<\/a> <em class="S_txt2">来自<\/em><a class="S_link2" suda-data="key=tblog_home_new&value=feed_come_from" action-type="app_source" target="_blank" href="http:\/\/app.weibo.com\/t\/feed\/10w0NU" rel="nofollow">短信<\/a>                                        <span class="hover">
+                        <em class="S_txt3">|<\/em>&nbsp;
+                                                                         <a href="javascript:void(0);"  onclick="javascript:window.open('http:\/\/service.account.weibo.com\/reportspam?rid=3683616494576319&from=10106&type=1&url=%2Fp%2Faj%2Fmblog%2Fmbloglist&bottomnav=1&wvr=5', 'newwindow', 'height=700, width=550, toolbar =yes, menubar=no, scrollbars=yes, resizable=yes, location=no, status=no');">举报<\/a>
+                                                                    <\/span>
+                                    <\/div>
+            <\/div>
+            <div node-type="feed_list_repeat" class="WB_media_expand repeat S_line1 S_bg4" style="display:none;"><\/div>
+        <\/div>
+    <\/div>
+<\/div>			 			<div  tbinfo="ouid=1003716184" action-type="feed_list_item"  mid="3683266102100181"  class="WB_feed_type SW_fun S_line2 ">
+            <div class="WB_feed_datail S_line2 clearfix">
+        <div class="WB_detail">
+                        <div class="WB_text" node-type="feed_list_content" nick-name="唐骏">
+                                    在第一世界大酒店杀青，布置，设施，服务，有大片的感觉，有格调的                        <\/div>
+                                                                                    <div class="WB_func clearfix">
+                <div class="WB_handle">
+                                                            <a href="javascript:void(0);" action-type="fl_like" action-data="version=mini&qid=heart&mid=3683266102100181&loc=profile" title="赞" ><em class="W_ico20 icon_praised_b"><\/em>(49)<\/a><i class="S_txt3">|<\/i>
+                                            <a  action-data="allowForward=1&url=http:\/\/weibo.com\/1003716184\/AyW8a8OlT&mid=3683266102100181&name=唐骏&uid=1003716184&domain=tangjun" action-type="fl_forward" action-history="rec=1"  href="javascript:void(0);">转发(8)<\/a><em class="S_txt3">|<\/em>
+                                        <a suda-data="key=smart_feed&value=time_sort_collect" href="javascript:void(0);" diss-data="fuid=1003716184" action-type="fl_favorite"  >收藏<\/a><i class="S_txt3">|<\/i>
+                    
+                                        <a suda-data="key=smart_feed&value=time_sort_comm" href="javascript:void(0);" action-type="fl_comment" action-data="ouid=1003716184&location=profile">评论(23)<\/a>
+                                    <\/div>
+                <div class="WB_from">    
+                <a name=3683266102100181 target="_blank" href="\/1003716184\/AyW8a8OlT?mod=weibotime" title="2014-03-01 10:55" date="1393642533000" class="S_link2 WB_time" node-type="feed_list_item_date" suda-data="key=tblog_home_new&value=feed_time"> 3月1日 10:55<\/a> <em class="S_txt2">来自<\/em><a class="S_link2" suda-data="key=tblog_home_new&value=feed_come_from" action-type="app_source" target="_blank" href="http:\/\/app.weibo.com\/t\/feed\/9ksdit" rel="nofollow">iPhone客户端<\/a>                                        <span class="hover">
+                        <em class="S_txt3">|<\/em>&nbsp;
+                                                                         <a href="javascript:void(0);"  onclick="javascript:window.open('http:\/\/service.account.weibo.com\/reportspam?rid=3683266102100181&from=10106&type=1&url=%2Fp%2Faj%2Fmblog%2Fmbloglist&bottomnav=1&wvr=5', 'newwindow', 'height=700, width=550, toolbar =yes, menubar=no, scrollbars=yes, resizable=yes, location=no, status=no');">举报<\/a>
+                                                                    <\/span>
+                                    <\/div>
+            <\/div>
+            <div node-type="feed_list_repeat" class="WB_media_expand repeat S_line1 S_bg4" style="display:none;"><\/div>
+        <\/div>
+    <\/div>
+<\/div>			 			<div  tbinfo="ouid=1003716184" action-type="feed_list_item"  mid="3683096992179598"  class="WB_feed_type SW_fun S_line2 ">
+            <div class="WB_feed_datail S_line2 clearfix">
+        <div class="WB_detail">
+                        <div class="WB_text" node-type="feed_list_content" nick-name="唐骏">
+                                    刚刚杀青，第一次的体验，值得，开心，好玩，还有改变                        <\/div>
+                                                                                    <div class="WB_func clearfix">
+                <div class="WB_handle">
+                                                            <a href="javascript:void(0);" action-type="fl_like" action-data="version=mini&qid=heart&mid=3683096992179598&loc=profile" title="赞" ><em class="W_ico20 icon_praised_b"><\/em>(75)<\/a><i class="S_txt3">|<\/i>
+                                            <a  action-data="allowForward=1&url=http:\/\/weibo.com\/1003716184\/AyRJp990O&mid=3683096992179598&name=唐骏&uid=1003716184&domain=tangjun" action-type="fl_forward" action-history="rec=1"  href="javascript:void(0);">转发(20)<\/a><em class="S_txt3">|<\/em>
+                                        <a suda-data="key=smart_feed&value=time_sort_collect" href="javascript:void(0);" diss-data="fuid=1003716184" action-type="fl_favorite"  >收藏<\/a><i class="S_txt3">|<\/i>
+                    
+                                        <a suda-data="key=smart_feed&value=time_sort_comm" href="javascript:void(0);" action-type="fl_comment" action-data="ouid=1003716184&location=profile">评论(35)<\/a>
+                                    <\/div>
+                <div class="WB_from">    
+                <a name=3683096992179598 target="_blank" href="\/1003716184\/AyRJp990O?mod=weibotime" title="2014-02-28 23:43" date="1393602214000" class="S_link2 WB_time" node-type="feed_list_item_date" suda-data="key=tblog_home_new&value=feed_time"> 2月28日 23:43<\/a> <em class="S_txt2">来自<\/em><a class="S_link2" suda-data="key=tblog_home_new&value=feed_come_from" action-type="app_source" target="_blank" href="http:\/\/app.weibo.com\/t\/feed\/10w0NU" rel="nofollow">短信<\/a>                                        <span class="hover">
+                        <em class="S_txt3">|<\/em>&nbsp;
+                                                                         <a href="javascript:void(0);"  onclick="javascript:window.open('http:\/\/service.account.weibo.com\/reportspam?rid=3683096992179598&from=10106&type=1&url=%2Fp%2Faj%2Fmblog%2Fmbloglist&bottomnav=1&wvr=5', 'newwindow', 'height=700, width=550, toolbar =yes, menubar=no, scrollbars=yes, resizable=yes, location=no, status=no');">举报<\/a>
+                                                                    <\/span>
+                                    <\/div>
+            <\/div>
+            <div node-type="feed_list_repeat" class="WB_media_expand repeat S_line1 S_bg4" style="display:none;"><\/div>
+        <\/div>
+    <\/div>
+<\/div>			 			<div  tbinfo="ouid=1003716184" action-type="feed_list_item"  mid="3682661958969857"  class="WB_feed_type SW_fun S_line2 ">
+            <div class="WB_feed_datail S_line2 clearfix">
+        <div class="WB_detail">
+                        <div class="WB_text" node-type="feed_list_content" nick-name="唐骏">
+                                    现在要回上海了，今天又是一个汕头飞的，给1500名企业人士做了场演讲，气氛很好。明天去杭州杀青了…                        <\/div>
+                                                                                    <div class="WB_func clearfix">
+                <div class="WB_handle">
+                                                            <a href="javascript:void(0);" action-type="fl_like" action-data="version=mini&qid=heart&mid=3682661958969857&loc=profile" title="赞" ><em class="W_ico20 icon_praised_b"><\/em>(102)<\/a><i class="S_txt3">|<\/i>
+                                            <a  action-data="allowForward=1&url=http:\/\/weibo.com\/1003716184\/AyGpJBDt7&mid=3682661958969857&name=唐骏&uid=1003716184&domain=tangjun" action-type="fl_forward" action-history="rec=1"  href="javascript:void(0);">转发(10)<\/a><em class="S_txt3">|<\/em>
+                                        <a suda-data="key=smart_feed&value=time_sort_collect" href="javascript:void(0);" diss-data="fuid=1003716184" action-type="fl_favorite"  >收藏<\/a><i class="S_txt3">|<\/i>
+                    
+                                        <a suda-data="key=smart_feed&value=time_sort_comm" href="javascript:void(0);" action-type="fl_comment" action-data="ouid=1003716184&location=profile">评论(45)<\/a>
+                                    <\/div>
+                <div class="WB_from">    
+                <a name=3682661958969857 target="_blank" href="\/1003716184\/AyGpJBDt7?mod=weibotime" title="2014-02-27 18:54" date="1393498493000" class="S_link2 WB_time" node-type="feed_list_item_date" suda-data="key=tblog_home_new&value=feed_time"> 2月27日 18:54<\/a> <em class="S_txt2">来自<\/em><a class="S_link2" suda-data="key=tblog_home_new&value=feed_come_from" action-type="app_source" target="_blank" href="http:\/\/app.weibo.com\/t\/feed\/10w0NU" rel="nofollow">短信<\/a>                                        <span class="hover">
+                        <em class="S_txt3">|<\/em>&nbsp;
+                                                                         <a href="javascript:void(0);"  onclick="javascript:window.open('http:\/\/service.account.weibo.com\/reportspam?rid=3682661958969857&from=10106&type=1&url=%2Fp%2Faj%2Fmblog%2Fmbloglist&bottomnav=1&wvr=5', 'newwindow', 'height=700, width=550, toolbar =yes, menubar=no, scrollbars=yes, resizable=yes, location=no, status=no');">举报<\/a>
+                                                                    <\/span>
+                                    <\/div>
+            <\/div>
+            <div node-type="feed_list_repeat" class="WB_media_expand repeat S_line1 S_bg4" style="display:none;"><\/div>
+        <\/div>
+    <\/div>
+<\/div>			 			<div minfo="ru=3540491024&rm=3681850956078229" tbinfo="ouid=1003716184&rouid=3540491024" action-type="feed_list_item"  mid="3681925808139346" isForward="1"  omid="3681850956078229" class="WB_feed_type SW_fun S_line2 ">
+            <div class="WB_feed_datail S_line2 clearfix">
+        <div class="WB_detail">
+                        <div class="WB_text" node-type="feed_list_content" >
+                                    我们不要被几部上座电影的投资回报迷惑了，要投影视也要跟着有经验的影视公司或者团队投，自己投资的那种真的就是玩票了。                        <\/div>
+                                                <div class="WB_media_expand SW_fun2 S_line1 S_bg1">
+                <div class="WB_arrow"><em class="S_line1_c">◆<\/em><span class="S_bg1_c">◆<\/span><\/div>
+                                                <div node-type="feed_list_forwardContent">
+                <div class="WB_info">
+                                <a node-type='feed_list_originNick' class="WB_name S_func3" nick-name="唐骏来了" href="\/tangjunlaile" title="唐骏来了" usercard="id=3540491024">
+                @唐骏来了<\/a>                <\/div>
+                <div class="WB_text" node-type="feed_list_reason">
+                <em>马年春节的前三天以及大年初四到初六，我在杭州参加了电视剧《办公室的春天》的拍摄工作，做演员感受了拍戏的过程，也深刻体会到“拍一场戏真的不容易”。——<a render="ext" extra-data="type=atname" href="\/n\/%E4%B8%AD%E5%9B%BD%E7%BB%8F%E6%B5%8E%E5%91%A8%E5%88%8A?from=feed&loc=at" usercard="name=中国经济周刊">@中国经济周刊<\/a> 《唐骏来了：影视投资“玩票”风险大》<a title="http:\/\/www.ceweekly.cn\/2014\/0224\/75405.shtml" href="http:\/\/t.cn\/8FmlEnZ" target="_blank" mt="url" action-type="feed_list_url">http:\/\/t.cn\/8FmlEnZ<\/a><\/em>
+                                <\/div>
+                <\/div>
+                                                <div node-type='feed_list_media_prev'>
+                    <!-- 该模板和media.phtml如此之相像……有时间的话可以合并之，需注意ifForward="1"，其他几乎相同 -->
+
+<!-- 微博心情，独立于标准的ul节点 -->
+
+<!-- 特型广告feed -->
+		    		<ul class="WB_media_list clearfix">
+					 		<li>
+			<!-- img之间不能加空格 -->
+                                                            <div class="chePicMin S_bg2 bigcursor" action-type="feed_list_media_img" action-data="uid=3540491024&amp;mid=3681850956078229&amp;pid=d3079b10tw1edvjqv9be0j20m81jlwva&pic_objects=&object_ids=1042018%3Afb86f4d67fca3244453bd0eb13049a76" suda-data="key=feed_image_click&value=image_zoomin"><img  class="bigcursor" node-type="feed_list_media_bgimg" src="http:\/\/ww4.sinaimg.cn\/thumbnail\/d3079b10tw1edvjqv9be0j20m81jlwva.jpg" alt=""\/><img style="left: 39.5px; top: 52px; display: none;" src="http:\/\/img.t.sinajs.cn\/t5\/style\/images\/common\/loading.gif" class="loading_gif"><\/div>
+            		<\/li>
+	 	    		<\/ul>
+                <\/div>
+                                <div class="expand" style="display: none;" node-type="feed_list_media_disp"><\/div>
+                                                <div class="WB_func clearfix">
+    <div class="WB_handle" mid="3681850956078229">
+                                    <a href="javascript:void(0);" action-type="fl_like" action-data="version=mini&qid=heart&mid=3681850956078229" title="赞"><em class="W_ico20 icon_praised_b"><\/em>(3)<\/a><i class="S_txt3">|<\/i>
+        <a class="S_func4" action-history="rec=1" href="\/3540491024\/AyljFpvdX?type=repost" >转发(10)<\/a>
+        <em class="S_txt3">|<\/em>
+        <a class="S_func4" href="\/3540491024\/AyljFpvdX" >评论(5)<\/a>
+    <\/div>
+    <div class="WB_from">
+        <a class="S_func2 WB_time" target="_blank" href="\/3540491024\/AyljFpvdX" title="2014-02-25 13:12" date="1393305136000" node-type="feed_list_item_date" >2月25日 13:12<\/a><em class="S_txt2">来自<\/em><a class="S_func2" action-type="app_source" target="_blank" href="http:\/\/weibo.com\/" rel="nofollow">微博 weibo.com<\/a>    <\/div>
+<\/div>                          <\/div>
+                                                <div class="WB_func clearfix">
+                <div class="WB_handle">
+                                                            <a href="javascript:void(0);" action-type="fl_like" action-data="version=mini&qid=heart&mid=3681925808139346&loc=profile" title="赞" ><em class="W_ico20 icon_praised_b"><\/em>(21)<\/a><i class="S_txt3">|<\/i>
+                                            <a  action-data="allowForward=1&rootmid=3681850956078229&rootname=唐骏来了&rootuid=3540491024&rooturl=http:\/\/weibo.com\/3540491024\/AyljFpvdX&url=http:\/\/weibo.com\/1003716184\/Ayngoy9pM&mid=3681925808139346&name=唐骏&uid=1003716184&domain=tangjunlaile&pid=d3079b10tw1edvjqv9be0j20m81jlwva" action-type="fl_forward" action-history="rec=1"  href="javascript:void(0);">转发(9)<\/a><em class="S_txt3">|<\/em>
+                                        <a suda-data="key=smart_feed&value=time_sort_collect" href="javascript:void(0);" diss-data="fuid=1003716184" action-type="fl_favorite"  >收藏<\/a><i class="S_txt3">|<\/i>
+                    
+                                        <a suda-data="key=smart_feed&value=time_sort_comm" href="javascript:void(0);" action-type="fl_comment" action-data="ouid=1003716184&location=profile">评论(8)<\/a>
+                                    <\/div>
+                <div class="WB_from">    
+                <a name=3681925808139346 target="_blank" href="\/1003716184\/Ayngoy9pM?mod=weibotime" title="2014-02-25 18:09" date="1393322982000" class="S_link2 WB_time" node-type="feed_list_item_date" suda-data="key=tblog_home_new&value=feed_time"> 2月25日 18:09<\/a> <em class="S_txt2">来自<\/em><a class="S_link2" suda-data="key=tblog_home_new&value=feed_come_from" action-type="app_source" target="_blank" href="http:\/\/weibo.com\/" rel="nofollow">微博 weibo.com<\/a>                                        <span class="hover">
+                        <em class="S_txt3">|<\/em>&nbsp;
+                                                                         <a href="javascript:void(0);"  onclick="javascript:window.open('http:\/\/service.account.weibo.com\/reportspam?rid=3681925808139346&from=10106&type=1&url=%2Fp%2Faj%2Fmblog%2Fmbloglist&bottomnav=1&wvr=5', 'newwindow', 'height=700, width=550, toolbar =yes, menubar=no, scrollbars=yes, resizable=yes, location=no, status=no');">举报<\/a>
+                                                                    <\/span>
+                                    <\/div>
+            <\/div>
+            <div node-type="feed_list_repeat" class="WB_media_expand repeat S_line1 S_bg4" style="display:none;"><\/div>
+        <\/div>
+    <\/div>
+<\/div>			 			<div  tbinfo="ouid=1003716184" action-type="feed_list_item"  mid="3680050697890670"  class="WB_feed_type SW_fun S_line2 ">
+            <div class="WB_feed_datail S_line2 clearfix">
+        <div class="WB_detail">
+                        <div class="WB_text" node-type="feed_list_content" nick-name="唐骏">
+                                    王董的河南仰韶彩陶，有品味的。。。听说仰韶大峡谷旅游开发的不错，有时间去看看。。。                        <\/div>
+                                                            <!-- 引用文件时，必须对midia_info赋值 -->
+
+<!-- 微博心情，独立于标准的ul节点 -->
+                <ul class="WB_media_list clearfix" node-type="feed_list_media_prev">
+                                    <li>
+            <!-- img之间不能加空格 -->
+                                                                                                                                <!-- 九宫格 -->
+                    <div class="lotspic_Media clearfix" node-type="fl_pic_list" action-data="uid=1003716184&pic_ids=3bd37e58jw1edpsue4b8fj20hs0npgnx,3bd37e58jw1edpsuftzj2j20hs0dc3zu&mid=3680050697890670&pic_objects=&object_ids=1042018%3Ab81f179dc91d025777be804769161ab7%2C1042018%3A6df664e6d5e2d15707ffdf1ac4a1ba93">
+                        <ul class="lotspic_list clearfix inner_width">
+                                                                    <li>
+                            <img class="bigcursor" src="http:\/\/ww3.sinaimg.cn\/square\/3bd37e58jw1edpsue4b8fj20hs0npgnx.jpg" action-data="pic_id=3bd37e58jw1edpsue4b8fj20hs0npgnx" action-type="fl_pics" suda-uatrack="key=tblog_newimage_feed&value=image_feed_unfold">
+                        <\/li>
+                                                                    <li>
+                            <img class="bigcursor" src="http:\/\/ww3.sinaimg.cn\/square\/3bd37e58jw1edpsuftzj2j20hs0dc3zu.jpg" action-data="pic_id=3bd37e58jw1edpsuftzj2j20hs0dc3zu" action-type="fl_pics" suda-uatrack="key=tblog_newimage_feed&value=image_feed_unfold">
+                        <\/li>
+                                                                <\/ul>
+                                                                    <\/div>
+                    <!-- \/九宫格 -->
+                                    <\/li>
+                        <\/ul>
+                        <div class="WB_media_expand SW_fun2 S_line1 S_bg1" style="display: none;" node-type="feed_list_media_disp"><\/div>
+                                                                        <div class="WB_func clearfix">
+                <div class="WB_handle">
+                                                            <a href="javascript:void(0);" action-type="fl_like" action-data="version=mini&qid=heart&mid=3680050697890670&loc=profile" title="赞" ><em class="W_ico20 icon_praised_b"><\/em>(68)<\/a><i class="S_txt3">|<\/i>
+                                            <a  action-data="allowForward=1&url=http:\/\/weibo.com\/1003716184\/AxAu1x6IS&mid=3680050697890670&name=唐骏&uid=1003716184&domain=tangjun&pid=3bd37e58jw1edpsue4b8fj20hs0npgnx" action-type="fl_forward" action-history="rec=1"  href="javascript:void(0);">转发(17)<\/a><em class="S_txt3">|<\/em>
+                                        <a suda-data="key=smart_feed&value=time_sort_collect" href="javascript:void(0);" diss-data="fuid=1003716184" action-type="fl_favorite"  >收藏<\/a><i class="S_txt3">|<\/i>
+                    
+                                        <a suda-data="key=smart_feed&value=time_sort_comm" href="javascript:void(0);" action-type="fl_comment" action-data="ouid=1003716184&location=profile">评论(35)<\/a>
+                                    <\/div>
+                <div class="WB_from">    
+                <a name=3680050697890670 target="_blank" href="\/1003716184\/AxAu1x6IS?mod=weibotime" title="2014-02-20 13:58" date="1392875921000" class="S_link2 WB_time" node-type="feed_list_item_date" suda-data="key=tblog_home_new&value=feed_time"> 2月20日 13:58<\/a> <em class="S_txt2">来自<\/em><a class="S_link2" suda-data="key=tblog_home_new&value=feed_come_from" action-type="app_source" target="_blank" href="http:\/\/app.weibo.com\/t\/feed\/3G5oUM" rel="nofollow">iPhone 5s<\/a>                                        <span class="hover">
+                        <em class="S_txt3">|<\/em>&nbsp;
+                                                                         <a href="javascript:void(0);"  onclick="javascript:window.open('http:\/\/service.account.weibo.com\/reportspam?rid=3680050697890670&from=10106&type=1&url=%2Fp%2Faj%2Fmblog%2Fmbloglist&bottomnav=1&wvr=5', 'newwindow', 'height=700, width=550, toolbar =yes, menubar=no, scrollbars=yes, resizable=yes, location=no, status=no');">举报<\/a>
+                                                                    <\/span>
+                                    <\/div>
+            <\/div>
+            <div node-type="feed_list_repeat" class="WB_media_expand repeat S_line1 S_bg4" style="display:none;"><\/div>
+        <\/div>
+    <\/div>
+<\/div>			 			<div minfo="ru=3540491024&rm=3679009215672532" tbinfo="ouid=1003716184&rouid=3540491024" action-type="feed_list_item"  mid="3679010440416472" isForward="1"  omid="3679009215672532" class="WB_feed_type SW_fun S_line2 ">
+            <div class="WB_feed_datail S_line2 clearfix">
+        <div class="WB_detail">
+                        <div class="WB_text" node-type="feed_list_content" >
+                                    微软的新董事长很难比盖茨更好，因为没有人比盖茨更懂微软。                        <\/div>
+                                                <div class="WB_media_expand SW_fun2 S_line1 S_bg1">
+                <div class="WB_arrow"><em class="S_line1_c">◆<\/em><span class="S_bg1_c">◆<\/span><\/div>
+                                                <div node-type="feed_list_forwardContent">
+                <div class="WB_info">
+                                <a node-type='feed_list_originNick' class="WB_name S_func3" nick-name="唐骏来了" href="\/tangjunlaile" title="唐骏来了" usercard="id=3540491024">
+                @唐骏来了<\/a>                <\/div>
+                <div class="WB_text" node-type="feed_list_reason">
+                <em>我敬佩盖茨，不仅是因为他创造了惊人业绩，更是因为他的远见卓识和让别人变得伟大的做法。微软CEO人选没有交给一个非微软人，一定有盖茨的原因，盖茨更愿意把微软交给一个真正喜欢微软了解微软的人，这就是盖茨的伟大之处。—— <a render="ext" extra-data="type=atname" href="\/n\/%E4%B8%AD%E5%9B%BD%E7%BB%8F%E6%B5%8E%E5%91%A8%E5%88%8A?from=feed&loc=at" usercard="name=中国经济周刊">@中国经济周刊<\/a> 《唐骏来了：微软“去盖茨化”？》 <a title="http:\/\/www.ceweekly.cn\/2014\/0217\/75022.shtml" href="http:\/\/t.cn\/8FjFoeI" target="_blank" mt="url" action-type="feed_list_url">http:\/\/t.cn\/8FjFoeI<\/a><\/em>
+                                <\/div>
+                <\/div>
+                                                <div node-type='feed_list_media_prev'>
+                    <!-- 该模板和media.phtml如此之相像……有时间的话可以合并之，需注意ifForward="1"，其他几乎相同 -->
+
+<!-- 微博心情，独立于标准的ul节点 -->
+
+<!-- 特型广告feed -->
+		    		<ul class="WB_media_list clearfix">
+					 		<li>
+			<!-- img之间不能加空格 -->
+                                                            <div class="chePicMin S_bg2 bigcursor" action-type="feed_list_media_img" action-data="uid=3540491024&amp;mid=3679009215672532&amp;pid=d3079b10gw1edmhh039a9j20m81jlqm0&pic_objects=&object_ids=1042018%3Abbef5ddce98e48bdf28c36584249cf84" suda-data="key=feed_image_click&value=image_zoomin"><img  class="bigcursor" node-type="feed_list_media_bgimg" src="http:\/\/ww3.sinaimg.cn\/thumbnail\/d3079b10gw1edmhh039a9j20m81jlqm0.jpg" alt=""\/><img style="left: 39.5px; top: 52px; display: none;" src="http:\/\/img.t.sinajs.cn\/t5\/style\/images\/common\/loading.gif" class="loading_gif"><\/div>
+            		<\/li>
+	 	    		<\/ul>
+                <\/div>
+                                <div class="expand" style="display: none;" node-type="feed_list_media_disp"><\/div>
+                                                <div class="WB_func clearfix">
+    <div class="WB_handle" mid="3679009215672532">
+                                    <a href="javascript:void(0);" action-type="fl_like" action-data="version=mini&qid=heart&mid=3679009215672532" title="赞"><em class="W_ico20 icon_praised_b"><\/em>(8)<\/a><i class="S_txt3">|<\/i>
+        <a class="S_func4" action-history="rec=1" href="\/3540491024\/Ax9odnNGs?type=repost" >转发(65)<\/a>
+        <em class="S_txt3">|<\/em>
+        <a class="S_func4" href="\/3540491024\/Ax9odnNGs" >评论(5)<\/a>
+    <\/div>
+    <div class="WB_from">
+        <a class="S_func2 WB_time" target="_blank" href="\/3540491024\/Ax9odnNGs" title="2014-02-17 17:00" date="1392627610000" node-type="feed_list_item_date" >2月17日 17:00<\/a><em class="S_txt2">来自<\/em><a class="S_func2" action-type="app_source" target="_blank" href="http:\/\/weibo.com\/" rel="nofollow">微博 weibo.com<\/a>    <\/div>
+<\/div>                          <\/div>
+                                                <div class="WB_func clearfix">
+                <div class="WB_handle">
+                                                            <a href="javascript:void(0);" action-type="fl_like" action-data="version=mini&qid=heart&mid=3679010440416472&loc=profile" title="赞" ><em class="W_ico20 icon_praised_b"><\/em>(33)<\/a><i class="S_txt3">|<\/i>
+                                            <a  action-data="allowForward=1&rootmid=3679009215672532&rootname=唐骏来了&rootuid=3540491024&rooturl=http:\/\/weibo.com\/3540491024\/Ax9odnNGs&url=http:\/\/weibo.com\/1003716184\/Ax9qc1Kli&mid=3679010440416472&name=唐骏&uid=1003716184&domain=tangjunlaile&pid=d3079b10gw1edmhh039a9j20m81jlqm0" action-type="fl_forward" action-history="rec=1"  href="javascript:void(0);">转发(58)<\/a><em class="S_txt3">|<\/em>
+                                        <a suda-data="key=smart_feed&value=time_sort_collect" href="javascript:void(0);" diss-data="fuid=1003716184" action-type="fl_favorite"  >收藏<\/a><i class="S_txt3">|<\/i>
+                    
+                                        <a suda-data="key=smart_feed&value=time_sort_comm" href="javascript:void(0);" action-type="fl_comment" action-data="ouid=1003716184&location=profile">评论(23)<\/a>
+                                    <\/div>
+                <div class="WB_from">    
+                <a name=3679010440416472 target="_blank" href="\/1003716184\/Ax9qc1Kli?mod=weibotime" title="2014-02-17 17:05" date="1392627901000" class="S_link2 WB_time" node-type="feed_list_item_date" suda-data="key=tblog_home_new&value=feed_time"> 2月17日 17:05<\/a> <em class="S_txt2">来自<\/em><a class="S_link2" suda-data="key=tblog_home_new&value=feed_come_from" action-type="app_source" target="_blank" href="http:\/\/weibo.com\/" rel="nofollow">微博 weibo.com<\/a>                                        <span class="hover">
+                        <em class="S_txt3">|<\/em>&nbsp;
+                                                                         <a href="javascript:void(0);"  onclick="javascript:window.open('http:\/\/service.account.weibo.com\/reportspam?rid=3679010440416472&from=10106&type=1&url=%2Fp%2Faj%2Fmblog%2Fmbloglist&bottomnav=1&wvr=5', 'newwindow', 'height=700, width=550, toolbar =yes, menubar=no, scrollbars=yes, resizable=yes, location=no, status=no');">举报<\/a>
+                                                                    <\/span>
+                                    <\/div>
+            <\/div>
+            <div node-type="feed_list_repeat" class="WB_media_expand repeat S_line1 S_bg4" style="display:none;"><\/div>
+        <\/div>
+    <\/div>
+<\/div>			 			<div  tbinfo="ouid=1003716184" action-type="feed_list_item"  mid="3678978537864096"  class="WB_feed_type SW_fun S_line2 ">
+            <div class="WB_feed_datail S_line2 clearfix">
+        <div class="WB_detail">
+                        <div class="WB_text" node-type="feed_list_content" nick-name="唐骏">
+                                    今天收到了美国康奈尔大学中国论坛演讲的邀请，那是我崇敬的美国常青藤大学。要飞十五个小时…思考中，开心中                        <\/div>
+                                                                                    <div class="WB_func clearfix">
+                <div class="WB_handle">
+                                                            <a href="javascript:void(0);" action-type="fl_like" action-data="version=mini&qid=heart&mid=3678978537864096&loc=profile" title="赞" ><em class="W_ico20 icon_praised_b"><\/em>(103)<\/a><i class="S_txt3">|<\/i>
+                                            <a  action-data="allowForward=1&url=http:\/\/weibo.com\/1003716184\/Ax8AJwZOg&mid=3678978537864096&name=唐骏&uid=1003716184&domain=tangjun" action-type="fl_forward" action-history="rec=1"  href="javascript:void(0);">转发(15)<\/a><em class="S_txt3">|<\/em>
+                                        <a suda-data="key=smart_feed&value=time_sort_collect" href="javascript:void(0);" diss-data="fuid=1003716184" action-type="fl_favorite"  >收藏<\/a><i class="S_txt3">|<\/i>
+                    
+                                        <a suda-data="key=smart_feed&value=time_sort_comm" href="javascript:void(0);" action-type="fl_comment" action-data="ouid=1003716184&location=profile">评论(57)<\/a>
+                                    <\/div>
+                <div class="WB_from">    
+                <a name=3678978537864096 target="_blank" href="\/1003716184\/Ax8AJwZOg?mod=weibotime" title="2014-02-17 14:58" date="1392620298000" class="S_link2 WB_time" node-type="feed_list_item_date" suda-data="key=tblog_home_new&value=feed_time"> 2月17日 14:58<\/a> <em class="S_txt2">来自<\/em><a class="S_link2" suda-data="key=tblog_home_new&value=feed_come_from" action-type="app_source" target="_blank" href="http:\/\/app.weibo.com\/t\/feed\/10w0NU" rel="nofollow">短信<\/a>                                        <span class="hover">
+                        <em class="S_txt3">|<\/em>&nbsp;
+                                                                         <a href="javascript:void(0);"  onclick="javascript:window.open('http:\/\/service.account.weibo.com\/reportspam?rid=3678978537864096&from=10106&type=1&url=%2Fp%2Faj%2Fmblog%2Fmbloglist&bottomnav=1&wvr=5', 'newwindow', 'height=700, width=550, toolbar =yes, menubar=no, scrollbars=yes, resizable=yes, location=no, status=no');">举报<\/a>
+                                                                    <\/span>
+                                    <\/div>
+            <\/div>
+            <div node-type="feed_list_repeat" class="WB_media_expand repeat S_line1 S_bg4" style="display:none;"><\/div>
+        <\/div>
+    <\/div>
+<\/div>			 			<div  tbinfo="ouid=1003716184" action-type="feed_list_item"  mid="3677909120339597"  class="WB_feed_type SW_fun S_line2 ">
+            <div class="WB_feed_datail S_line2 clearfix">
+        <div class="WB_detail">
+                        <div class="WB_text" node-type="feed_list_content" nick-name="唐骏">
+                                    《今天咋过》 今天有三个选择。1、有人送花送巧克力请吃饭你就过情人节；2、有人给你打电话问候或发祝福短信或家人盼你回家你就过元宵节；3、没有花没电话也没短信你就拿今天星期五当礼拜天过吧！哈哈！我过元宵吧                        <\/div>
+                                                                                    <div class="WB_func clearfix">
+                <div class="WB_handle">
+                                                            <a href="javascript:void(0);" action-type="fl_like" action-data="version=mini&qid=heart&mid=3677909120339597&loc=profile" title="赞" ><em class="W_ico20 icon_praised_b"><\/em>(79)<\/a><i class="S_txt3">|<\/i>
+                                            <a  action-data="allowForward=1&url=http:\/\/weibo.com\/1003716184\/AwGLS1qln&mid=3677909120339597&name=唐骏&uid=1003716184&domain=tangjun" action-type="fl_forward" action-history="rec=1"  href="javascript:void(0);">转发(131)<\/a><em class="S_txt3">|<\/em>
+                                        <a suda-data="key=smart_feed&value=time_sort_collect" href="javascript:void(0);" diss-data="fuid=1003716184" action-type="fl_favorite"  >收藏<\/a><i class="S_txt3">|<\/i>
+                    
+                                        <a suda-data="key=smart_feed&value=time_sort_comm" href="javascript:void(0);" action-type="fl_comment" action-data="ouid=1003716184&location=profile">评论(29)<\/a>
+                                    <\/div>
+                <div class="WB_from">    
+                <a name=3677909120339597 target="_blank" href="\/1003716184\/AwGLS1qln?mod=weibotime" title="2014-02-14 16:08" date="1392365329000" class="S_link2 WB_time" node-type="feed_list_item_date" suda-data="key=tblog_home_new&value=feed_time"> 2月14日 16:08<\/a> <em class="S_txt2">来自<\/em><a class="S_link2" suda-data="key=tblog_home_new&value=feed_come_from" action-type="app_source" target="_blank" href="http:\/\/app.weibo.com\/t\/feed\/10w0NU" rel="nofollow">短信<\/a>                                        <span class="hover">
+                        <em class="S_txt3">|<\/em>&nbsp;
+                                                                         <a href="javascript:void(0);"  onclick="javascript:window.open('http:\/\/service.account.weibo.com\/reportspam?rid=3677909120339597&from=10106&type=1&url=%2Fp%2Faj%2Fmblog%2Fmbloglist&bottomnav=1&wvr=5', 'newwindow', 'height=700, width=550, toolbar =yes, menubar=no, scrollbars=yes, resizable=yes, location=no, status=no');">举报<\/a>
+                                                                    <\/span>
+                                    <\/div>
+            <\/div>
+            <div node-type="feed_list_repeat" class="WB_media_expand repeat S_line1 S_bg4" style="display:none;"><\/div>
+        <\/div>
+    <\/div>
+<\/div>			 			<div minfo="ru=3540491024&rm=3676522475635214" tbinfo="ouid=1003716184&rouid=3540491024" action-type="feed_list_item"  mid="3676525550311344" isForward="1"  omid="3676522475635214" class="WB_feed_type SW_fun S_line2 ">
+            <div class="WB_feed_datail S_line2 clearfix">
+        <div class="WB_detail">
+                        <div class="WB_text" node-type="feed_list_content" >
+                                    愚者等待商机，能者把握商机，智者创造商机。                        <\/div>
+                                                <div class="WB_media_expand SW_fun2 S_line1 S_bg1">
+                <div class="WB_arrow"><em class="S_line1_c">◆<\/em><span class="S_bg1_c">◆<\/span><\/div>
+                                                <div node-type="feed_list_forwardContent">
+                <div class="WB_info">
+                                <a node-type='feed_list_originNick' class="WB_name S_func3" nick-name="唐骏来了" href="\/tangjunlaile" title="唐骏来了" usercard="id=3540491024">
+                @唐骏来了<\/a>                <\/div>
+                <div class="WB_text" node-type="feed_list_reason">
+                <em>未来是草根的时代，把握住互联网金融的商机，将改变整个资本市场的格局。愚者等待商机，能者把握商机，智者创造商机。——<a render="ext" extra-data="type=atname" href="\/n\/%E4%B8%AD%E5%9B%BD%E7%BB%8F%E6%B5%8E%E5%91%A8%E5%88%8A?from=feed&loc=at" usercard="name=中国经济周刊">@中国经济周刊<\/a> 《唐骏来了：2014年值得期待的新商机》 <a title="http:\/\/www.ceweekly.cn\/2014\/0210\/74766.shtml" href="http:\/\/t.cn\/8F9dGs6" target="_blank" mt="url" action-type="feed_list_url">http:\/\/t.cn\/8F9dGs6<\/a><\/em>
+                                <\/div>
+                <\/div>
+                                                <div node-type='feed_list_media_prev'>
+                    <!-- 该模板和media.phtml如此之相像……有时间的话可以合并之，需注意ifForward="1"，其他几乎相同 -->
+
+<!-- 微博心情，独立于标准的ul节点 -->
+
+<!-- 特型广告feed -->
+		    		<ul class="WB_media_list clearfix">
+					 		<li>
+			<!-- img之间不能加空格 -->
+                                                            <div class="chePicMin S_bg2 bigcursor" action-type="feed_list_media_img" action-data="uid=3540491024&amp;mid=3676522475635214&amp;pid=d3079b10gw1edejv6evc3j20m81jlarf&pic_objects=&object_ids=1042018%3A5460e4372ef3ed1750be574468e2bab6" suda-data="key=feed_image_click&value=image_zoomin"><img  class="bigcursor" node-type="feed_list_media_bgimg" src="http:\/\/ww2.sinaimg.cn\/thumbnail\/d3079b10gw1edejv6evc3j20m81jlarf.jpg" alt=""\/><img style="left: 39.5px; top: 52px; display: none;" src="http:\/\/img.t.sinajs.cn\/t5\/style\/images\/common\/loading.gif" class="loading_gif"><\/div>
+            		<\/li>
+	 	    		<\/ul>
+                <\/div>
+                                <div class="expand" style="display: none;" node-type="feed_list_media_disp"><\/div>
+                                                <div class="WB_func clearfix">
+    <div class="WB_handle" mid="3676522475635214">
+                                    <a href="javascript:void(0);" action-type="fl_like" action-data="version=mini&qid=heart&mid=3676522475635214" title="赞"><em class="W_ico20 icon_praised_b"><\/em>(7)<\/a><i class="S_txt3">|<\/i>
+        <a class="S_func4" action-history="rec=1" href="\/3540491024\/Aw6HlnDYy?type=repost" >转发(187)<\/a>
+        <em class="S_txt3">|<\/em>
+        <a class="S_func4" href="\/3540491024\/Aw6HlnDYy" >评论(3)<\/a>
+    <\/div>
+    <div class="WB_from">
+        <a class="S_func2 WB_time" target="_blank" href="\/3540491024\/Aw6HlnDYy" title="2014-02-10 20:18" date="1392034724000" node-type="feed_list_item_date" >2月10日 20:18<\/a><em class="S_txt2">来自<\/em><a class="S_func2" action-type="app_source" target="_blank" href="http:\/\/weibo.com\/" rel="nofollow">新浪微博<\/a>    <\/div>
+<\/div>                          <\/div>
+                                                <div class="WB_func clearfix">
+                <div class="WB_handle">
+                                                            <a href="javascript:void(0);" action-type="fl_like" action-data="version=mini&qid=heart&mid=3676525550311344&loc=profile" title="赞" ><em class="W_ico20 icon_praised_b"><\/em>(62)<\/a><i class="S_txt3">|<\/i>
+                                            <a  action-data="allowForward=1&rootmid=3676522475635214&rootname=唐骏来了&rootuid=3540491024&rooturl=http:\/\/weibo.com\/3540491024\/Aw6HlnDYy&url=http:\/\/weibo.com\/1003716184\/Aw6Mj1iZG&mid=3676525550311344&name=唐骏&uid=1003716184&domain=tangjunlaile&pid=d3079b10gw1edejv6evc3j20m81jlarf" action-type="fl_forward" action-history="rec=1"  href="javascript:void(0);">转发(181)<\/a><em class="S_txt3">|<\/em>
+                                        <a suda-data="key=smart_feed&value=time_sort_collect" href="javascript:void(0);" diss-data="fuid=1003716184" action-type="fl_favorite"  >收藏<\/a><i class="S_txt3">|<\/i>
+                    
+                                        <a suda-data="key=smart_feed&value=time_sort_comm" href="javascript:void(0);" action-type="fl_comment" action-data="ouid=1003716184&location=profile">评论(19)<\/a>
+                                    <\/div>
+                <div class="WB_from">    
+                <a name=3676525550311344 target="_blank" href="\/1003716184\/Aw6Mj1iZG?mod=weibotime" title="2014-02-10 20:30" date="1392035457000" class="S_link2 WB_time" node-type="feed_list_item_date" suda-data="key=tblog_home_new&value=feed_time"> 2月10日 20:30<\/a> <em class="S_txt2">来自<\/em><a class="S_link2" suda-data="key=tblog_home_new&value=feed_come_from" action-type="app_source" target="_blank" href="http:\/\/weibo.com\/" rel="nofollow">微博 weibo.com<\/a>                                        <span class="hover">
+                        <em class="S_txt3">|<\/em>&nbsp;
+                                                                         <a href="javascript:void(0);"  onclick="javascript:window.open('http:\/\/service.account.weibo.com\/reportspam?rid=3676525550311344&from=10106&type=1&url=%2Fp%2Faj%2Fmblog%2Fmbloglist&bottomnav=1&wvr=5', 'newwindow', 'height=700, width=550, toolbar =yes, menubar=no, scrollbars=yes, resizable=yes, location=no, status=no');">举报<\/a>
+                                                                    <\/span>
+                                    <\/div>
+            <\/div>
+            <div node-type="feed_list_repeat" class="WB_media_expand repeat S_line1 S_bg4" style="display:none;"><\/div>
+        <\/div>
+    <\/div>
+<\/div>			 			<div  tbinfo="ouid=1003716184" action-type="feed_list_item"  mid="3676038066549596"  class="WB_feed_type SW_fun S_line2 ">
+            <div class="WB_feed_datail S_line2 clearfix">
+        <div class="WB_detail">
+                        <div class="WB_text" node-type="feed_list_content" nick-name="唐骏">
+                                    春节休假结束了，初一二三打球陪父母，四五六日本出差，七八九杭州拍戏…                        <\/div>
+                                                                                    <div class="WB_func clearfix">
+                <div class="WB_handle">
+                                                            <a href="javascript:void(0);" action-type="fl_like" action-data="version=mini&qid=heart&mid=3676038066549596&loc=profile" title="赞" ><em class="W_ico20 icon_praised_b"><\/em>(86)<\/a><i class="S_txt3">|<\/i>
+                                            <a  action-data="allowForward=1&url=http:\/\/weibo.com\/1003716184\/AvU62rtQE&mid=3676038066549596&name=唐骏&uid=1003716184&domain=tangjun" action-type="fl_forward" action-history="rec=1"  href="javascript:void(0);">转发(32)<\/a><em class="S_txt3">|<\/em>
+                                        <a suda-data="key=smart_feed&value=time_sort_collect" href="javascript:void(0);" diss-data="fuid=1003716184" action-type="fl_favorite"  >收藏<\/a><i class="S_txt3">|<\/i>
+                    
+                                        <a suda-data="key=smart_feed&value=time_sort_comm" href="javascript:void(0);" action-type="fl_comment" action-data="ouid=1003716184&location=profile">评论(70)<\/a>
+                                    <\/div>
+                <div class="WB_from">    
+                <a name=3676038066549596 target="_blank" href="\/1003716184\/AvU62rtQE?mod=weibotime" title="2014-02-09 12:13" date="1391919235000" class="S_link2 WB_time" node-type="feed_list_item_date" suda-data="key=tblog_home_new&value=feed_time"> 2月9日 12:13<\/a> <em class="S_txt2">来自<\/em><a class="S_link2" suda-data="key=tblog_home_new&value=feed_come_from" action-type="app_source" target="_blank" href="http:\/\/app.weibo.com\/t\/feed\/10w0NU" rel="nofollow">短信<\/a>                                        <span class="hover">
+                        <em class="S_txt3">|<\/em>&nbsp;
+                                                                         <a href="javascript:void(0);"  onclick="javascript:window.open('http:\/\/service.account.weibo.com\/reportspam?rid=3676038066549596&from=10106&type=1&url=%2Fp%2Faj%2Fmblog%2Fmbloglist&bottomnav=1&wvr=5', 'newwindow', 'height=700, width=550, toolbar =yes, menubar=no, scrollbars=yes, resizable=yes, location=no, status=no');">举报<\/a>
+                                                                    <\/span>
+                                    <\/div>
+            <\/div>
+            <div node-type="feed_list_repeat" class="WB_media_expand repeat S_line1 S_bg4" style="display:none;"><\/div>
+        <\/div>
+    <\/div>
+<\/div>			 			<div  tbinfo="ouid=1003716184" action-type="feed_list_item"  mid="3674555958455341"  class="WB_feed_type SW_fun S_line2 ">
+            <div class="WB_feed_datail S_line2 clearfix">
+        <div class="WB_detail">
+                        <div class="WB_text" node-type="feed_list_content" nick-name="唐骏">
+                                    微软的新CEO是个老微软，早我一年多加入微软，也曾经在Windows部门工作过，应该会保持微软的文化，也会带来变化，不过不会很大的。他应该也是个盖茨的超级崇拜者。                        <\/div>
+                                                                                    <div class="WB_func clearfix">
+                <div class="WB_handle">
+                                                            <a href="javascript:void(0);" action-type="fl_like" action-data="version=mini&qid=heart&mid=3674555958455341&loc=profile" title="赞" ><em class="W_ico20 icon_praised_b"><\/em>(92)<\/a><i class="S_txt3">|<\/i>
+                                            <a  action-data="allowForward=1&url=http:\/\/weibo.com\/1003716184\/AvhxxztCt&mid=3674555958455341&name=唐骏&uid=1003716184&domain=tangjun" action-type="fl_forward" action-history="rec=1"  href="javascript:void(0);">转发(47)<\/a><em class="S_txt3">|<\/em>
+                                        <a suda-data="key=smart_feed&value=time_sort_collect" href="javascript:void(0);" diss-data="fuid=1003716184" action-type="fl_favorite"  >收藏<\/a><i class="S_txt3">|<\/i>
+                    
+                                        <a suda-data="key=smart_feed&value=time_sort_comm" href="javascript:void(0);" action-type="fl_comment" action-data="ouid=1003716184&location=profile">评论(61)<\/a>
+                                    <\/div>
+                <div class="WB_from">    
+                <a name=3674555958455341 target="_blank" href="\/1003716184\/AvhxxztCt?mod=weibotime" title="2014-02-05 10:04" date="1391565872000" class="S_link2 WB_time" node-type="feed_list_item_date" suda-data="key=tblog_home_new&value=feed_time"> 2月5日 10:04<\/a> <em class="S_txt2">来自<\/em><a class="S_link2" suda-data="key=tblog_home_new&value=feed_come_from" action-type="app_source" target="_blank" href="http:\/\/app.weibo.com\/t\/feed\/10w0NU" rel="nofollow">短信<\/a>                                        <span class="hover">
+                        <em class="S_txt3">|<\/em>&nbsp;
+                                                                         <a href="javascript:void(0);"  onclick="javascript:window.open('http:\/\/service.account.weibo.com\/reportspam?rid=3674555958455341&from=10106&type=1&url=%2Fp%2Faj%2Fmblog%2Fmbloglist&bottomnav=1&wvr=5', 'newwindow', 'height=700, width=550, toolbar =yes, menubar=no, scrollbars=yes, resizable=yes, location=no, status=no');">举报<\/a>
+                                                                    <\/span>
+                                    <\/div>
+            <\/div>
+            <div node-type="feed_list_repeat" class="WB_media_expand repeat S_line1 S_bg4" style="display:none;"><\/div>
+        <\/div>
+    <\/div>
+<\/div>			 			<div  tbinfo="ouid=1003716184" action-type="feed_list_item"  mid="3674554084229590"  class="WB_feed_type SW_fun S_line2 ">
+            <div class="WB_feed_datail S_line2 clearfix">
+        <div class="WB_detail">
+                        <div class="WB_text" node-type="feed_list_content" nick-name="唐骏">
+                                    今天是我离开微软的十周年，今天盖茨退任微软董事长！也是新CEO宣布之日。盖茨真的不应该退任，他始终是微软的灵魂，至少我们这些老微软人…                        <\/div>
+                                                                                    <div class="WB_func clearfix">
+                <div class="WB_handle">
+                                                            <a href="javascript:void(0);" action-type="fl_like" action-data="version=mini&qid=heart&mid=3674554084229590&loc=profile" title="赞" ><em class="W_ico20 icon_praised_b"><\/em>(119)<\/a><i class="S_txt3">|<\/i>
+                                            <a  action-data="allowForward=1&url=http:\/\/weibo.com\/1003716184\/AvhuwhKjc&mid=3674554084229590&name=唐骏&uid=1003716184&domain=tangjun" action-type="fl_forward" action-history="rec=1"  href="javascript:void(0);">转发(46)<\/a><em class="S_txt3">|<\/em>
+                                        <a suda-data="key=smart_feed&value=time_sort_collect" href="javascript:void(0);" diss-data="fuid=1003716184" action-type="fl_favorite"  >收藏<\/a><i class="S_txt3">|<\/i>
+                    
+                                        <a suda-data="key=smart_feed&value=time_sort_comm" href="javascript:void(0);" action-type="fl_comment" action-data="ouid=1003716184&location=profile">评论(52)<\/a>
+                                    <\/div>
+                <div class="WB_from">    
+                <a name=3674554084229590 target="_blank" href="\/1003716184\/AvhuwhKjc?mod=weibotime" title="2014-02-05 09:57" date="1391565426000" class="S_link2 WB_time" node-type="feed_list_item_date" suda-data="key=tblog_home_new&value=feed_time"> 2月5日 09:57<\/a> <em class="S_txt2">来自<\/em><a class="S_link2" suda-data="key=tblog_home_new&value=feed_come_from" action-type="app_source" target="_blank" href="http:\/\/app.weibo.com\/t\/feed\/10w0NU" rel="nofollow">短信<\/a>                                        <span class="hover">
+                        <em class="S_txt3">|<\/em>&nbsp;
+                                                                         <a href="javascript:void(0);"  onclick="javascript:window.open('http:\/\/service.account.weibo.com\/reportspam?rid=3674554084229590&from=10106&type=1&url=%2Fp%2Faj%2Fmblog%2Fmbloglist&bottomnav=1&wvr=5', 'newwindow', 'height=700, width=550, toolbar =yes, menubar=no, scrollbars=yes, resizable=yes, location=no, status=no');">举报<\/a>
+                                                                    <\/span>
+                                    <\/div>
+            <\/div>
+            <div node-type="feed_list_repeat" class="WB_media_expand repeat S_line1 S_bg4" style="display:none;"><\/div>
+        <\/div>
+    <\/div>
+<\/div>			 			<div  tbinfo="ouid=1003716184" action-type="feed_list_item"  mid="3671829866505480"  class="WB_feed_type SW_fun S_line2 ">
+            <div class="WB_feed_datail S_line2 clearfix">
+        <div class="WB_detail">
+                        <div class="WB_text" node-type="feed_list_content" nick-name="唐骏">
+                                    剧中的我。。。                        <\/div>
+                                                            <!-- 引用文件时，必须对midia_info赋值 -->
+
+<!-- 微博心情，独立于标准的ul节点 -->
+                <ul class="WB_media_list clearfix" node-type="feed_list_media_prev">
+                                    <li>
+            <!-- img之间不能加空格 -->
+                                                            <div class="chePicMin S_bg2 bigcursor" action-type="feed_list_media_img" action-data="uid=1003716184&amp;mid=3671829866505480&amp;pid=3bd37e58tw1eczkxt500gj20dc0hsmzv&pic_objects=&object_ids=1042018%3A8f5ec9de1554dd1b6f5aca0903726733" suda-data="key=feed_image_click&value=image_zoomin"><img  class="bigcursor" node-type="feed_list_media_bgimg" src="http:\/\/ww3.sinaimg.cn\/thumbnail\/3bd37e58tw1eczkxt500gj20dc0hsmzv.jpg" alt=""\/><img style="left: 39.5px; top: 52px; display: none;" src="http:\/\/img.t.sinajs.cn\/t5\/style\/images\/common\/loading.gif" class="loading_gif"><\/div>
+                    <\/li>
+                        <\/ul>
+                        <div class="WB_media_expand SW_fun2 S_line1 S_bg1" style="display: none;" node-type="feed_list_media_disp"><\/div>
+                                                                        <div class="WB_func clearfix">
+                <div class="WB_handle">
+                                                            <a href="javascript:void(0);" action-type="fl_like" action-data="version=mini&qid=heart&mid=3671829866505480&loc=profile" title="赞" ><em class="W_ico20 icon_praised_b"><\/em>(196)<\/a><i class="S_txt3">|<\/i>
+                                            <a  action-data="allowForward=1&url=http:\/\/weibo.com\/1003716184\/Au8CCrin6&mid=3671829866505480&name=唐骏&uid=1003716184&domain=tangjun&pid=3bd37e58tw1eczkxt500gj20dc0hsmzv" action-type="fl_forward" action-history="rec=1"  href="javascript:void(0);">转发(47)<\/a><em class="S_txt3">|<\/em>
+                                        <a suda-data="key=smart_feed&value=time_sort_collect" href="javascript:void(0);" diss-data="fuid=1003716184" action-type="fl_favorite"  >收藏<\/a><i class="S_txt3">|<\/i>
+                    
+                                        <a suda-data="key=smart_feed&value=time_sort_comm" href="javascript:void(0);" action-type="fl_comment" action-data="ouid=1003716184&location=profile">评论(149)<\/a>
+                                    <\/div>
+                <div class="WB_from">    
+                <a name=3671829866505480 target="_blank" href="\/1003716184\/Au8CCrin6?mod=weibotime" title="2014-01-28 21:32" date="1390915922000" class="S_link2 WB_time" node-type="feed_list_item_date" suda-data="key=tblog_home_new&value=feed_time"> 1月28日 21:32<\/a> <em class="S_txt2">来自<\/em><a class="S_link2" suda-data="key=tblog_home_new&value=feed_come_from" action-type="app_source" target="_blank" href="http:\/\/app.weibo.com\/t\/feed\/3G5oUM" rel="nofollow">iPhone 5s<\/a>                                        <span class="hover">
+                        <em class="S_txt3">|<\/em>&nbsp;
+                                                                         <a href="javascript:void(0);"  onclick="javascript:window.open('http:\/\/service.account.weibo.com\/reportspam?rid=3671829866505480&from=10106&type=1&url=%2Fp%2Faj%2Fmblog%2Fmbloglist&bottomnav=1&wvr=5', 'newwindow', 'height=700, width=550, toolbar =yes, menubar=no, scrollbars=yes, resizable=yes, location=no, status=no');">举报<\/a>
+                                                                    <\/span>
+                                    <\/div>
+            <\/div>
+            <div node-type="feed_list_repeat" class="WB_media_expand repeat S_line1 S_bg4" style="display:none;"><\/div>
+        <\/div>
+    <\/div>
+<\/div>			<div node-type="lazyload" class="W_loading"><span>正在加载中，请稍候...<\/span><\/div>	
+	   
+    
+	<!--翻页-->
+	                    
+	<!--\/翻页-->   
+         
+    "}

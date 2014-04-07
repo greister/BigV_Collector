@@ -1,11 +1,11 @@
 
-原始地址（刘强东的微博）
+原始地址（刘强东的微博）recv: uid, gid
 http://weibo.com/p/1003061866402485/weibo?from=page_100306&mod=TAB#place
 
-显示更多微博
+显示更多微博 send uid, gid~, _t=FM_randnum
 http://weibo.com/p/1003061866402485/weibo?from=page_100306_home&wvr=5.1&mod=weibomore&ajaxpagelet=1&__ref=/liuqiangdong&_t=FM_139678726551014
 
-自动加载1
+自动加载1  send gid, pre_page, page, max_id, end_id, pagebar, _rnd 
 http://weibo.com/p/aj/mblog/mbloglist?domain=100306&pre_page=1&page=1&max_id=3484282301727758&end_id=3486480699520672&count=15&pagebar=0&max_msign=&filtered_min_id=&pl_name=Pl_Official_LeftProfileFeed__21&id=1003061866402485&script_uri=/p/1003061866402485/weibo&feed_type=0&from=page_100306_home&wvr=5.1&mod=weibomore&__rnd=1396787420678
 
 test
@@ -47,4 +47,56 @@ http://weibo.com/p/1003062145291155/weibo?from=page_100306_home&wvr=5.1&mod=weib
 http://weibo.com/p/aj/mblog/mbloglist?domain=100306&pre_page=1&page=1&max_id=3367631778290079&end_id=3630017709450714&count=15&pagebar=0&max_msign=&filtered_min_id=&pl_name=Pl_Official_LeftProfileFeed__21&id=1003062145291155&script_uri=/p/1003062145291155/weibo&feed_type=0&from=page_100306_home&wvr=5.1&mod=weibomore&__rnd=1396788090955
 
 自动加载2
-http://weibo.com/p/aj/mblog/mbloglist?domain=100306&pre_page=1&page=1&max_id=12415597907&end_id=3630017709450714&count=15&pagebar=1&max_msign=&filtered_min_id=&pl_name=Pl_Official_LeftProfileFeed__21&id=1003062145291155&script_uri=/p/1003062145291155/weibo&feed_type=0&from=page_100306_home&wvr=5.1&mod=weibomore&__rnd=1396788094855
+http://weibo.com/p/aj/mblog/globalist?domain=100306&pre_page=1&page=1&max_id=12415597907&end_id=3630017709450714&count=15&pagebar=1&max_msign=&filtered_min_id=&pl_name=Pl_Official_LeftProfileFeed__21&id=1003062145291155&script_uri=/p/1003062145291155/weibo&feed_type=0&from=page_100306_home&wvr=5.1&mod=weibomore&__rnd=1396788094855
+
+
+分析：
+
+输入是一个人物的主页，如唐骏的主页：
+http://weibo.com/p/1035051003716184/home?from=page_103505&mod=TAB#place
+可以解析出他的微博页：改home -> weibo去掉锚：
+http://weibo.com/p/1035051003716184/weibo?from=page_103505&mod=TAB
+上面的地址才是真正开始要爬的。此页为普通文档页，但是内容却在下面的多个script包着的json里（包括微博主的个人信息），页面编码UTF-8不需要转换。
+请求参数：
+Accept: text/html, application/xhtml+xml, */*
+DNT: 1
+
+自动加载请求：
+http://weibo.com/p/aj/mblog/mbloglist?domain=103505&pre_page=1&page=1&max_id=3684325461972866&end_id=3695695208524345&count=15&pagebar=0&max_msign=&filtered_min_id=&pl_name=Pl_Official_LeftProfileFeed__20&id=1035051003716184&script_uri=/p/1035051003716184/weibo&feed_type=0&from=page_103505&mod=TAB&__rnd=1396853353629
+此请求是json数据，python下需要unicode-escape，再转utf8.
+
+请求主机： http://weibo.com/p/aj/mblog/mbloglist
+domain, 由人物主页的from参数获取
+pre_page, page为当前页面，可置一变量保存之
+pagebar=0第一次自动加载，=1第二次
+max_id可以为0！！
+end_id 在第一个文档中找到，end_id即是第一条也是最新一条微博的id，每条微博都由class为WB_feed_type SW_fun S_line2的div包着，其中omid属性是转发的微博id，mid是此微博的id
+count固定15， max_msign, filtered_min_id为空
+pl_name=Pl_Official_LeftProfileFeed__20 固定
+id为人物id
+script_uri=/p/xxx/weibo  xxx为人物id
+feed_type=0
+from=由主页决定
+最后的__rnd参数可不要
+
+头部参数：
+Accept: */*
+Content-Type: application/x-www-form-urlencoded
+X-Requested-With: XMLHttpRequest
+Referer: 前一个非自动请求
+DNT: 1
+
+
+页数限制：
+在文档中搜索 action-type="feed_list_page_morelist" 若有，则当前页面到底，从bpfilter="page" class="page current"的a标签可以看出当前页数和下一页页数以及所有页数。更可以获取下一页的请求格式。
+ 
+下一页：
+http://weibo.com/p/1035051003716184/weibo?pids=Pl_Official_LeftProfileFeed__20&is_search=0&visible=0&is_tag=0&profile_ftype=1&page=2&ajaxpagelet=1&__ref=/p/1035051003716184/weibo&_t=FM_139685334954512
+此请求是text/html格式，但是却只有被script包着的json，而且只有一个
+请求参数同上上
+ 
+ 
+script标签内容提取：
+主要通过里面json的ns节点识别各种信息：
+p1.header.head.index   			=>     博主个人信息
+p1.content.homeFeed.index       =>     微博主体

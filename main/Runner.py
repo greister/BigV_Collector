@@ -3,8 +3,7 @@
 @author: prehawk
 '''
 import login
-import urllib2
-import os
+import urllib2 
 from config import *
 
 class A(login.Login):
