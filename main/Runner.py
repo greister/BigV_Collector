@@ -2,20 +2,41 @@
 '''
 @author: prehawk
 '''
+import re
 import login
 import urllib2 
 from config import *
 
-class A(login.Login):
+class FigureReader(login.Login):
     
-    def __init__(self):
-        super(A, self).__init__(TEST_USER, TEST_PWD)
+    def __init__(self, url):
+        super(FigureReader, self).__init__(TEST_USER, TEST_PWD)
+        self.figureUrl = url
+        
+        
+        m = re.search('/weibo.com/p/(\d+)/(\w+)\?from=page_(\d+)', url)
+        if m:
+            self.figureid   = m.group(1)
+            self.tag        = m.group(2)
+            self.domain     = m.group(3)
+        else:
+            print 'raw url parse error'
+              
+        
+        self.weiboUrl = 'http://weibo.com/p/' + self.figureid + '/weibo?from=page_' + self.domin + '&mod=TAB' 
+        
+        
+
+    def scrapIt(self):
+        
+        doc = urllib2.urlopen(TEST_URL).read()
+        return doc
+    
+
+class WeiboItem(object):
+    pass
 
 
-    def scrap(self, url):
-        doc = urllib2.urlopen(url).read()
-        print doc
-    
 
 def transformer():
     
@@ -27,6 +48,7 @@ def transformer():
             b.write(utf8Text)
 
 if __name__ == '__main__':
-    transformer()
+    fr = FigureReader(TEST_URL)
+    print fr.scrapIt()
     
     
