@@ -2,7 +2,7 @@
 '''
 @author: prehawk
 '''
-import re
+import re, json
 import login
 import urllib2 
 from config import *
@@ -22,9 +22,23 @@ class FigureReader(login.Login):
         else:
             print 'raw url parse error'
               
+        self.weiboUrl = 'http://weibo.com/p/' + self.figureid + '/weibo?from=page_' + self.domain + '&mod=TAB' 
+        doc = urllib2.urlopen(self.weiboUrl).read()
         
-        self.weiboUrl = 'http://weibo.com/p/' + self.figureid + '/weibo?from=page_' + self.domin + '&mod=TAB' 
+        jdic = []
+        m = re.findall('<script>FM\.view\((.*)\);?</script>', doc)
+        if m:
+            for i in m:
+                jdic.append( json.loads(i) )
+                
+            pass
+            
+            
+        else:
+            print 'raw doc parse error'
         
+        pass
+            
         
 
     def scrapIt(self):
@@ -49,6 +63,6 @@ def transformer():
 
 if __name__ == '__main__':
     fr = FigureReader(TEST_URL)
-    print fr.scrapIt()
+    #print fr.scrapIt()
     
     
