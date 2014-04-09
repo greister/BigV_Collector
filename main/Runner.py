@@ -19,6 +19,7 @@ class FigureReader(login.Login):
         self.hostauto   = self.hosthome + 'p/aj/mblog/mbloglist?'
         self.pagenum    = 1
         self.filecount  = 0
+        self.uidlst     = set()
         
         doc = urllib2.urlopen(url).read().decode('string_escape')
         time.sleep(0.5)
@@ -28,7 +29,7 @@ class FigureReader(login.Login):
             self.domain     = m.group(3)
             self.hostweibo  = self.hosthome + 'p/' + self.figureid + '/weibo?'  
         else:
-            print 'raw url parse error'
+            print 'Init: Alias reference page parse error'
             return
         
   
@@ -53,24 +54,22 @@ class FigureReader(login.Login):
         
         doc = urllib2.urlopen(url).read().decode('string_escape')
         time.sleep(0.5) 
-         
-        
+          
         m = re.findall('<div class=\"name\">\s+(.*)\s+(.*)', doc)
         if m:
             for i in m: 
                 if re.search('class=\"W_ico16 approve\"', i[1]):
                     userid = re.search('usercard=\"id=(\d+)\"', i[0]).group(1)
-                    nexturl = self.hosthome + 'u/' + str(userid)
-                    nextreader = FigureReader(nexturl)
-                    nextreader.start()
+                    self.uidlst.append(userid)
                 else:
                     continue
-             
+        else:
+            print 'fetchFollowlist: the end of this follow page'
         
         self.pagenum += 1
         if re.search(r'<span>下一页<\\/span><\\/a>', doc):
             url = self.hosthome + 'p/' + self.figureid + '/follow?from=page_' + self.domain + '&page=' \
-                + str(self.pagenum) 
+                + str(self.pagenum)
             self.fetchFollowlist(url)
         
     
@@ -115,7 +114,7 @@ class FigureReader(login.Login):
             for i in m:
                 jdiclst.append( json.loads(i) ) 
         else:
-            print 'raw doc parse error'
+            print 'fetchData: raw doc parse error'
         
         
         for i, jdic in enumerate(jdiclst):
