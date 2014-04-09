@@ -13,29 +13,30 @@ class FigureReader(login.Login):
     
     def __init__(self, url):
         super(FigureReader, self).__init__(TEST_USER, TEST_PWD)
-        self.figureUrl = url
         
-        self.hosthome   = 'http://weibo.com/p/'
-        self.hostauto   = self.hosthome + 'aj/mblog/mbloglist?'
+       
+        self.hosthome   = 'http://weibo.com/'
+        self.hostauto   = self.hosthome + 'p/aj/mblog/mbloglist?'
         self.pagenum    = 1
         self.filecount  = 0
         
-        m = re.search(self.hosthome + '(\d+)/(\w+)\?from=page_(\d+)', url)
+        doc = urllib2.urlopen(url).read().decode('string_escape')
+        time.sleep(0.5)
+        m = re.search(r'href=\"\\/p\\/(\d+)\\/(\w+)\?from=page_(\d+)', doc)
         if m:
             self.figureid   = m.group(1)
             self.domain     = m.group(3)
-            self.hostweibo  = self.hosthome + self.figureid + '/weibo?' 
-            
+            self.hostweibo  = self.hosthome + 'p/' + self.figureid + '/weibo?'  
         else:
             print 'raw url parse error'
             return
-              
+        
+  
         self.savedir = '../' + self.figureid
         if not os.path.exists(self.savedir):
             os.mkdir(self.savedir)
             
-        
-        #self.start()
+         
         
     
     def start(self):
@@ -43,29 +44,35 @@ class FigureReader(login.Login):
         url = self.hostweibo + 'from=page_' + self.domain + '&mod=TAB'
         self.fetchData(url) 
  
- 
-    def fetchFollowlist(self):
-        url = self.hosthome + self.figureid + '/follow?from=page_' + self.domain
-        doc = urllib2.urlopen(url).read() 
-        time.sleep(1)
-        
-        print doc
-        #pl.content.followTab.index
-        jdiclst = []
-        m = re.findall('<script>FM\.view\((.*)\);?</script>', doc)
-        if m:
-            for i in m:
-                jdiclst.append( json.loads(i) ) 
-        else:
-            print 'raw doc parse error'
-        
-        for i, jdic in enumerate(jdiclst):
-            if 'ns' in jdic:
-                if jdic['ns'] == 'pl.content.followTab.index':
-                    followlist = jdic['html'] 
-                    print followlist 
-                        
+    def startfollow(self):
+        url = self.hosthome + 'p/' + self.figureid + '/follow?from=page_' + self.domain
+        self.fetchFollowlist(url)
         pass
+ 
+    def fetchFollowlist(self, url):
+        
+        doc = urllib2.urlopen(url).read().decode('string_escape')
+        time.sleep(0.5) 
+         
+        
+        m = re.findall('<div class=\"name\">\s+(.*)\s+(.*)', doc)
+        if m:
+            for i in m: 
+                if re.search('class=\"W_ico16 approve\"', i[1]):
+                    userid = re.search('usercard=\"id=(\d+)\"', i[0]).group(1)
+                    nexturl = self.hosthome + 'u/' + str(userid)
+                    nextreader = FigureReader(nexturl)
+                    nextreader.start()
+                else:
+                    continue
+             
+        
+        self.pagenum += 1
+        if re.search(r'<span>下一页<\\/span><\\/a>', doc):
+            url = self.hosthome + 'p/' + self.figureid + '/follow?from=page_' + self.domain + '&page=' \
+                + str(self.pagenum) 
+            self.fetchFollowlist(url)
+        
     
     
     def saveWeibo(self):
@@ -76,7 +83,7 @@ class FigureReader(login.Login):
                 + '&max_msign=&filtered_min_id=&pl_name=Pl_Official_LeftProfileFeed__20&id=' + self.figureid \
                 + '&script_uri=/p/' + self.figureid + '/weibo&feed_type=0&from=page_' + self.domain + '&mod=TAB'
             jsondata = urllib2.urlopen(urlauto).read()
-            time.sleep(1)
+            time.sleep(0.5)
             
             docstr = json.loads(jsondata)['data']
             with open(join(self.savedir, str(self.filecount) ), 'w') as f:
@@ -149,6 +156,6 @@ def transformer():
             b.write(utf8Text)
 
 if __name__ == '__main__':
-    fr = FigureReader('http://weibo.com/p/1035051191258123/home?from=page_103505&mod=TAB#place') 
-    fr.fetchFollowlist()
+    fr = FigureReader('http://weibo.com/zhangchi19921215')
+    fr.startfollow()
     
