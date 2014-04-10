@@ -6,7 +6,7 @@ import re, json, os, time
 import login
 import urllib2 
 import config 
-
+from pyquery import PyQuery
 
 class Controller(login.Login):
     
@@ -14,9 +14,37 @@ class Controller(login.Login):
         super(Controller, self).__init__(config.TEST_USER, config.TEST_PWD)
         
     def start(self):
- 
-        #FollowListWriter()
-        wr = WeiboReader(2862441992)
+        self.parseWeiboLst(2862441992)
+        
+        
+    def parseWeiboLst(self, uid):
+        fd = '../BigVs/' + str(uid)
+        if os.path.exists(fd): 
+            with open( '../BigVs/' + str(uid), 'r' ) as f:
+                rawdoc = f.read()
+            
+            d = PyQuery(rawdoc.decode('utf-8')) 
+            
+            follow = d('strong').filter(lambda i, this: PyQuery(this).attr('node-type') == 'follow')
+            fans = d('strong').filter(lambda i, this: PyQuery(this).attr('node-type') == 'fans')
+            weibo = d('strong').filter(lambda i, this: PyQuery(this).attr('node-type') == 'weibo')  
+            
+            name = d('span').filter('.name').text()
+            verify = d('.pf_verified_info').contents()[0]
+            intro = d('.pf_intro').text()
+            
+            tags = []
+            for i in d('.layer_menulist_tags').items('a'):
+                tags.append( i.text() )
+            
+        
+        else:
+            print 'file not exists'
+        
+        
+    def writeWeiboLst(self, uid):
+
+        wr = WeiboReader(uid)
         ret = wr.getWeiboLst()
         
         
@@ -27,14 +55,9 @@ class Controller(login.Login):
         with open( savedir + str(ret[0]), 'w' ) as f:
             f.write(ret[1].encode('utf-8') + '\n\n')
             f.write(ret[2].encode('utf-8') )
+    
+    def writeFollowLst(self):
          
-            
-    
-
-class FollowListWriter(object):
-    
-    def __init__(self):
-        
         followSet = set()
         with open('../followlist', 'r') as f: 
             for line in f.readlines():
