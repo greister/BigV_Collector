@@ -17,11 +17,19 @@ import binascii
 #implement this class then parse the weibo web page.
 class Login(object):
     
-    def __init__(self, username, password):
+    def __init__(self, username, password, proxyip = False):
         
-        cookiejar = cookielib.LWPCookieJar()
-        cookie_support = urllib2.HTTPCookieProcessor(cookiejar)
-        opener = urllib2.build_opener(cookie_support, urllib2.HTTPHandler)
+        http_support   = urllib2.HTTPHandler
+        cookie_support = urllib2.HTTPCookieProcessor( cookielib.LWPCookieJar() )
+        proxy_support  = urllib2.ProxyHandler( {'http': proxyip} )
+        
+        if not proxyip:
+            opener = urllib2.build_opener( http_support, cookie_support )
+        else:
+            opener = urllib2.build_opener( http_support, cookie_support, proxy_support )
+            # This time, rather than install the OpenerDirector, we use it directly:
+            ipdoc = urllib2.urlopen('http://iframe.ip138.com/ic.asp').read().decode('gbk')
+            print re.search('\[(\d+\.\d+\.\d+\.\d+)\]', ipdoc).group(1)
         urllib2.install_opener(opener)
         
         self.parameters = {
@@ -77,13 +85,14 @@ class Login(object):
         )
         result = urllib2.urlopen(req)
         text = result.read()
-        p = re.compile('location\.replace\(\'(.*?)\'\)')
+        p  = re.compile('location\.replace\([\"|\'](.*?)[\"|\']\)')
+        p2 = re.compile('\"result\":(\w+),')
         try:
             login_url = p.search(text).group(1)
-            #print login_url
-            urllib2.urlopen(login_url)
-             
-        except:  
+            doc = urllib2.urlopen(login_url).read()
+            if p2.search(doc).group(1) != 'true':
+                raise
+        except: 
             raise Exception('login failed')
     
     def get_servertime(self):
@@ -117,4 +126,4 @@ class Login(object):
     
     
 if __name__ == '__main__': 
-    Login('694435343@qq.com','rosewood23')
+    Login('694435343@qq.com','rosewood2322')

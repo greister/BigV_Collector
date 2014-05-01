@@ -26,5 +26,5 @@ TIME_GAP  = 0.2
 
 
 
-TEST_USER = '694435343@qq.com'
-TEST_PWD = 'rosewood23'
+TEST_USER = 'shaoyf2013@163.com'
+TEST_PWD = 'aa123456'
