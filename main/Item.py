@@ -45,13 +45,13 @@ class WeiboItem(Item):
     def __init__(self):
         super(WeiboItem, self).__init__()
         #  mid, omid, thumbs, forwarding, comment, pubtime, text
-        self.mid        = -1
-        self.omid       = -1
-        self.thumbs     = -1
-        self.forwarding = -1
-        self.comment    = -1
-        self.pubtime    = -1     #better time stamp
-        self.text       ='' 
+        self.mid         = -1
+        self.omid        = -1
+        self.thumbs      = -1
+        self.forwarding  = -1
+        self.comments    = -1
+        self.pubtime     = -1     #better time stamp
+        self.text        ='' 
         
         
         
@@ -60,9 +60,9 @@ class CommentItem(Item):
     def __init__(self):
         super(CommentItem, self).__init__()
         
-        self.uid     = -1
-        self.mid     = -1
-        self.cid     = -1
-        self.comment = -1
-        self.thumbs  = -1 
-        self.text    = '' 
+        self.uid      = -1
+        self.mid      = -1
+        self.cid      = -1
+        self.comments = -1
+        self.thumbs   = -1 
+        self.text     = '' 

@@ -28,7 +28,7 @@ class Database(object):
                 self.cxn.commit()
         
 
-
+# done 
 class FigureDatabase(Database):
     
     def __init__(self):
@@ -89,40 +89,46 @@ class WeiboDatabase(Database):
         wb.comment     = row[5]     #better time stamp
         wb.pubtime     = row[6]
         wb.text        = row[7]
-        
         return wb
         
-    def record(self, wb):
-        try:
-            sql = "INSERT INTO Weibo VALUES (?,?,?,?,?,?,?,?)"
-            self.cur.execute(sql, 
-                    (wb.mid, wb.omid, wb.uid, wb.thumbs, wb.forwarding, wb.comment, wb.pubtime, wb.text) )
-        except sqlite3.IntegrityError:
-            sql = "UPDATE Weibo SET 'thumbs'=?,'forwarding'=?,'comment'=?" 
-            self.cur.execute(sql, 
-                             (wb.thumbs, wb.forwarding, wb.comments) )
+    def record(self, wbs):
+        for wb in wbs: 
+            try:
+                sql = "INSERT INTO Weibo VALUES (?,?,?,?,?,?,?,?)"
+                self.cur.execute(sql, 
+                        (wb.mid, wb.omid, wb.uid, wb.thumbs, wb.forwarding, wb.comment, wb.pubtime, wb.text) )
+            except sqlite3.IntegrityError:
+                sql = "UPDATE Weibo SET 'thumbs'=?,'forwarding'=?,'comment'=?" 
+                self.cur.execute(sql, 
+                                 (wb.thumbs, wb.forwarding, wb.comments) )
         self.cxn.commit()
         
         
       
-        
-        
-        
+         
 class CommentDatabase(Database):
     
     def __init__(self):
         super(CommentDatabase, self).__init__()
         
         
-    def fetch(self, mid):
+
+    def fetchLst(self, mid):
         sql = "SELECT * FROM Comment WHERE c_mid=?"
         self.cur.execute( sql, (mid,) )
-        row = self.cur.fetchall()
+        rows = self.cur.fetchall()
         ret = []
-        if row:
-            for r in row:
-                ret.append( self.itemCast(r) ) 
+        if rows:
+            for r in rows:
+                ret.append( self.itemCast(r) )
             return ret
+
+    def fetch(self, cid):
+        sql = "SELECT * FROM Comment WHERE c_id=?"
+        self.cur.execute( sql, (cid,) )
+        row = self.cur.fetchone() 
+        if row:
+            return self.itemCast(row) 
         
     def itemCast(self, row):
         cm = CommentItem()
@@ -135,15 +141,16 @@ class CommentDatabase(Database):
          
         return cm
         
-    def record(self, cm):
-        try:
-            sql = "INSERT INTO Comment VALUES (?,?,?,?,?,?)"
-            self.cur.execute(sql, 
-                    (cm.cid, cm.mid, cm.uid, cm.text, cm.thumbs, cm.comments) )
-        except sqlite3.IntegrityError:
-            sql = "UPDATE Comment SET 'thumbs'=?,'comment'=?" 
-            self.cur.execute(sql, 
-                             (cm.thumbs, cm.comments) )
+    def record(self, cms):
+        for cm in cms:
+            try:
+                sql = "INSERT INTO Comment VALUES (?,?,?,?,?,?)"
+                self.cur.execute(sql, 
+                        (cm.cid, cm.mid, cm.uid, cm.text, cm.thumbs, cm.comments) )
+            except sqlite3.IntegrityError:
+                sql = "UPDATE Comment SET 'thumbs'=?,'comments'=?" 
+                self.cur.execute(sql, 
+                                 (cm.thumbs, cm.comments) )
         self.cxn.commit() 
    
    

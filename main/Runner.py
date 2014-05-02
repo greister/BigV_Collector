@@ -4,7 +4,7 @@
 ''' 
 import login
 import config
-from main.itemDispatcher import *
+from main.itemFetcher import *
 
 
  
@@ -15,14 +15,28 @@ class Controller(login.Login):
         super(Controller, self).__init__(config.TEST_USER, config.TEST_PWD, proxyip)
         
         
-    def start(self):
-        #r = WeiboReader(2862441992).getWeiboLst()
-        f = FigureFetcher(2862441992)
-        fg = f.getFigure()
+    def start(self): 
+        self.test_printcomment()        
         pass
 
+#     def test_printweibo(self):
+#         w = WeiboFetcher(2862441992)
+#         wf = w.getWeiboLst()
+#         for i in wf:
+#             print i.text
+#         pass
         
-          
+    def test_printfigure(self):
+        f = FigureFetcher(2862441992)
+        fg = f.getFigure()
+        print fg.name
+        
+    def test_printcomment(self):
+        c = CommentFetcher(3694134789199108)
+        cm = c.getCommentLst()
+        for c in cm:
+            print c.text
+        
         
     def test_parseWeiboLst(self, uid):
         fd = '../BigVs/' + str(uid)
@@ -51,7 +65,7 @@ class Controller(login.Login):
         
     def test_writeWeiboLst(self, uid):
 
-        wr = WeiboReader(uid)
+        wr = WeiboFetcher(uid)
         ret = wr.getWeiboHtml()
         
         
