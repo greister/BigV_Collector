@@ -72,6 +72,17 @@ class WeiboDatabase(Database):
     def __init__(self):
         super(WeiboDatabase, self).__init__()
         
+    def fetchLst(self, uid):
+        sql = "SELECT * FROM Weibo WHERE m_uid=?"
+        self.cur.execute( sql, (uid,) )
+        rows = self.cur.fetchall()
+        ret = []
+        if rows:
+            for r in rows:
+                ret.append( self.itemCast(r) )
+            return ret
+                
+    
     def fetch(self, mid):
         sql = "SELECT * FROM Weibo WHERE m_id=?"
         self.cur.execute( sql, (mid,) )
@@ -96,7 +107,7 @@ class WeiboDatabase(Database):
             try:
                 sql = "INSERT INTO Weibo VALUES (?,?,?,?,?,?,?,?)"
                 self.cur.execute(sql, 
-                        (wb.mid, wb.omid, wb.uid, wb.thumbs, wb.forwarding, wb.comment, wb.pubtime, wb.text) )
+                        (wb.mid, wb.omid, wb.uid, wb.thumbs, wb.forwarding, wb.comments, wb.pubtime, wb.text) )
             except sqlite3.IntegrityError:
                 sql = "UPDATE Weibo SET 'thumbs'=?,'forwarding'=?,'comment'=?" 
                 self.cur.execute(sql, 

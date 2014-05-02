@@ -33,6 +33,8 @@ class WeiboPage(object):
             if m:
                 self.fulluid    = m.group(1)
                 self.domain     = m.group(3)  # getDoc for domain id
+            else:
+                raise Exception('Your visit may be block by Sina!')
             self.isComplete = True
 
 

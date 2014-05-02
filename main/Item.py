@@ -16,7 +16,7 @@ class Item(object):
     # initial all member into -1,
     def isValid(self):
         types = [type(i) for i in [0, "0", [0], {0:1}, (0,)]]  # list 5 basic types here.
-        vals  = [i for i in ( -1, '', [], {}, () ) ]           # list expected empty values 
+        vals  = [i for i in ( -1, '-1', [], {}, () ) ]           # list expected empty values 
         for k in dir(self):  
             mem = eval("self.%s" % k)
             if type(mem) in types and mem in vals:  
@@ -34,9 +34,9 @@ class FigureItem(Item):
         self.fans       = -1
         self.weibo      = -1
         self.establish  = -1     #better time stamp 
-        self.name       = ''
-        self.verify     = ''
-        self.intro      = ''
+        self.name       = '-1'
+        self.verify     = '-1'
+        self.intro      = '-1'
         self.tags       = []
         
         
@@ -45,13 +45,14 @@ class WeiboItem(Item):
     def __init__(self):
         super(WeiboItem, self).__init__()
         #  mid, omid, thumbs, forwarding, comment, pubtime, text
+        self.uid         = -1
         self.mid         = -1
         self.omid        = -1
         self.thumbs      = -1
         self.forwarding  = -1
         self.comments    = -1
         self.pubtime     = -1     #better time stamp
-        self.text        ='' 
+        self.text        = '-1' 
         
         
         
@@ -65,4 +66,4 @@ class CommentItem(Item):
         self.cid      = -1
         self.comments = -1
         self.thumbs   = -1 
-        self.text     = '' 
+        self.text     = '-1' 

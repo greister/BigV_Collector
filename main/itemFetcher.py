@@ -5,7 +5,7 @@
 @author: admin
 '''
 
-import re, json, os, time 
+import re, json, time 
 from pyquery import PyQuery
 from main.Item import FigureItem, WeiboItem, CommentItem
 from main.itemReader import WeiboPage
@@ -66,9 +66,8 @@ class CommentFetcher(Fetcher):
         self.commentLst = []
         
     # if database has records, never read the internet
-    def getCommentLst(self):
-        ret = self.localReader.fetch(self.mid)
-        if not ret:
+    def getCommentLst(self): 
+        if not self.localReader.fetch(self.mid):
             self.addCommentLst() 
         ret = self.localReader.fetchLst(self.mid)
         return ret
@@ -150,30 +149,44 @@ class CommentFetcher(Fetcher):
 class WeiboFetcher(Fetcher):
     
     def __init__(self, uid):         
-        super(WeiboFetcher, self).__init__(uid) 
+        super(WeiboFetcher, self).__init__() 
   
         self.localReader = WeiboDatabase() 
         self.weiboLst    = []
-        
+        self.uid         = uid
         self.phase       = 0
+        self.pagenum     = 1
         self.nextUrl     = self.remoteReader.makeUrl_hostweibo() 
          
         self.rawPage   = ''    
         
-    def getWeiboLst(self): 
+    def getWeiboLst(self):  
+        if not self.localReader.fetch(self.uid):
+            self.addWeiboLst()
+        ret = self.localReader.fetchLst(self.uid)
+        return ret
+        
+    def addWeiboLst(self):
         self._requestWeibo()
-        self._parseWeiboinfo(self.rawPage)
-        return self.weiboLst
+        self.localReader.record(self.weiboLst)
+    
     
     def _parseWeiboinfo(self, doc):
         d = PyQuery( doc )
+        ret = True
         
         datamask = re.compile('\((\d+)\).*\((\d+)\).*\((\d+)\)') 
+        
         for i in d('.WB_feed_type.SW_fun.S_line2').items():
             t = WeiboItem()
+            t.uid       = self.uid  
             t.mid       = i.attr('mid')
-            t.omid      = i.attr('omid')
-            t.text      = i('.WB_detail').find('.WB_text').text() 
+            omid = i.attr('omid')
+            if not omid:
+                t.omid = 0
+            else:
+                t.omid = omid
+            t.text      = i('.WB_detail').find('.WB_text').text()  
             t.pubtime   = i('.WB_detail') \
                             .children('.WB_func.clearfix') \
                             .children('.WB_from') \
@@ -188,41 +201,51 @@ class WeiboFetcher(Fetcher):
                 t.thumbs      = 0
                 t.forwarding  = 0
                 t.comments    = 0
-                
+            
+            if self.localReader.fetch(t.mid):
+                return False
+            
             if t.isValid():
                 self.weiboLst.append(t)
+                ret = True
             else:
                 print '_parseweiboinfo: item not complete'
+                ret = False
                 
+        return ret
 
     #long long request time, generate self.rawPage
     def _requestWeibo(self):
         while self.phase >= 0: 
-            self.data = self.getDoc(self.nextUrl)
+            self.data = self.remoteReader.getDoc(self.nextUrl)
             
             if self.phase == 0:
-                self._fetchNext1()
+                if not self._fetchNext1():
+                    break
             else:
-                self._fetchNext2(self.phase)
+                if not self._fetchNext2(self.phase):
+                    break
  
  
     def _fetchNext2(self, phase):
 
         docstr = json.loads(self.data)['data']
-        self.rawPage += docstr
+        if not self._parseWeiboinfo( docstr ):
+            return False
           
         if phase == 2: # encounter the end of the page 
             if re.search(u'<span>下一页</span></a>', docstr):  # has next page
                 self.pagenum += 1
-                self.phase = 0 
+                self.phase = 0
                 self.nextUrl = self.remoteReader.makeUrl_manload(self.pagenum) 
             else: # whole loop end
                 print 'the end! ' + str(self.pagenum - 1) + 'pages'
-                self.phase = -1
-                return
+                self.phase = -1 
+            return True
         else:
             self.phase = 2
             self.nextUrl = self.remoteReader.makeUrl_autoload(self.pagenum, self.endid, 1) 
+            return True
 
     def _fetchNext1(self):
                  
@@ -234,6 +257,7 @@ class WeiboFetcher(Fetcher):
         else:
             print '_fetchNext1: raw doc parse error'
         
+        ret = True 
         for jdic in jdiclst:
             if 'ns' in jdic: 
                 if jdic['ns'] == 'pl.content.homeFeed.index':
@@ -244,12 +268,12 @@ class WeiboFetcher(Fetcher):
                     else:
                         print 'parse error' + str(self.pagenum)
                         
-                    self.rawPage += weibo
-                     
-  
+                    if not self._parseWeiboinfo( weibo ):
+                        ret = False
+    
         self.phase = 1
         self.nextUrl = self.remoteReader.makeUrl_autoload(self.pagenum, self.endid, 0)
-        
+        return ret
         
 
 # e.g.

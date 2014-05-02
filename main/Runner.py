@@ -2,8 +2,10 @@
 '''
 @author: prehawk
 ''' 
+import os
 import login
 import config
+
 from main.itemFetcher import *
 
 
@@ -16,15 +18,14 @@ class Controller(login.Login):
         
         
     def start(self): 
-        self.test_printcomment()        
+        self.test_printweibo()        
         pass
 
-#     def test_printweibo(self):
-#         w = WeiboFetcher(2862441992)
-#         wf = w.getWeiboLst()
-#         for i in wf:
-#             print i.text
-#         pass
+    def test_printweibo(self):
+        w = WeiboFetcher(2862441992)
+        wf = w.getWeiboLst()
+        for i in wf:
+            print i.text
         
     def test_printfigure(self):
         f = FigureFetcher(2862441992)
