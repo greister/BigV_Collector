@@ -2,23 +2,29 @@
 '''
 @author: prehawk
 ''' 
+import login
+import config
+from main.itemDispatcher import *
 
-from itemReader import *
 
+ 
+    
 class Controller(login.Login):
     
     def __init__(self, proxyip = False):
         super(Controller, self).__init__(config.TEST_USER, config.TEST_PWD, proxyip)
         
         
-    def start(self):\
-        wr = WeiboReader(2862441992).getWeiboLst()
-        #fg = self.writeWeiboLst( 2862441992 )
-        #print fg.name 
+    def start(self):
+        #r = WeiboReader(2862441992).getWeiboLst()
+        f = FigureFetcher(2862441992)
+        fg = f.getFigure()
+        pass
+
         
+          
         
-        
-    def parseWeiboLst(self, uid):
+    def test_parseWeiboLst(self, uid):
         fd = '../BigVs/' + str(uid)
         if os.path.exists(fd): 
             with open( '../BigVs/' + str(uid), 'r' ) as f:
@@ -43,8 +49,7 @@ class Controller(login.Login):
         else:
             print 'file not exists'
         
-        
-    def writeWeiboLst(self, uid):
+    def test_writeWeiboLst(self, uid):
 
         wr = WeiboReader(uid)
         ret = wr.getWeiboHtml()
@@ -58,7 +63,7 @@ class Controller(login.Login):
             f.write(ret[1].encode('utf-8') + '\n\n')
             f.write(ret[2].encode('utf-8') )
     
-    def writeFollowLst(self):
+    def test_writeFollowLst(self):
          
         followSet = set()
         with open('../followlist', 'r') as f: 
