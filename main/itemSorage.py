@@ -63,4 +63,22 @@ class WeiboItem(object):
         
         
 class CommentItem(object):
-    pass
+    
+    def __init__(self):
+        self.uid     = 0
+        self.mid     = 0
+        self.cid     = 0
+        self.text    = '' 
+        self.comment = -1
+        self.thumbs  = -1
+        
+    def isFullfill(self):
+        if self.cid == 0 or \
+        self.uid == 0 or \
+        self.mid == 0 or \
+        self.text == '' or \
+        self.comment == -1 or \
+        self.thumbs == -1:
+            return False
+        else:
+            return True 

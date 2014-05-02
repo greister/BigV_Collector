@@ -4,13 +4,14 @@
 
 @author: admin
 '''
-import re, json, os, time
-import login
+import re, json, os, time 
 import urllib2 
 import config 
 from pyquery import PyQuery
 from itemSorage import FigureItem, WeiboItem, CommentItem
 
+
+time_retry = 0
 
 # for inheritant
 # include basic weibo info.
@@ -18,19 +19,18 @@ class WeiboPage(object):
     
     def __init__(self, uid):         
        
-        self.hosthome   = 'http://weibo.com/'
-        self.hostauto   = self.hosthome + 'p/aj/mblog/mbloglist?'
+        self.hosthome   = 'http://weibo.com/' 
         self.pagenum    = 1
         self.filecount  = 0
-        self.uid        = uid
+        self.uid        = uid 
         
         url = self.hosthome + 'u/' + str(uid)
-        doc = urllib2.urlopen(url).read().decode('string_escape') 
+        doc = self.getDoc(url).decode('string_escape') 
         
         m = re.search(r'href=\"\\/p\\/(\d+)\\/(\w+)\?from=page_(\d+)', doc)
         if m:
             self.fulluid    = m.group(1)
-            self.domain     = m.group(3)
+            self.domain     = m.group(3)  # getDoc for domain id
             self.hostweibo  = self.hosthome + 'p/' + self.fulluid + '/weibo?from=page_'  + self.domain + '&mod=TAB'
             self.hostfollow = self.hosthome + 'p/' + self.fulluid + '/follow?from=page_' + self.domain + '&page=1'
             self.hostinfo   = self.hosthome + 'p/' + self.fulluid + '/info?from=page_'   + self.domain + '&mod=TAB'
@@ -38,22 +38,42 @@ class WeiboPage(object):
             print 'Init: Alias reference page parse error'
             return
 
+    # simple retry machanism retry by 0.5, 1.5, 2.5, 3.5, 4.5 sec. 
+    def getDoc(self, url):
+        global time_retry
+        time.sleep(config.TIME_GAP + time_retry)
+        try:
+            ret = urllib2.urlopen(url).read()
+            time_retry = 0
+            return ret
+        except:
+            if time_retry < 5:
+                time_retry += 1
+                return self.getDoc(url)
+            else:
+                time_retry = 0
+                raise
 
-    def makeCommentUrl(self, mid, uid):
+    #depricate
+    def makeUrl_comment2(self, mid, uid):
         ret = self.hosthome + 'aj/comment/small?_wv=5&act=list&mid=' + \
                 str(mid) + '&uid=' + str(uid) + '&isMain=true&ouid=' + str(uid)
         return ret
     
-    def makeAutoUrl(self, pagenum, endid, num):
-        return self.hostauto + 'domain=' + self.domain + '&pre_page=' + str(pagenum) \
+    def makeUrl_autoload(self, pagenum, endid, num):
+        return self.hosthome + 'p/aj/mblog/mbloglist?domain=' + self.domain + '&pre_page=' + str(pagenum) \
                 + '&page=' + str(pagenum) + '&max_id=0&end_id=' + str(endid) + '&count=15&pagebar=' + str(num) \
                 + '&max_msign=&filtered_min_id=&pl_name=Pl_Official_LeftProfileFeed__20&id=' + self.fulluid \
                 + '&script_uri=/p/' + self.fulluid + '/weibo&feed_type=0&from=page_' + self.domain + '&mod=TAB'
     
-    def makeCommentNext(self, pagenum, mid):
+    def makeUrl_manload(self, pagenum):
+        return self.hostweibo + 'pids=Pl_Official_LeftProfileFeed__20&is_search=0&visible=0&is_tag=0&profile_ftype=1&page=' \
+                    + str(pagenum)
+    
+    def makeUrl_comment(self, pagenum, mid):
         return self.hosthome + 'aj/comment/big?_wv=5&id=' + str(mid) + '&page=' + str(pagenum)
                 
-    def makeFollowNext(self, pagenum):
+    def makeUrl_follow(self, pagenum):
         return self.hosthome + 'p/' + self.fulluid + '/follow?from=page_' + self.domain + '&page=' \
                 + str(pagenum)
     
@@ -72,8 +92,7 @@ class FollowReader(WeiboPage):
         return self.followLst
         
     def _fetchlist(self, url):
-        doc = urllib2.urlopen(url).read().decode('string_escape')
-        time.sleep(0.5) 
+        doc = self.getDoc(url).decode('string_escape') 
           
         m = re.findall('<div class=\"name\">\s+(.*)\s+(.*)', doc)
         if m:
@@ -86,37 +105,81 @@ class FollowReader(WeiboPage):
 
         self.pagenum += 1
         if re.search(r'<span>下一页<\\/span><\\/a>', doc):
-            url = self.makeFollowNext(self.pagenum)
+            url = self.makeUrl_follow(self.pagenum)
             self._fetchlist(url)
 
+
+
 # e.g.
-# cr      = CommentReader( 123456, 123456 ) mid, uid
+# cr      = CommentReader( 123456 ) mid, uid is not required
 # comment = cr.getCommentLst()
 class CommentReader(WeiboPage):
     
-    def __init__(self, mid, uid):
+    def __init__(self, mid, uid=2862441992):
         super(CommentReader, self).__init__(uid)
-        self.mid = mid
-        self.uid = uid
-        self.probeurl = self.makeCommentUrl(self.mid, self.uid)
+        self.mid = mid 
         self.nexturl = ''
+        self.rawDoc  = ''
+        self.commentLst = []
         
+    
     def getCommentLst(self):
-        do = urllib2.urlopen(self.probeurl).read()
-        time.sleep(config.TIME_GAP)
+        self._parseComment()
+        return self.commentLst
+    
+    def _parseComment(self):
+        self._fetchComment()
+        d = PyQuery(self.rawDoc)
+        t = CommentItem()
+        cidmask = re.compile('object_id=(\d+)')
+        uidmask = re.compile('id=(\d+)')
+        nummask = re.compile('\((\d+)\)')  
+        for c in d('dl.comment_list.S_line1').items():
+            dd = c.children('dd')
+            #print dd.children('div.info').children('a').eq(1).outerHtml()
+            m = re.search(nummask, dd.children('div.info').children('a').eq(0).text())
+            if m:
+                t.thumbs = m.group(1)
+            else:
+                t.thumbs = 0
+                
+            m = re.search(nummask, dd.children('div.info').children('a').eq(1).text())
+            if m:
+                t.comment = m.group(1)
+            else:
+                t.comment = 0
+                
+            t.cid  = re.search(cidmask, 
+                              dd.children('div.info').children('a').attr('action-data')
+                              ).group(1)
+            t.uid  = re.search(uidmask,
+                              dd.children('a').attr('usercard')
+                              ).group(1)
+            t.mid  = self.mid
+            
+            t.text = dd.remove('a').remove('span').remove('div').text()[1:] 
+                  
+            self.commentLst.append(t)
         
-        docstr = json.loads(do)['data']['html']
+
+    def _fetchComment(self):
+        nextpage = re.compile(u'<span[.\s\S]+下一页</span>')
+        page     = 1
         
-        d = PyQuery(docstr)
-        
-        self.nexturl = self.hosthome + d('.more.S_line1').children('a').attr('href')
-        do2 = urllib2.urlopen(self.nexturl).read()
-        time.sleep(config.TIME_GAP)
-        
-        
-        
-        
-        
+        while(True):
+            url = self.makeUrl_comment(page, self.mid)
+            doc = self.getDoc(url)
+            
+            docstr = json.loads(doc)['data']['html']
+            if docstr:
+                self.rawDoc += docstr + '\n'
+                #print docstr
+                if re.search(nextpage, docstr):
+                    page += 1
+                else:
+                    break
+         
+ 
     
     
         
@@ -145,11 +208,11 @@ class WeiboReader(WeiboPage):
         return self.rawPage
                     
     def getFigureInfo(self):
-        self.requestFormatInfo()
+        self._requestFormatInfo()
         return self.figure
     
     def getWeiboLst(self):
-        #self.requestFormatInfo() 
+        #self._requestFormatInfo() 
         fd = '../BigVs/' + str(self.uid)
         if os.path.exists(fd): 
             with open( '../BigVs/' + str(self.uid), 'r' ) as f:
@@ -159,8 +222,7 @@ class WeiboReader(WeiboPage):
         d = PyQuery( rawdoc.decode('utf-8') )
         
         t = WeiboItem()
-        datamask = re.compile('\((\d+)\).*\((\d+)\).*\((\d+)\)')
-        nummask  = re.compile('.*=(\d+)')
+        datamask = re.compile('\((\d+)\).*\((\d+)\).*\((\d+)\)') 
         for i in d('.WB_feed_type.SW_fun.S_line2').items():
             t.mid       = i.attr('mid')
             t.omid      = i.attr('omid')
@@ -180,11 +242,11 @@ class WeiboReader(WeiboPage):
                 
         return self.weiboLst
     
-    def getCommentLst(self):
-        self.requestFormatInfo()
+    def _fetchComment(self):
+        self._requestFormatInfo()
         return self.commentLst
     
-    def requestFormatInfo(self):
+    def _requestFormatInfo(self):
         if not self.rawPage:
             self.rawPage = [self.uid, '', '']
             self._requestWeibo()
@@ -229,7 +291,7 @@ class WeiboReader(WeiboPage):
     def _parseHeadinfo(self, doc):
         d = PyQuery( doc ) 
         
-        info = urllib2.urlopen(self.hostinfo).read() 
+        info = self.getDoc(self.hostinfo)
         m = re.search(r'注册时间[.\s\S]+(\d{4})-(\d{2})-(\d{2})', info) 
         if m:
             t = time.mktime(time.strptime('%s-%s-%s' % (m.group(1), m.group(2), m.group(3)), '%Y-%m-%d'))
@@ -257,8 +319,7 @@ class WeiboReader(WeiboPage):
     #long long request time, generate self.rawPage
     def _requestWeibo(self):
         while self.phase >= 0: 
-            self.data = urllib2.urlopen(self.nextUrl).read()
-            time.sleep(config.TIME_GAP)
+            self.data = self.getDoc(self.nextUrl)
             
             if self.phase == 0:
                 self._fetchNext1()
@@ -275,16 +336,14 @@ class WeiboReader(WeiboPage):
             if re.search(u'<span>下一页</span></a>', docstr):  # has next page
                 self.pagenum += 1
                 self.phase = 0 
-                self.nextUrl = self.hostweibo + \
-                    'pids=Pl_Official_LeftProfileFeed__20&is_search=0&visible=0&is_tag=0&profile_ftype=1&page=' \
-                    + str(self.pagenum) 
+                self.nextUrl = self.makeUrl_manload(self.pagenum) 
             else: # whole loop end
                 print 'the end! ' + str(self.pagenum - 1) + 'pages'
                 self.phase = -1
                 return
         else:
             self.phase = 2
-            self.nextUrl = self.makeAutoUrl(self.pagenum, self.endid, 1) 
+            self.nextUrl = self.makeUrl_autoload(self.pagenum, self.endid, 1) 
 
     def _fetchNext1(self):
                  
@@ -313,7 +372,7 @@ class WeiboReader(WeiboPage):
                      
   
         self.phase = 1
-        self.nextUrl = self.makeAutoUrl(0)
+        self.nextUrl = self.makeUrl_autoload(0)
         
     
   
