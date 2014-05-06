@@ -45,7 +45,7 @@ class FigureDatabase(Database):
         fg = FigureItem()
         fg.uid          = row[0]
         fg.domainid     = row[1]
-        fg.name         = row[2] 
+        fg.name         = row[2]
         fg.follow       = row[3]
         fg.fans         = row[4]
         fg.weibo        = row[5]
@@ -58,9 +58,9 @@ class FigureDatabase(Database):
             self.cur.execute(sql, 
                              (fg.uid, fg.domainid, fg.name, fg.follow, fg.fans, fg.weibo, fg.establish) )
         except sqlite3.IntegrityError:
-            sql = "UPDATE Figure SET 'follow'=?,'fans'=?,'weibo'=?" 
+            sql = "UPDATE Figure SET 'follow'=?,'fans'=?,'weibo'=? WHERE u_id=?" 
             self.cur.execute(sql, 
-                             (fg.follow, fg.fans, fg.weibo) )
+                             (fg.follow, fg.fans, fg.weibo, fg.uid) )
         self.cxn.commit()
         
      
@@ -97,21 +97,21 @@ class WeiboDatabase(Database):
         wb.uid         = row[2]
         wb.thumbs      = row[3]
         wb.forwarding  = row[4]
-        wb.comment     = row[5]     #better time stamp
+        wb.comments    = row[5]     #better time stamp
         wb.pubtime     = row[6]
         wb.text        = row[7]
         return wb
         
-    def record(self, wbs):
+    def recordLst(self, wbs):
         for wb in wbs: 
             try:
                 sql = "INSERT INTO Weibo VALUES (?,?,?,?,?,?,?,?)"
                 self.cur.execute(sql, 
                         (wb.mid, wb.omid, wb.uid, wb.thumbs, wb.forwarding, wb.comments, wb.pubtime, wb.text) )
             except sqlite3.IntegrityError:
-                sql = "UPDATE Weibo SET 'thumbs'=?,'forwarding'=?,'comment'=?" 
+                sql = "UPDATE Weibo SET 'thumbs'=?,'forwarding'=?,'comments'=? WHERE m_id=?" 
                 self.cur.execute(sql, 
-                                 (wb.thumbs, wb.forwarding, wb.comments) )
+                                 (wb.thumbs, wb.forwarding, wb.comments, wb.mid) )
         self.cxn.commit()
         
         
@@ -159,9 +159,9 @@ class CommentDatabase(Database):
                 self.cur.execute(sql, 
                         (cm.cid, cm.mid, cm.uid, cm.text, cm.thumbs, cm.comments) )
             except sqlite3.IntegrityError:
-                sql = "UPDATE Comment SET 'thumbs'=?,'comments'=?" 
+                sql = "UPDATE Comment SET 'thumbs'=?,'comments'=? WHERE c_id=?" 
                 self.cur.execute(sql, 
-                                 (cm.thumbs, cm.comments) )
+                                 (cm.thumbs, cm.comments, cm.cid) )
         self.cxn.commit() 
    
    

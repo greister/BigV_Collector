@@ -1,42 +1,80 @@
 #coding: utf-8
 '''
 @author: prehawk
-''' 
-import os
-import login
+'''  
+import re, time
+import os 
 import config
-
-from main.itemFetcher import *
+from login import Login
+from pyquery import PyQuery
+from main.Item import FigureItem, WeiboItem, CommentItem
+from main.itemFetcher import WeiboFetcher, FigureFetcher, CommentFetcher, FollowReader
 
 
  
     
-class Controller(login.Login):
+class Controller():
     
-    def __init__(self, proxyip = False):
-        super(Controller, self).__init__(config.TEST_USER, config.TEST_PWD, proxyip)
+    def __init__(self):
+        Login(config.TEST_USER, config.TEST_PWD, config.TEST_PROXY)
         
         
     def start(self): 
-        self.test_printweibo()        
+        #print int(time.time()*1000)
+        self.test_getlotsfigure()
+        #self.test_printcomment()
+        #self.test_re()
+        #self.test_nonetype()
+        #self.debug_html()
         pass
 
     def test_printweibo(self):
-        w = WeiboFetcher(2862441992)
-        wf = w.getWeiboLst()
+        w = WeiboFetcher()
+        wf = w.getWeiboLst(2862441992)
         for i in wf:
             print i.text
         
     def test_printfigure(self):
-        f = FigureFetcher(2862441992)
-        fg = f.getFigure()
+        f = FigureFetcher()
+        fg = f.getFigure(2862441992)
         print fg.name
         
     def test_printcomment(self):
-        c = CommentFetcher(3694134789199108)
-        cm = c.getCommentLst()
+        c = CommentFetcher()
+        cm = c.getCommentLst(3694134789199108)
         for c in cm:
             print c.text
+     
+    def debug_html(self):
+        with open('../a.html', 'r') as f:
+            d = PyQuery( f.read().decode('utf-8') )
+        print d('.WB_detail').html()
+        
+    def test_getlotsfigure(self): 
+        figure  = FigureFetcher()
+        weibo   = WeiboFetcher()
+        comment = CommentFetcher()
+        with open('../followlist', 'r') as f:
+            for line in f.readlines(): 
+                figure.getFigure( int(line) )
+                ret2 = weibo.getWeiboLst( int(line) )
+                for r in ret2:
+                    comment.getCommentLst(r.mid)
+                break
+                
+                
+    def test_nonetype(self):
+        
+        pass
+    
+    def test_re(self):
+        text = u'| 转发(361) | 收藏| 评论(5) 2013-8-23 15:48 来自 微博 weibo.com | 举报'
+        mask = re.compile(u'(\((\d+)\))?\|\s*转发\s*(\((\d+)\))?\s*\|\s*收藏\s*(\((\d+)\))?\|\s*评论(\((\d+)\))?')
+        m = re.search(mask, text) 
+        if m:
+            print m.group(2)
+            print m.group(4)
+            print m.group(8)
         
         
     def test_parseWeiboLst(self, uid):

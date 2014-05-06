@@ -14,6 +14,10 @@ import json
 import rsa
 import binascii
 
+
+class LoginFail(Exception):
+    pass
+
 #implement this class then parse the weibo web page.
 class Login(object):
     
@@ -93,7 +97,7 @@ class Login(object):
             if p2.search(doc).group(1) != 'true':
                 raise
         except: 
-            raise Exception('login failed')
+            raise LoginFail('login failed')
     
     def get_servertime(self):
         url = 'http://login.sina.com.cn/sso/prelogin.php?' + urllib.urlencode(self.parameters)

@@ -6,27 +6,32 @@
 '''
 
 import re, json, time 
+from login import LoginFail
 from pyquery import PyQuery
 from main.Item import FigureItem, WeiboItem, CommentItem
-from main.itemReader import WeiboPage
-from main.itemDatabase import Database, FigureDatabase, CommentDatabase, WeiboDatabase
+from main.itemReader import Page, WeiboPage, CommentPage
+from main.itemDatabase import Database, FigureDatabase, CommentDatabase, WeiboDatabase, FollowDatabase
 
 
 # a wrap of itemReader and itemDatabase
 class Fetcher(object):
     
     def __init__(self): 
-        self.remoteReader = WeiboPage()
+        try:
+            self.remoteReader = Page()
+        except LoginFail:
+            raise
+        
         self.localReader  = Database()
 
 # e.g.        depricated
 # fr         = FollowReader( 123456 )
 # followlist = getFollowLst()
-class FollowReader(WeiboPage):
+class FollowReader(Page):
     
     def __init__(self, uid):
         super(FollowReader, self).__init__(uid)
-        self.localReader = FollowReader()
+        self.localReader = FollowDatabase()
         self.followLst = []
         
     def getFollowLst(self):
@@ -57,90 +62,74 @@ class FollowReader(WeiboPage):
 # comment = cr.getCommentLst()
 class CommentFetcher(Fetcher):
     
-    def __init__(self, mid, uid=2862441992):
+    def __init__(self):
         super(CommentFetcher, self).__init__()
-        self.localReader = CommentDatabase()
-        self.mid = mid 
+        self.localReader = CommentDatabase() 
         self.nexturl = ''
         self.rawDoc  = ''
-        self.commentLst = []
+        self.uid = 2862441992           # none use
+        
+        
+        self.cidmask = re.compile('object_id=(\d+)')
+        self.uidmask = re.compile('id=(\d+)')
+        self.nummask = re.compile('\((\d+)\)')
         
     # if database has records, never read the internet
-    def getCommentLst(self): 
-        if not self.localReader.fetch(self.mid):
-            self.addCommentLst() 
+    def getCommentLst(self, mid):
+        self.mid = mid  
+        self.repeat = 0
+        for doc in CommentPage(self.uid, self.mid):
+            self.commentLst = []
+            if self._parseComment(doc):
+                break 
+            self.localReader.record( self.commentLst )
         ret = self.localReader.fetchLst(self.mid)
         return ret
-        
-    
-    def addCommentLst(self): 
-        self._fetchComment()
-        self.localReader.record( self.commentLst )
-    
-     
+         
     
     def _parseComment(self, doc): 
-        d = PyQuery(doc)
-        
-        cidmask = re.compile('object_id=(\d+)')
-        uidmask = re.compile('id=(\d+)')
-        nummask = re.compile('\((\d+)\)')  
-        
+        d = PyQuery(doc) 
+        repeat = 0
         for c in d('dl.comment_list.S_line1').items():
             t = CommentItem()
             dd = c.children('dd')
             #print dd.children('div.info').children('a').eq(1).outerHtml()
-            m = re.search(nummask, dd.children('div.info').children('a').eq(0).text())
+            m = re.search(self.nummask, dd.children('div.info').children('a').eq(0).text())
             if m:
                 t.thumbs = m.group(1)
             else:
                 t.thumbs = 0
                 
-            m = re.search(nummask, dd.children('div.info').children('a').eq(1).text())
+            m = re.search(self.nummask, dd.children('div.info').children('a').eq(1).text())
             if m:
                 t.comments = m.group(1)
             else:
                 t.comments = 0
                 
-            t.cid  = re.search(cidmask, 
+            t.cid  = re.search(self.cidmask, 
                               dd.children('div.info').children('a').attr('action-data')
                               ).group(1)
-            t.uid  = re.search(uidmask,
+            t.uid  = re.search(self.uidmask,
                               dd.children('a').attr('usercard')
                               ).group(1)
             t.mid  = self.mid
             
-            t.text = dd.remove('a').remove('span').remove('div').text()[1:] 
+            text = dd.remove('a').remove('span').remove('div').text()
+            if text:
+                t.text = text[1:] 
                   
             # once you fetch a same comment, you say that there is no newer comments
             if self.localReader.fetch(t.cid):
-                return False
+                repeat += 1
             
             if t.isValid():
-                self.commentLst.append(t)
-                return True
+                self.commentLst.append(t)  
             else:
-                print '_parsecomment: item not complete'
-                return False
-        
+                print '_parsecomment: item not complete'  
 
-    def _fetchComment(self):
-        nextpage = re.compile(u'<span[.\s\S]+下一页</span>')
-        page     = 1
-        
-        while(True):
-            url = self.remoteReader.makeUrl_comment(page, self.mid)
-            doc = self.remoteReader.getDoc(url)
-            
-            docstr = json.loads(doc)['data']['html']
-            if self._parseComment(docstr):  
-                if re.search(nextpage, docstr):
-                    page += 1
-                else:
-                    break
-            else:
-                break
-         
+            if repeat > 19:
+                return True
+
  
  
 # e.g. 
@@ -148,160 +137,106 @@ class CommentFetcher(Fetcher):
 # html   = wr.getWeiboLst()   # return a list of WeiboItem object
 class WeiboFetcher(Fetcher):
     
-    def __init__(self, uid):         
+    def __init__(self):         
         super(WeiboFetcher, self).__init__() 
   
-        self.localReader = WeiboDatabase() 
-        self.weiboLst    = []
-        self.uid         = uid
-        self.phase       = 0
-        self.pagenum     = 1
-        self.nextUrl     = self.remoteReader.makeUrl_hostweibo() 
-         
-        self.rawPage   = ''    
+        self.localReader = WeiboDatabase()   
         
-    def getWeiboLst(self):  
-        if not self.localReader.fetch(self.uid):
-            self.addWeiboLst()
-        ret = self.localReader.fetchLst(self.uid)
+        self.datamask = re.compile(u'(\(\d+\))?.*转发(\(\d+\))?.*评论(\(\d+\))?')
+        self.midmask  = re.compile('mid=\"(\d+)\"')
+        
+        
+    def getWeiboLst(self, uid):
+        self.uid        = uid
+        ret = self.localReader.fetchLst(uid)
+        if not ret:
+            #self._fetchWeibo()
+            for doc in WeiboPage(uid):
+                self.weiboLst   = []
+                self._parseWeibo(doc)
+                self.localReader.recordLst(self.weiboLst)
+            ret = self.localReader.fetchLst(uid)
+        self.remoteReader.finishFetching()
         return ret
         
-    def addWeiboLst(self):
-        self._requestWeibo()
-        self.localReader.record(self.weiboLst)
     
     
-    def _parseWeiboinfo(self, doc):
+    def _parseWeibo(self, doc):
         d = PyQuery( doc )
-        ret = True
-        
-        datamask = re.compile('\((\d+)\).*\((\d+)\).*\((\d+)\)') 
         
         for i in d('.WB_feed_type.SW_fun.S_line2').items():
             t = WeiboItem()
-            t.uid       = self.uid  
-            t.mid       = i.attr('mid')
-            omid = i.attr('omid')
-            if not omid:
+            t.uid = self.uid
+            
+            if i.attr('mid'):
+                t.mid  = int(i.attr('mid'))
+             
+            if i.attr('omid'):
+                t.omid = int(i.attr('omid'))
+            else:
                 t.omid = 0
-            else:
-                t.omid = omid
-            t.text      = i('.WB_detail').find('.WB_text').text()  
-            t.pubtime   = i('.WB_detail') \
-                            .children('.WB_func.clearfix') \
-                            .children('.WB_from') \
-                            .children('a').attr('date')[:-4]
+                
+ 
+            t.text = i('.WB_detail').find('.WB_text').text()
+                
+            try:
+                dat = i('.WB_detail').children('.WB_func.clearfix').children('.WB_from') \
+                                     .children('a').attr('date')[:-4]
+                t.pubtime = int(dat)
+            except:
+                pass
+            
                              
-            m = re.search(datamask, i('.WB_detail').children('.WB_func.clearfix').text())
-            if m:
-                t.thumbs      = m.group(1)
-                t.forwarding  = m.group(2)
-                t.comments    = m.group(3)
-            else:
-                t.thumbs      = 0
-                t.forwarding  = 0
-                t.comments    = 0
+            form = i('.WB_detail').children('.WB_func.clearfix').text()
+            if form:
+                t.thumbs     = 0
+                t.forwarding = 0
+                t.comments   = 0
+                m = re.search(self.datamask, form)
+                if m:
+                    if m.group(1):
+                        t.thumbs        = int(m.group(1)[1:-1])
+                    if m.group(2):
+                        t.forwarding    = int(m.group(2)[1:-1])
+                    if m.group(3):
+                        t.comments      = int(m.group(3)[1:-1])
             
             if self.localReader.fetch(t.mid):
-                return False
+                self.phase = -1
             
             if t.isValid():
                 self.weiboLst.append(t)
-                ret = True
             else:
-                print '_parseweiboinfo: item not complete'
-                ret = False
-                
-        return ret
+                print '_parseweiboinfo: item not complete, will be discard'
 
-    #long long request time, generate self.rawPage
-    def _requestWeibo(self):
-        while self.phase >= 0: 
-            self.data = self.remoteReader.getDoc(self.nextUrl)
-            
-            if self.phase == 0:
-                if not self._fetchNext1():
-                    break
-            else:
-                if not self._fetchNext2(self.phase):
-                    break
- 
- 
-    def _fetchNext2(self, phase):
-
-        docstr = json.loads(self.data)['data']
-        if not self._parseWeiboinfo( docstr ):
-            return False
-          
-        if phase == 2: # encounter the end of the page 
-            if re.search(u'<span>下一页</span></a>', docstr):  # has next page
-                self.pagenum += 1
-                self.phase = 0
-                self.nextUrl = self.remoteReader.makeUrl_manload(self.pagenum) 
-            else: # whole loop end
-                print 'the end! ' + str(self.pagenum - 1) + 'pages'
-                self.phase = -1 
-            return True
-        else:
-            self.phase = 2
-            self.nextUrl = self.remoteReader.makeUrl_autoload(self.pagenum, self.endid, 1) 
-            return True
-
-    def _fetchNext1(self):
-                 
-        jdiclst = []
-        scripts = re.findall('<script>FM\.view\((.*)\);?</script>', self.data)
-        if scripts:
-            for i in scripts:
-                jdiclst.append( json.loads(i) )
-        else:
-            print '_fetchNext1: raw doc parse error'
-        
-        ret = True 
-        for jdic in jdiclst:
-            if 'ns' in jdic: 
-                if jdic['ns'] == 'pl.content.homeFeed.index':
-                    weibo = jdic['html']
-                    n = re.search('mid=\"(\d+)\"', weibo)
-                    if n:
-                        self.endid = n.group(1)
-                    else:
-                        print 'parse error' + str(self.pagenum)
-                        
-                    if not self._parseWeiboinfo( weibo ):
-                        ret = False
-    
-        self.phase = 1
-        self.nextUrl = self.remoteReader.makeUrl_autoload(self.pagenum, self.endid, 0)
-        return ret
-        
 
 # e.g.
 # fr = FigureFetcher( 123456 )
 # fg = fr.getFigure()    # fg is a Figure object
 class FigureFetcher(Fetcher):
     
-    def __init__(self, uid):         
+    def __init__(self):         
         super(FigureFetcher, self).__init__()
         self.localReader = FigureDatabase()
-        self.figure = FigureItem()
-        self.uid = uid
+        self.figure = FigureItem() 
         
-    def getFigure(self):
+    def getFigure(self, uid):
+        self.uid = uid
         ret = self.localReader.fetch(self.uid)
         if not ret:
-            return self.updateFigure()
+            return self.updateFigure() 
         else:
             return ret
 
-    def udpateFigure(self):
+    def updateFigure(self):
         self._parseHeadinfo()
+        self.remoteReader.finishFetching()
         self.localReader.record( self.figure )
         return self.figure
 
     def _parseHeadinfo(self):
         
-        data = self.remoteReader.getDoc( self.remoteReader.makeUrl_hostweibo() )
+        data = self.remoteReader.getDoc( self.remoteReader.makeUrl_hostweibo(self.uid) )
         
         jdiclst = []
         scripts = re.findall('<script>FM\.view\((.*)\);?</script>', data)
@@ -309,7 +244,7 @@ class FigureFetcher(Fetcher):
             for i in scripts:
                 jdiclst.append( json.loads(i) )
         else:
-            print '_fetchNext1: raw doc parse error'
+            print '_fetch_manload: raw doc parse error'
             
         for jdic in jdiclst:
             if 'ns' in jdic:
@@ -320,14 +255,14 @@ class FigureFetcher(Fetcher):
             raise Exception('_parseHeadinfo error')
         
         
-        info = self.remoteReader.getDoc( self.remoteReader.makeUrl_hostinfo() )
+        info = self.remoteReader.getDoc( self.remoteReader.makeUrl_hostinfo(self.uid) )
         m = re.search(r'注册时间[.\s\S]+(\d{4})-(\d{2})-(\d{2})', info) 
         if m:
             t = time.mktime(time.strptime('%s-%s-%s' % (m.group(1), m.group(2), m.group(3)), '%Y-%m-%d'))
         else:
             t = 1341504000  #2012-07-06
         
-        self.figure.uid       = self.remoteReader.uid
+        self.figure.uid       = self.uid
         self.figure.domainid  = self.remoteReader.domain
         self.figure.establish = t
         self.figure.follow = d('strong').filter(lambda i, this: PyQuery(this).attr('node-type') == 'follow').text()

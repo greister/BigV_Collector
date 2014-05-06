@@ -26,5 +26,6 @@ DB_FILE   = '../weibo.db'
 
 
 
-TEST_USER = 'shaoyf2013@163.com'
-TEST_PWD = 'aa123456'
+TEST_USER  = 'shaoyf2013@163.com'
+TEST_PWD   = 'aa123456'
+TEST_PROXY = ''
