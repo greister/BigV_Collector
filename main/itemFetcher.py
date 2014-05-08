@@ -144,19 +144,19 @@ class WeiboFetcher(Fetcher):
         
         self.datamask = re.compile(u'(\(\d+\))?.*转发(\(\d+\))?.*评论(\(\d+\))?')
         self.midmask  = re.compile('mid=\"(\d+)\"')
+        self.uidmask  = re.compile('ouid=(\d+)')
         
         
-    def getWeiboLst(self, uid):
-        self.uid        = uid
+    def getWeiboLst(self, arg): 
+        weibopage = WeiboPage(arg)
+        uid = weibopage.getUID()
         ret = self.localReader.fetchLst(uid)
-        if not ret:
-            #self._fetchWeibo()
+        if not ret: 
             for doc in WeiboPage(uid):
                 self.weiboLst   = []
                 self._parseWeibo(doc)
                 self.localReader.recordLst(self.weiboLst)
-            ret = self.localReader.fetchLst(uid)
-        self.remoteReader.finishFetching()
+            ret = self.localReader.fetchLst(uid) 
         return ret
         
     
@@ -166,7 +166,7 @@ class WeiboFetcher(Fetcher):
         
         for i in d('.WB_feed_type.SW_fun.S_line2').items():
             t = WeiboItem()
-            t.uid = self.uid
+            t.uid = re.search(self.uidmask, i.attr('tbinfo')).group(1)
             
             if i.attr('mid'):
                 t.mid  = int(i.attr('mid'))
@@ -220,6 +220,10 @@ class FigureFetcher(Fetcher):
         self.localReader = FigureDatabase()
         self.figure = FigureItem() 
         
+        self.followmask = u'(\d+)\s*</strong>\s*<span>\s*关注\s*</span>'
+        self.fansmask   = u'(\d+)\s*</strong>\s*<span>\s*粉丝\s*</span>'
+        self.weibomask  = u'(\d+)\s*</strong>\s*<span>\s*微博\s*</span>'
+        
     def getFigure(self, uid):
         self.uid = uid
         ret = self.localReader.fetch(self.uid)
@@ -237,7 +241,7 @@ class FigureFetcher(Fetcher):
     def _parseHeadinfo(self):
         
         data = self.remoteReader.getDoc( self.remoteReader.makeUrl_hostweibo(self.uid) )
-        
+        strimdata  = ''
         jdiclst = []
         scripts = re.findall('<script>FM\.view\((.*)\);?</script>', data)
         if scripts:
@@ -249,7 +253,8 @@ class FigureFetcher(Fetcher):
         for jdic in jdiclst:
             if 'ns' in jdic:
                 if jdic['ns'] == 'pl.header.head.index':
-                    d = PyQuery( jdic['html'] ) 
+                    strimdata = jdic['html']
+                    d = PyQuery( strimdata ) 
                     break
         else:
             raise Exception('_parseHeadinfo error')
@@ -260,17 +265,28 @@ class FigureFetcher(Fetcher):
         if m:
             t = time.mktime(time.strptime('%s-%s-%s' % (m.group(1), m.group(2), m.group(3)), '%Y-%m-%d'))
         else:
-            t = 1341504000  #2012-07-06
+            t = 0  #2012-07-06
         
-        self.figure.uid       = self.uid
+        self.figure.uid       = self.remoteReader.uid
         self.figure.domainid  = self.remoteReader.domain
         self.figure.establish = t
-        self.figure.follow = d('strong').filter(lambda i, this: PyQuery(this).attr('node-type') == 'follow').text()
-        self.figure.fans = d('strong').filter(lambda i, this: PyQuery(this).attr('node-type') == 'fans').text()
-        self.figure.weibo = d('strong').filter(lambda i, this: PyQuery(this).attr('node-type') == 'weibo').text()
+        self.figure.follow = re.search(self.followmask, strimdata).group(1)
+        self.figure.fans = re.search(self.fansmask, strimdata).group(1)
+        self.figure.weibo = re.search(self.weibomask, strimdata).group(1)
         
-        self.figure.name = d('span').filter('.name').text()
-        self.figure.verify = d('.pf_verified_info').contents()[0]
+        text1 = d('span').filter('.name').text()
+        text2 = d('strong').filter('.W_f20.W_Yahei').text()
+        if text1:
+            self.figure.name = text1
+        else:
+            self.figure.name = text2
+             
+        try:
+            self.figure.verify = d('.pf_verified_info').contents()[0]
+        except:
+            self.figure.verify = ''
+            
+            
         self.figure.intro = d('.pf_intro').text()
          
         for i in d('.layer_menulist_tags').items('a'):

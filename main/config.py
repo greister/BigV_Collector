@@ -19,13 +19,14 @@ DB_FILE   = '../weibo.db'
 
 
 
-
-
-
-
+ 
 
 
 
 TEST_USER  = 'shaoyf2013@163.com'
 TEST_PWD   = 'aa123456'
+
+TEST_USER2 = 'gsh199449@hotmail.com'
+TEST_PWD2  = '123456a'
+ 
 TEST_PROXY = ''

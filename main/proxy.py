@@ -8,23 +8,27 @@ import re
 import urllib2
 import login
 import config
+import threading
+from Queue import Queue
 
-class Proxy(login.Login):
+class Proxy(threading.Thread):
     
-    def __init__(self, username=config.TEST_USER, pwd=config.TEST_PWD, proxyip = False): 
-         
-        super(Proxy, self).__init__(username, pwd, proxyip)  
-        
-        
-        # This time, rather than install the OpenerDirector, we use it directly:
-        ipdoc = urllib2.urlopen('http://iframe.ip138.com/ic.asp').read().decode('gbk')
-        print re.search('\[(\d+\.\d+\.\d+\.\d+)\]', ipdoc).group(1) 
-        print urllib2.urlopen('http://weibo.com').read()
+    def __init__(self, user, pwd, proxyip = False): 
+        super(Proxy, self).__init__()
+        login.Login(user, pwd, proxyip) 
+     
+    def run(self):
+        while True:
+            o = urllib2.urlopen('http://weibo.com')
+            doc = o.read()
+            assert( len(doc) > 300000 )
+            print len(doc)
 
 if __name__ == '__main__':
-    proxy1 = 'http://41.0.57.83:3128'
-    proxy2 = 'http://58.22.0.54:81'
-    proxy3 = 'http://59.38.32.35:1111'
-    proxy4 = 'http://60.190.138.151:80'
-    p = Proxy(proxy4)
+    proxy1 = 'http://27.50.30.50:80'
+    proxy2 = 'http://14.102.111.185:80'
+    proxy3 = 'http://42.121.105.191:80'
+    proxy4 = 'http://14.29.117.38:80'
+    p1 = Proxy(config.TEST_USER, config.TEST_PWD, proxy4)  
+    p1.start()
     

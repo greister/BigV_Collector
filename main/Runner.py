@@ -9,7 +9,7 @@ from login import Login
 from pyquery import PyQuery
 from main.Item import FigureItem, WeiboItem, CommentItem
 from main.itemFetcher import WeiboFetcher, FigureFetcher, CommentFetcher, FollowReader
-
+from Analyser import Analyser
 
  
     
@@ -19,14 +19,19 @@ class Controller():
         Login(config.TEST_USER, config.TEST_PWD, config.TEST_PROXY)
         
         
-    def start(self): 
-        #print int(time.time()*1000)
-        self.test_getlotsfigure()
-        #self.test_printcomment()
-        #self.test_re()
-        #self.test_nonetype()
-        #self.debug_html()
+    def start(self):  
+        #self.test_getlotsfigure() 
+        a = Analyser('../university_lib.txt')
+        a.prepareData()
         pass
+    
+    def test_arg(self):
+        a = '1234556666'
+        b = '123455'
+        
+        print a[len(b):]
+        
+        
 
     def test_printweibo(self):
         w = WeiboFetcher()

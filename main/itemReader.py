@@ -21,24 +21,34 @@ class Page(object):
     def __init__(self):   
         self.isComplete   = False                 # whether this page is info isComplete
         
-        self.host   = 'http://weibo.com/'  
+        self.host   = 'http://weibo.com/'
+        
          
 
     def _complete(self, uid):
         if not self.isComplete:
-            url = self.host + 'u/' + str(uid)
+            if unicode(uid).isnumeric():
+                url = self.host + 'u/' + str(uid)
+            else:
+                url = self.host + str(uid)
             doc = self.getDoc(url).decode('string_escape')
             
             m = re.search(r'href=\"\\/p\\/(\d+)\\/(\w+)\?from=page_(\d+)', doc)
             if m:
                 self.fulluid    = m.group(1)
-                self.domain     = m.group(3)  # getDoc for domain id
+                self.domain     = m.group(3)                        # getDoc for domain id
+                self.uid        = self.fulluid[len(self.domain):]   # fulluid = domain + uid
             else:
                 raise Exception('Your visit may be block by Sina!')
             self.isComplete = True
 
     def finishFetching(self):
         self.isComplete = False
+
+
+    def getUID(self, uid):
+        self._complete(uid)
+        return self.uid
 
     # simple retry machanism retry by 0.5, 1.5, 2.5, 3.5, 4.5 sec. 
     def getDoc(self, url):
@@ -106,17 +116,21 @@ class Page(object):
 class WeiboPage(Page):
     
 
-    def __init__(self, uid):
+    def __init__(self, arg):
         super(WeiboPage, self).__init__()
         self.data        = ''
         self.phase       = 0
         self.pagenum     = 1
-        self.uid         = uid
+        self.uid         = arg
         self.endid       = 0
-        self.nextUrl     = self.makeUrl_hostweibo(uid)
+        self.nextUrl     = self.makeUrl_hostweibo(arg)
         
     def __iter__(self):
-        return self    
+        return self
+    
+    
+    def getUID(self):
+        return self.uid
     
     #long long request time, generate self.rawPage
     def next(self):  
@@ -182,6 +196,7 @@ class CommentPage(Page):
         self.mid   = mid
         self.maxid = 0
         
+        self.error = 0
         self.once  = False
     
     def __iter__(self):
@@ -196,20 +211,22 @@ class CommentPage(Page):
             else:
                 print '_getMaxid error'
     
-    def next(self): 
+    def next(self):  
+        url = self.makeUrl_comment(self.page, self.mid, self.maxid)
+        doc = self.getDoc(url)
+        self._getMaxid(doc)
         
-        while(True):
-            url = self.makeUrl_comment(self.page, self.mid, self.maxid)
-            doc = self.getDoc(url)
-            self._getMaxid(doc)
-            
-            self.page += 1
-            try:
-                docstr = json.loads(doc)['data']['html']
-                if not re.search(self.pagemask, docstr):
-                    break
-            except:
-                raise Exception('You visit may be block by sina')
-            return docstr
+        self.page += 1
+        try:
+            docstr = json.loads(doc)['data']['html']
+            if not re.search(self.pagemask, docstr):
+                raise StopIteration()
+        except:
+            print 'CommentPage: json data read error'
+        
+        if self.error > 5:
+            raise Exception('You visit may be block by sina')
+        return docstr
+        self.isComplete = False
         raise StopIteration()
 

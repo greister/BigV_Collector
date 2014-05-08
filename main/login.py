@@ -32,8 +32,8 @@ class Login(object):
         else:
             opener = urllib2.build_opener( http_support, cookie_support, proxy_support )
             # This time, rather than install the OpenerDirector, we use it directly:
-            ipdoc = urllib2.urlopen('http://iframe.ip138.com/ic.asp').read().decode('gbk')
-            print re.search('\[(\d+\.\d+\.\d+\.\d+)\]', ipdoc).group(1)
+            #ipdoc = urllib2.urlopen('http://iframe.ip138.com/ic.asp').read().decode('gbk')
+            #print re.search('\[(\d+\.\d+\.\d+\.\d+)\]', ipdoc).group(1)
         urllib2.install_opener(opener)
         
         self.parameters = {
@@ -95,9 +95,9 @@ class Login(object):
             login_url = p.search(text).group(1)
             doc = urllib2.urlopen(login_url).read()
             if p2.search(doc).group(1) != 'true':
-                raise
+                raise LoginFail('False Login failed')
         except: 
-            raise LoginFail('login failed')
+            raise LoginFail('Bad Page login failed')
     
     def get_servertime(self):
         url = 'http://login.sina.com.cn/sso/prelogin.php?' + urllib.urlencode(self.parameters)
