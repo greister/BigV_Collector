@@ -1,3 +1,4 @@
+fudanlib
 gzhulib 
 sysulib	
 scutlib

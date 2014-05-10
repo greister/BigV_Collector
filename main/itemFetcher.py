@@ -182,7 +182,7 @@ class WeiboFetcher(Fetcher):
             try:
                 dat = i('.WB_detail').children('.WB_func.clearfix').children('.WB_from') \
                                      .children('a').attr('date')[:-4]
-                t.pubtime = int(dat)
+                t.establish = dat
             except:
                 pass
             

@@ -98,7 +98,7 @@ class WeiboDatabase(Database):
         wb.thumbs      = row[3]
         wb.forwarding  = row[4]
         wb.comments    = row[5]     #better time stamp
-        wb.pubtime     = row[6]
+        wb.establish     = row[6]
         wb.text        = row[7]
         return wb
         
@@ -107,7 +107,7 @@ class WeiboDatabase(Database):
             try:
                 sql = "INSERT INTO Weibo VALUES (?,?,?,?,?,?,?,?)"
                 self.cur.execute(sql, 
-                        (wb.mid, wb.omid, wb.uid, wb.thumbs, wb.forwarding, wb.comments, wb.pubtime, wb.text) )
+                        (wb.mid, wb.omid, wb.uid, wb.thumbs, wb.forwarding, wb.comments, wb.establish, wb.text) )
             except sqlite3.IntegrityError:
                 sql = "UPDATE Weibo SET 'thumbs'=?,'forwarding'=?,'comments'=? WHERE m_id=?" 
                 self.cur.execute(sql, 
